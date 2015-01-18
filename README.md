@@ -9,13 +9,8 @@ If you interested in making a mirror of our repository, please contact us at rep
 [archlinuxcn]
 SigLevel = Optional TrustAll
 Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-# Unique Studio of HUST
-[archlinuxcn]
-SigLevel = Optional TrustAll
-Server = http://mirrors.hustunique.com/archlinuxcn/$arch
+# or over https
+# Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -26,3 +21,18 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IPv
 # Server = http://mirrors.6.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv6
 # Server = http://mirrors.4.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv4
 ```
+
+```ini
+# Chongqing University Open Source Mirror Site
+[archlinuxcn]
+SigLevel = Optional TrustAll
+Server = http://mirrors.cqu.edu.cn/ArchLinux-cn/$arch
+```
+
+```ini
+# Unique Studio of HUST, currently unusable and will redirect to USTC
+[archlinuxcn]
+SigLevel = Optional TrustAll
+Server = http://mirrors.hustunique.com/archlinuxcn/$arch
+```
+
