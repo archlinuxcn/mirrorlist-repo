@@ -26,7 +26,7 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IPv
 # Chongqing University Open Source Mirror Site
 [archlinuxcn]
 SigLevel = Optional TrustAll
-Server = http://mirrors.cqu.edu.cn/ArchLinux-cn/$arch
+Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
