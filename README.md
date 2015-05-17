@@ -7,7 +7,7 @@ If you interested in making a mirror of our repository, please contact us at rep
 ```ini
 # University of Science and Technology of China
 [archlinuxcn]
-SigLevel = Optional TrustAll
+SigLevel = Optional TrustedOnly
 Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
 # or over https
 # Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
@@ -16,7 +16,7 @@ Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```ini
 # TUNA mirror of Tsinghua University
 [archlinuxcn]
-SigLevel = Optional TrustAll
+SigLevel = Optional TrustedOnly
 Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IPv6
 # Server = http://mirrors.6.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv6
 # Server = http://mirrors.4.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv4
@@ -25,14 +25,14 @@ Server = http://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IPv
 ```ini
 # Chongqing University Open Source Mirror Site
 [archlinuxcn]
-SigLevel = Optional TrustAll
+SigLevel = Optional TrustedOnly
 Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
 # Unique Studio of HUST, currently unusable and will redirect to USTC
 [archlinuxcn]
-SigLevel = Optional TrustAll
+SigLevel = Optional TrustedOnly
 Server = http://mirrors.hustunique.com/archlinuxcn/$arch
 ```
 
