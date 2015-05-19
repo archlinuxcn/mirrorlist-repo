@@ -30,6 +30,13 @@ Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
+# Netease (网易)
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = http://mirrors.163.com/archlinux-cn/$arch
+```
+
+```ini
 # Unique Studio of HUST, currently unusable and will redirect to USTC
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
