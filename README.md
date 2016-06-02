@@ -5,6 +5,13 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
+# Global CDN (no nodes in mainland China)
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://cdn.repo.archlinuxcn.org/$arch
+```
+
+```ini
 # University of Science and Technology of China
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
@@ -37,3 +44,16 @@ SigLevel = Optional TrustedOnly
 Server = http://mirrors.163.com/archlinux-cn/$arch
 ```
 
+```ini
+# 上海科技大学 Geek Pie 社团
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.geekpie.org/archlinuxcn/$arch
+```
+
+```ini
+# 电子科技大学 凝聚网络安全工作室
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+```
