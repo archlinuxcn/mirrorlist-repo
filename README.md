@@ -55,5 +55,5 @@ Server = https://mirrors.geekpie.org/archlinuxcn/$arch
 # 电子科技大学 凝聚网络安全工作室
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
-Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
 ```
