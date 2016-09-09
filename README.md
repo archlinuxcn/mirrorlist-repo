@@ -12,15 +12,6 @@ Server = https://cdn.repo.archlinuxcn.org/$arch
 ```
 
 ```ini
-# University of Science and Technology of China
-[archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-# or with HTTP
-# Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
-
-```ini
 # TUNA mirror of Tsinghua University
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
@@ -31,10 +22,19 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IP
 ```
 
 ```ini
-# Chongqing University Open Source Mirror Site
+# 上海科技大学 Geek Pie 社团
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
-Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
+Server = https://mirrors.geekpie.org/archlinuxcn/$arch
+```
+
+```ini
+# University of Science and Technology of China
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+# or with HTTP
+# Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -45,15 +45,16 @@ Server = http://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
-# 上海科技大学 Geek Pie 社团
-[archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.geekpie.org/archlinuxcn/$arch
-```
-
-```ini
 # 电子科技大学 凝聚网络安全工作室
 [archlinuxcn]
 SigLevel = Optional TrustedOnly
 Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
 ```
+
+```ini
+# Chongqing University Open Source Mirror Site
+[archlinuxcn]
+SigLevel = Optional TrustedOnly
+Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
+```
+
