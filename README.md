@@ -20,12 +20,6 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IP
 ```
 
 ```ini
-# 上海科技大学 Geek Pie 社团
-[archlinuxcn]
-Server = https://mirrors.geekpie.org/archlinuxcn/$arch
-```
-
-```ini
 # University of Science and Technology of China
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
@@ -49,5 +43,12 @@ Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
 # Chongqing University Open Source Mirror Site
 [archlinuxcn]
 Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
+```
+
+```ini
+# 上海科技大学 Geek Pie 社团
+# outdated; last sync at 2016-12-10
+# [archlinuxcn]
+# Server = https://mirrors.geekpie.org/archlinuxcn/$arch
 ```
 
