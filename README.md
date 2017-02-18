@@ -28,6 +28,12 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+# 上海科技大学 Geek Pie 社团
+[archlinuxcn]
+Server = https://mirrors.geekpie.org/archlinuxcn/$arch
+```
+
+```ini
 # 中国科学院开源软件协会（OpenCAS）
 [archlinuxcn]
 Server = http://mirrors.opencas.org/archlinuxcn/$arch
@@ -49,12 +55,5 @@ Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
 # Chongqing University Open Source Mirror Site
 [archlinuxcn]
 Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
-```
-
-```ini
-# 上海科技大学 Geek Pie 社团
-# outdated; last sync at 2016-12-10
-# [archlinuxcn]
-# Server = https://mirrors.geekpie.org/archlinuxcn/$arch
 ```
 
