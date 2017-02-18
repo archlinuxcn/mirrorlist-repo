@@ -28,6 +28,12 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+# 中国科学院开源软件协会（OpenCAS）
+[archlinuxcn]
+Server = http://mirrors.opencas.org/archlinuxcn/$arch
+```
+
+```ini
 # Netease (网易)
 [archlinuxcn]
 Server = http://mirrors.163.com/archlinux-cn/$arch
