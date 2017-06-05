@@ -34,6 +34,12 @@ Server = https://mirrors.geekpie.org/archlinuxcn/$arch
 ```
 
 ```ini
+# 浙江大学开源镜像站 (CERNET, IPv4 & IPv6, HTTP & HTTPS, sync/6h)
+[archlinuxcn]
+https://mirrors.zju.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 # 中国科学院开源软件协会（OpenCAS）
 [archlinuxcn]
 Server = http://mirrors.opencas.org/archlinuxcn/$arch
