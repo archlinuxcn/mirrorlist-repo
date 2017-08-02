@@ -28,6 +28,12 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+# Unique Studio, Wuhan, China (IPv4 only)
+[archlinuxcn]
+Server = https://mirrors.hustunique.com/archlinuxcn/$arch
+```
+
+```ini
 # 上海科技大学 Geek Pie 社团
 [archlinuxcn]
 Server = https://mirrors.geekpie.org/archlinuxcn/$arch
