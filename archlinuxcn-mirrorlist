@@ -1,0 +1,10 @@
+#Source = https://mirrors.hustunique.com/archlinuxcn/$arch
+#Source = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+#Source = http://mirrors.opencas.org/archlinuxcn/$arch
+#Source = http://mirrors.cnssuestc.org/archlinuxcn/$arch
+#Source = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+#Source = http://mirrors.163.com/archlinux-cn/$arch
+#Source = http://mirrors.cqu.edu.cn/archlinuxcn/$arch
+#Source = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+#Source = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+#Source = https://cdn.repo.archlinuxcn.org/$arch
