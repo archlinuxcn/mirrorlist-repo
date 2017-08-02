@@ -1,0 +1,54 @@
+- provider: Unique Studio
+  url: https://mirrors.hustunique.com/archlinuxcn/
+  location: 湖北武汉
+  protocols:
+    - http
+    - https
+    - ipv4
+  added_date: 2017-08-02
+  upstream: TUNA
+- provider: 浙江大学
+  url: https://mirrors.zju.edu.cn/archlinuxcn/
+  location: 浙江杭州
+  protocols:
+    - http
+    - https
+    - ipv4
+    - ipv6
+  network: CERNET
+  frequency: 6h
+  added_date: 2017-06-05
+- provider: 中国科学院开源软件协会
+  url: http://mirrors.opencas.org/archlinuxcn/
+  location: 北京
+  protocols:
+    - http
+  added_date: 2017-02-09
+- provider: 电子科技大学凝聚网络安全工作室
+  url: http://mirrors.cnssuestc.org/archlinuxcn/
+  location: 
+  protocols:
+    - http
+    - ipv4
+  network: 中国电信
+  added_date: 2016-05-28
+- provider: 上海科技大学
+  url: https://mirrors-wan.geekpie.org/archlinuxcn/
+  location: 上海
+  protocols:
+    - https
+    - ipv4
+  added_date: 2016-04-07
+- provider: 网易
+  url: http://mirrors.163.com/archlinux-cn/
+  frequency: 1d
+- provider: 重庆大学
+  url: http://mirrors.cqu.edu.cn/archlinuxcn/
+- provider: 中国科学技术大学
+  url: https://mirrors.ustc.edu.cn/archlinuxcn/
+- provider: 清华大学
+  url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
+- provider: CDN
+  url: https://cdn.repo.archlinuxcn.org/
+  comment: Global CDN (no nodes in mainland China)
+
