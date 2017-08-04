@@ -38,20 +38,6 @@ Server = https://mirrors.hustunique.com/archlinuxcn/$arch
 ```
 
 ```ini
-## 中国科学院开源软件协会 (北京) (ipv4, http, https)
-## Added: 2017-02-09
-[archlinuxcn]
-Server = https://mirrors.opencas.org/archlinuxcn/$arch
-```
-
-```ini
-## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http, https)
-## Added: 2016-05-28
-[archlinuxcn]
-Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
-```
-
-```ini
 ## 上海科技大学 (上海) (ipv4, http, https)
 ## Added: 2016-04-07
 [archlinuxcn]
@@ -59,13 +45,27 @@ Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
 ```
 
 ```ini
-## 网易 (ipv4, http, https)
+## 中国科学院开源软件协会 (北京) (ipv4, http)
+## Added: 2017-02-09
+[archlinuxcn]
+Server = https://mirrors.opencas.org/archlinuxcn/$arch
+```
+
+```ini
+## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http)
+## Added: 2016-05-28
+[archlinuxcn]
+Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+```
+
+```ini
+## 网易 (ipv4, http)
 [archlinuxcn]
 Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
-## 重庆大学 (ipv4, http, https)
+## 重庆大学 (ipv4, http)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```

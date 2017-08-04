@@ -165,7 +165,7 @@ def sub_list(args):
 
 def try_connect(domain, url, connection):
     try:
-        http = HTTPConnection(domain)
+        http = connection(domain, timeout=5)
         http.request('GET', url.path)
         res = http.getresponse()
         if res.status == 200:
