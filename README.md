@@ -5,67 +5,68 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
-# Global CDN (no nodes in mainland China)
+## CDN (ipv4, http, https)
+## Global CDN (no nodes in mainland China)
 [archlinuxcn]
 Server = https://cdn.repo.archlinuxcn.org/$arch
 ```
 
 ```ini
-# TUNA mirror of Tsinghua University
-[archlinuxcn]
-Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch # both IPv4 & IPv6
-# Server = https://mirrors.6.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv6
-# Server = https://mirrors.4.tuna.tsinghua.edu.cn/archlinuxcn/$arch # only IPv4
-# HTTP is also supported
-```
-
-```ini
-# University of Science and Technology of China
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-# or with HTTP
-# Server = http://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-# Unique Studio, Wuhan, China (IPv4 only)
-[archlinuxcn]
-Server = https://mirrors.hustunique.com/archlinuxcn/$arch
-```
-
-```ini
-# 上海科技大学 Geek Pie 社团
-[archlinuxcn]
-Server = https://mirrors.geekpie.org/archlinuxcn/$arch
-```
-
-```ini
-# 浙江大学开源镜像站 (CERNET, IPv4 & IPv6, HTTP & HTTPS, sync/6h)
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+## Added: 2017-06-05
 [archlinuxcn]
 Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-# 中国科学院开源软件协会（OpenCAS）
+## 中国科学技术大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
-Server = http://mirrors.opencas.org/archlinuxcn/$arch
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-# Netease (网易)
+## 清华大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
-Server = http://mirrors.163.com/archlinux-cn/$arch
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-# 电子科技大学 凝聚网络安全工作室
+## Unique Studio (湖北武汉) (ipv4, http, https)
+## Added: 2017-08-02
 [archlinuxcn]
-Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
+Server = https://mirrors.hustunique.com/archlinuxcn/$arch
 ```
 
 ```ini
-# Chongqing University Open Source Mirror Site
+## 中国科学院开源软件协会 (北京) (ipv4, http, https)
+## Added: 2017-02-09
 [archlinuxcn]
-Server = http://mirrors.cqu.edu.cn/archlinux-cn/$arch
+Server = https://mirrors.opencas.org/archlinuxcn/$arch
+```
+
+```ini
+## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http, https)
+## Added: 2016-05-28
+[archlinuxcn]
+Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+```
+
+```ini
+## 上海科技大学 (上海) (ipv4, http, https)
+## Added: 2016-04-07
+[archlinuxcn]
+Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+```
+
+```ini
+## 网易 (ipv4, http, https)
+[archlinuxcn]
+Server = https://mirrors.163.com/archlinux-cn/$arch
+```
+
+```ini
+## 重庆大学 (ipv4, http, https)
+[archlinuxcn]
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 

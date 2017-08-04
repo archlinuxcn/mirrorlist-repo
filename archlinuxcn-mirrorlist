@@ -1,10 +1,34 @@
-#Source = https://mirrors.hustunique.com/archlinuxcn/$arch
-#Source = https://mirrors.zju.edu.cn/archlinuxcn/$arch
-#Source = http://mirrors.opencas.org/archlinuxcn/$arch
-#Source = http://mirrors.cnssuestc.org/archlinuxcn/$arch
-#Source = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
-#Source = http://mirrors.163.com/archlinux-cn/$arch
-#Source = http://mirrors.cqu.edu.cn/archlinuxcn/$arch
-#Source = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-#Source = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
-#Source = https://cdn.repo.archlinuxcn.org/$arch
+##
+## Arch Linux CN community repository mirrorlist
+## Generated on 2017-08-04
+##
+
+## CDN (ipv4, http, https)
+#Server = https://cdn.repo.archlinuxcn.org/$arch
+
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+#Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+
+## 中国科学技术大学 (ipv4, ipv6, http, https)
+#Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+
+## 清华大学 (ipv4, ipv6, http, https)
+#Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+## Unique Studio (湖北武汉) (ipv4, http, https)
+#Server = https://mirrors.hustunique.com/archlinuxcn/$arch
+
+## 中国科学院开源软件协会 (北京) (ipv4, http, https)
+#Server = https://mirrors.opencas.org/archlinuxcn/$arch
+
+## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http, https)
+#Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+
+## 上海科技大学 (上海) (ipv4, http, https)
+#Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+
+## 网易 (ipv4, http, https)
+#Server = https://mirrors.163.com/archlinux-cn/$arch
+
+## 重庆大学 (ipv4, http, https)
+#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
