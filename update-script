@@ -192,9 +192,10 @@ def try_protocols(mirror):
 
     if try_connect(domain, url, HTTPConnection):
         protocols.append("http")
+        url = url._replace(scheme='http')
     if try_connect(domain, url, HTTPSConnection):
         protocols.append("https")
-        url = tuple(['https', *url[1:]])  # change the scheme to https
+        url = url._replace(scheme='https')
     print(", ".join(protocols))
     mirror['protocols'] = protocols
     mirror['url'] = urlunparse(url)

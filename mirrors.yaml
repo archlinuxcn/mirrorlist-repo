@@ -19,14 +19,14 @@
   frequency: 6h
   added_date: 2017-06-05
 - provider: 中国科学院开源软件协会
-  url: https://mirrors.opencas.org/archlinuxcn/
+  url: http://mirrors.opencas.org/archlinuxcn/
   location: 北京
   protocols:
   - ipv4
   - http
   added_date: 2017-02-09
 - provider: 电子科技大学凝聚网络安全工作室
-  url: https://mirrors.cnssuestc.org/archlinuxcn/
+  url: http://mirrors.cnssuestc.org/archlinuxcn/
   protocols:
   - ipv4
   - http
@@ -41,13 +41,13 @@
   - https
   added_date: 2016-04-07
 - provider: 网易
-  url: https://mirrors.163.com/archlinux-cn/
+  url: http://mirrors.163.com/archlinux-cn/
   frequency: 1d
   protocols:
   - ipv4
   - http
 - provider: 重庆大学
-  url: https://mirrors.cqu.edu.cn/archlinuxcn/
+  url: http://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
   - ipv4
   - http

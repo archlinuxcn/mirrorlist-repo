@@ -48,25 +48,25 @@ Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
 ## 中国科学院开源软件协会 (北京) (ipv4, http)
 ## Added: 2017-02-09
 [archlinuxcn]
-Server = https://mirrors.opencas.org/archlinuxcn/$arch
+Server = http://mirrors.opencas.org/archlinuxcn/$arch
 ```
 
 ```ini
 ## 电子科技大学凝聚网络安全工作室 (ipv4, http)
 ## Added: 2016-05-28
 [archlinuxcn]
-Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
+Server = http://mirrors.cnssuestc.org/archlinuxcn/$arch
 ```
 
 ```ini
 ## 网易 (ipv4, http)
 [archlinuxcn]
-Server = https://mirrors.163.com/archlinux-cn/$arch
+Server = http://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
 ## 重庆大学 (ipv4, http)
 [archlinuxcn]
-Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+Server = http://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
