@@ -24,7 +24,7 @@
 ## 中国科学院开源软件协会 (北京) (ipv4, http)
 #Server = https://mirrors.opencas.org/archlinuxcn/$arch
 
-## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http)
+## 电子科技大学凝聚网络安全工作室 (ipv4, http)
 #Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
 
 ## 网易 (ipv4, http)

@@ -27,7 +27,6 @@
   added_date: 2017-02-09
 - provider: 电子科技大学凝聚网络安全工作室
   url: https://mirrors.cnssuestc.org/archlinuxcn/
-  location: null
   protocols:
   - ipv4
   - http

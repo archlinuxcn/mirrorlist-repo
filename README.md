@@ -52,7 +52,7 @@ Server = https://mirrors.opencas.org/archlinuxcn/$arch
 ```
 
 ```ini
-## 电子科技大学凝聚网络安全工作室 (None) (ipv4, http)
+## 电子科技大学凝聚网络安全工作室 (ipv4, http)
 ## Added: 2016-05-28
 [archlinuxcn]
 Server = https://mirrors.cnssuestc.org/archlinuxcn/$arch
