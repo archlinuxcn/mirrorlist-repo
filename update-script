@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
 import sys
+import time
 import argparse
 import pprint
 from urllib.parse import urlparse, urlunparse
@@ -17,13 +18,13 @@ OUTPUT_README = "README.md"
 OUTPUT_MIRRORLIST = "archlinuxcn-mirrorlist"
 
 README_ITEM_TEMPLATE = """```ini
-## {title}
+## {title}{comments}
 [archlinuxcn]
 Server = {url}$arch
-{comments}```
+```
 """
 
-MIRRORLIST_ITEM_TEMPLATE = """
+MIRRORLIST_ITEM_TEMPLATE = """\
 ## {title}
 #Server = {url}$arch
 """
@@ -58,6 +59,27 @@ def ordered_dump_yaml(data, stream=None, Dumper=yaml.Dumper, **kwds):
     OrderedDumper.add_representer(OrderedDict, _dict_representer)
     return yaml.dump(data, stream, OrderedDumper, **kwds)
 
+def mirror_score(m):
+    if m['provider'] == 'CDN':
+        return 1000
+
+    try:
+        protocols = m['protocols']
+    except KeyError:
+        return 0
+
+    score = 0
+    if 'https' in protocols:
+        score += 100
+    if 'ipv6' in protocols:
+        score += 100
+    if 'http' in protocols:
+        score += 10
+    if 'ipv4' in protocols:
+        score += 10
+
+    return score
+
 def mirror_title(item):
     title = f'{item["provider"]}'
     if "location" in item:
@@ -68,10 +90,15 @@ def mirror_title(item):
 
 
 def mirror_comments(item):
-    comments = ""
+    comments = []
     if "added_date" in item:
-        comments += f'## Added: {item["added_date"]}\n'
-    return comments
+        comments.append(f'## Added: {item["added_date"]}')
+    if "comment" in item:
+        comments.append(f"## {item['comment']}")
+    if comments:
+        return '\n' + '\n'.join(comments)
+    else:
+        return ''
 
 
 def readme_item(item):
@@ -92,25 +119,23 @@ def mirrorlist_item(item):
 
 def gen_mirrorlist(mirrors):
     with open(OUTPUT_MIRRORLIST, 'w') as output:
-        print("".join(mirrorlist_item(item) for item in mirrors), file=output)
+        print(f"""\
+##
+## Arch Linux CN community repository mirrorlist
+## Generated on {time.strftime('%Y-%m-%d')}
+##
+""", file=output)
 
-
-def sort_mirrors_by_protocol(mirrors):
-    def sort_key(mirror):
-        key = 0
-        if 'https' in mirror['protocols']:
-            key -= 2
-        if 'ipv6' in mirror['protocols']:
-            key -= 1
-        return key
-    mirrors.sort(key=sort_key)
+        print("\n".join(
+            mirrorlist_item(item) for item in mirrors
+        ), file=output, end='')
 
 
 def sub_readme(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
             mirrors = ordered_load_yaml(source)
-            sort_mirrors_by_protocol(mirrors)
+            mirrors.sort(key=lambda m: -mirror_score(m))
             gen_readme(mirrors)
         except yaml.YAMLError as e:
             print(e)
@@ -121,7 +146,7 @@ def sub_mirrorlist(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
             mirrors = ordered_load_yaml(source)
-            sort_mirrors_by_protocol(mirrors)
+            mirrors.sort(key=lambda m: -mirror_score(m))
             gen_mirrorlist(mirrors)
         except yaml.YAMLError as e:
             print(e)
@@ -141,11 +166,11 @@ def sub_list(args):
 def try_connect(domain, url, connection):
     try:
         http = HTTPConnection(domain)
-        http.request('GET', '/' + url.path)
+        http.request('GET', url.path)
         res = http.getresponse()
         if res.status == 200:
             return True
-    except:
+    except Exception:
         return False
 
 
