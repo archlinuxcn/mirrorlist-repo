@@ -3,10 +3,11 @@
 import sys
 import argparse
 import pprint
-from urllib.parse import urlparse
+from urllib.parse import urlparse, urlunparse
 import socket
 from ipaddress import ip_address, IPv4Address, IPv6Address
 from http.client import HTTPConnection, HTTPSConnection
+from collections import OrderedDict
 
 import yaml  # in python-yaml package
 
@@ -35,11 +36,32 @@ If you interested in making a mirror of our repository, please contact us at rep
 
 """
 
+## ordered_load/dump_yaml from https://stackoverflow.com/a/21912744
+def ordered_load_yaml(stream, Loader=yaml.Loader, object_pairs_hook=OrderedDict):
+    class OrderedLoader(Loader):
+        pass
+    def construct_mapping(loader, node):
+        loader.flatten_mapping(node)
+        return object_pairs_hook(loader.construct_pairs(node))
+    OrderedLoader.add_constructor(
+        yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+        construct_mapping)
+    return yaml.load(stream, OrderedLoader)
+
+def ordered_dump_yaml(data, stream=None, Dumper=yaml.Dumper, **kwds):
+    class OrderedDumper(Dumper):
+        pass
+    def _dict_representer(dumper, data):
+        return dumper.represent_mapping(
+            yaml.resolver.BaseResolver.DEFAULT_MAPPING_TAG,
+            data.items())
+    OrderedDumper.add_representer(OrderedDict, _dict_representer)
+    return yaml.dump(data, stream, OrderedDumper, **kwds)
 
 def mirror_title(item):
-    title = "{provider}".format(**item)
+    title = f'{item["provider"]}'
     if "location" in item:
-        title += " ({location})".format(**item)
+        title += f' ({item["location"]})'
     if "protocols" in item:
         title += " ({})".format(", ".join(item["protocols"]))
     return title
@@ -48,7 +70,7 @@ def mirror_title(item):
 def mirror_comments(item):
     comments = ""
     if "added_date" in item:
-        comments += "## Added: {}\n".format(item["added_date"])
+        comments += f'## Added: {item["added_date"]}\n'
     return comments
 
 
@@ -73,12 +95,23 @@ def gen_mirrorlist(mirrors):
         print("".join(mirrorlist_item(item) for item in mirrors), file=output)
 
 
+def sort_mirrors_by_protocol(mirrors):
+    def sort_key(mirror):
+        key = 0
+        if 'https' in mirror['protocols']:
+            key -= 2
+        if 'ipv6' in mirror['protocols']:
+            key -= 1
+        return key
+    mirrors.sort(key=sort_key)
+
+
 def sub_readme(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
-            mirrors = yaml.load(source)
+            mirrors = ordered_load_yaml(source)
+            sort_mirrors_by_protocol(mirrors)
             gen_readme(mirrors)
-
         except yaml.YAMLError as e:
             print(e)
             sys.exit(1)
@@ -87,9 +120,9 @@ def sub_readme(args):
 def sub_mirrorlist(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
-            mirrors = yaml.load(source)
+            mirrors = ordered_load_yaml(source)
+            sort_mirrors_by_protocol(mirrors)
             gen_mirrorlist(mirrors)
-
         except yaml.YAMLError as e:
             print(e)
             sys.exit(1)
@@ -98,7 +131,7 @@ def sub_mirrorlist(args):
 def sub_list(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
-            mirrors = yaml.load(source)
+            mirrors = ordered_load_yaml(source)
             pprint.pprint(mirrors)
         except yaml.YAMLError as e:
             print(e)
@@ -107,8 +140,8 @@ def sub_list(args):
 
 def try_connect(domain, url, connection):
     try:
-        http = HTTPConnection(domain, timeout=1)
-        http.request("GET", url)
+        http = HTTPConnection(domain)
+        http.request('GET', '/' + url.path)
         res = http.getresponse()
         if res.status == 200:
             return True
@@ -116,10 +149,10 @@ def try_connect(domain, url, connection):
         return False
 
 
-def get_protocols(mirror):
+def try_protocols(mirror):
     url = urlparse(mirror['url'])
     domain = url.hostname
-    protocols = set()
+    protocols = []
     print('Accessing "{provider}" at "{domain}": ... '.format(
         domain=domain, **mirror), end='', flush=True)
 
@@ -127,31 +160,33 @@ def get_protocols(mirror):
         ip = sockaddr[0]
         ipa = ip_address(ip)
         if ipa.is_global:
-            if type(ipa) is IPv4Address:
-                protocols.add("ipv4")
-            if type(ipa) is IPv6Address:
-                protocols.add("ipv6")
+            if type(ipa) is IPv4Address and 'ipv4' not in protocols:
+                protocols.append("ipv4")
+            if type(ipa) is IPv6Address and 'ipv6' not in protocols:
+                protocols.append("ipv6")
 
-    if try_connect(domain, mirror['url'], HTTPConnection):
-        protocols.add("http")
-    if try_connect(domain, mirror['url'], HTTPSConnection):
-        protocols.add("https")
+    if try_connect(domain, url, HTTPConnection):
+        protocols.append("http")
+    if try_connect(domain, url, HTTPSConnection):
+        protocols.append("https")
+        url = tuple(['https', *url[1:]])  # change the scheme to https
     print(", ".join(protocols))
-    return list(protocols)
+    mirror['protocols'] = protocols
+    mirror['url'] = urlunparse(url)
 
 
 def sub_protocols(args):
     mirrors = []
     with open(SOURCE_YAML, 'r') as source:
         try:
-            mirrors = yaml.load(source)
+            mirrors = ordered_load_yaml(source)
         except yaml.YAMLError as e:
             print(e)
             sys.exit(1)
     for m in mirrors:
-        m["protocols"] = get_protocols(m)
+        try_protocols(m)
     with open(SOURCE_YAML, "w") as output:
-        print(yaml.dump(mirrors, encoding=None, allow_unicode=True,
+        print(ordered_dump_yaml(mirrors, encoding=None, allow_unicode=True,
                         default_flow_style=False), file=output)
 
 
@@ -163,19 +198,18 @@ def sub_all(args):
 
 def main():
     parser = argparse.ArgumentParser(
-        description='update mirrors status and generate mirrorlist or README.md')
-    sub = parser.add_subparsers(help='actions as subcommands')
-    listparser = sub.add_parser(
-        'list', help='list mirrors in {}'.format(SOURCE_YAML))
+        description='update mirrors protocols and generate mirrorlist and README.md')
+    sub = parser.add_subparsers()
+    listparser = sub.add_parser('list', help=f'list mirrors in {SOURCE_YAML}')
     listparser.set_defaults(func=sub_list)
     protparser = sub.add_parser(
-        'protocols', help='try access to URLs of the mirrors and update the protocols'.format(SOURCE_YAML))
+        'protocols', help='try access to URLs of the mirrors and update the protocols')
     protparser.set_defaults(func=sub_protocols)
     readmeparser = sub.add_parser(
-        'readme', help='write {} with the information from {}'.format(OUTPUT_README, SOURCE_YAML))
+        'readme', help=f'generate {OUTPUT_README} from {SOURCE_YAML}')
     readmeparser.set_defaults(func=sub_readme)
     mirrorlistparser = sub.add_parser(
-        'mirrorlist', help='write {} with the information from {}'.format(OUTPUT_MIRRORLIST, SOURCE_YAML))
+        'mirrorlist', help=f'generate {OUTPUT_MIRRORLIST} from {SOURCE_YAML}')
     mirrorlistparser.set_defaults(func=sub_mirrorlist)
     allparser = sub.add_parser('all', help='do all 3 above')
     allparser.set_defaults(func=sub_all)
