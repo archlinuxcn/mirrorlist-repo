@@ -72,4 +72,15 @@
   - ipv4
   - http
   - https
+- provider: xtom
+  url: https://mirror.xtom.com.hk/archlinuxcn/
+  comment: xTom Hong Kong Mirror
+  location: Hong Kong
+  frequency: 7h
+  added_date: 2017-09-18
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
 
