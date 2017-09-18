@@ -72,7 +72,7 @@
   - ipv4
   - http
   - https
-- provider: xtom
+- provider: xTom
   url: https://mirror.xtom.com.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
   location: Hong Kong

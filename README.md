@@ -31,7 +31,7 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## xtom (Hong Kong) (ipv4, ipv6, http, https)
+## xTom (Hong Kong) (ipv4, ipv6, http, https)
 ## Added: 2017-09-18
 ## xTom Hong Kong Mirror
 [archlinuxcn]
