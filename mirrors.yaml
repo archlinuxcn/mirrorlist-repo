@@ -13,8 +13,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
-  - https
   network: CERNET
   frequency: 6h
   added_date: 2017-06-05
@@ -23,13 +21,11 @@
   location: 北京
   protocols:
   - ipv4
-  - http
   added_date: 2017-02-09
 - provider: 电子科技大学凝聚网络安全工作室
   url: http://mirrors.cnssuestc.org/archlinuxcn/
   protocols:
   - ipv4
-  - http
   network: 中国电信
   added_date: 2016-05-28
 - provider: 上海科技大学
@@ -50,7 +46,6 @@
   url: http://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
   - ipv4
-  - http
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
   protocols:
@@ -63,8 +58,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
-  - https
 - provider: CDN
   url: https://cdn.repo.archlinuxcn.org/
   comment: Global CDN (no nodes in mainland China)

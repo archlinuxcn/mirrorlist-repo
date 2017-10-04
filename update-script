@@ -108,7 +108,10 @@ def readme_item(item):
 
 def gen_readme(mirrors):
     with open(OUTPUT_README, 'w') as output:
-        readme_items = [readme_item(item) for item in mirrors]
+        readme_items = [
+            readme_item(item) for item in mirrors
+            if {'http', 'https'} & set(item['protocols'])
+        ]
         print(README_TEMPLATE + '\n'.join(readme_items), file=output)
 
 
@@ -128,6 +131,7 @@ def gen_mirrorlist(mirrors):
 
         print("\n".join(
             mirrorlist_item(item) for item in mirrors
+            if {'http', 'https'} & set(item['protocols'])
         ), file=output, end='')
 
 
@@ -138,8 +142,7 @@ def sub_readme(args):
             mirrors.sort(key=lambda m: -mirror_score(m))
             gen_readme(mirrors)
         except yaml.YAMLError as e:
-            print(e)
-            sys.exit(1)
+            sys.exit(repr(e))
 
 
 def sub_mirrorlist(args):
@@ -149,8 +152,7 @@ def sub_mirrorlist(args):
             mirrors.sort(key=lambda m: -mirror_score(m))
             gen_mirrorlist(mirrors)
         except yaml.YAMLError as e:
-            print(e)
-            sys.exit(1)
+            sys.exit(repr(e))
 
 
 def sub_list(args):
