@@ -58,6 +58,8 @@
   protocols:
   - ipv4
   - ipv6
+  - http
+  - https
 - provider: CDN
   url: https://cdn.repo.archlinuxcn.org/
   comment: Global CDN (no nodes in mainland China)
