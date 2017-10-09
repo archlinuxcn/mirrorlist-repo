@@ -46,6 +46,12 @@ Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
 ```
 
 ```ini
+## 重庆大学 (ipv4, https)
+[archlinuxcn]
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 网易 (ipv4, http)
 [archlinuxcn]
 Server = http://mirrors.163.com/archlinux-cn/$arch

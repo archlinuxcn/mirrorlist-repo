@@ -43,9 +43,10 @@
   - ipv4
   - http
 - provider: 重庆大学
-  url: http://mirrors.cqu.edu.cn/archlinuxcn/
+  url: https://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
   - ipv4
+  - https
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
   protocols:

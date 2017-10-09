@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2017-10-05
+## Generated on 2017-10-09
 ##
 
 ## CDN (ipv4, http, https)
@@ -20,6 +20,9 @@
 
 ## 上海科技大学 (上海) (ipv4, http, https)
 #Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+
+## 重庆大学 (ipv4, https)
+#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
 ## 网易 (ipv4, http)
 #Server = http://mirrors.163.com/archlinux-cn/$arch
