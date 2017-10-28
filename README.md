@@ -18,18 +18,17 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 清华大学 (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## xTom (Hong Kong) (ipv4, ipv6, http, https)
 ## Added: 2017-09-18
 ## xTom Hong Kong Mirror
 [archlinuxcn]
 Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
-```
-
-```ini
-## Unique Studio (湖北武汉) (ipv4, http, https)
-## Added: 2017-08-02
-[archlinuxcn]
-Server = https://mirrors.hustunique.com/archlinuxcn/$arch
 ```
 
 ```ini

@@ -3,8 +3,6 @@
   location: 湖北武汉
   protocols:
   - ipv4
-  - http
-  - https
   added_date: 2017-08-02
   upstream: TUNA
 - provider: 浙江大学
@@ -58,6 +56,8 @@
   protocols:
   - ipv4
   - ipv6
+  - http
+  - https
 - provider: CDN
   url: https://cdn.repo.archlinuxcn.org/
   comment: Global CDN (no nodes in mainland China)

@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2017-10-17
+## Generated on 2017-10-28
 ##
 
 ## CDN (ipv4, http, https)
@@ -9,11 +9,11 @@
 ## 中国科学技术大学 (ipv4, ipv6, http, https)
 #Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
+## 清华大学 (ipv4, ipv6, http, https)
+#Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
 ## xTom (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
-
-## Unique Studio (湖北武汉) (ipv4, http, https)
-#Server = https://mirrors.hustunique.com/archlinuxcn/$arch
 
 ## 上海科技大学 (上海) (ipv4, http, https)
 #Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
