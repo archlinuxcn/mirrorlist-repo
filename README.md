@@ -12,6 +12,13 @@ Server = https://cdn.repo.archlinuxcn.org/$arch
 ```
 
 ```ini
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+## Added: 2017-06-05
+[archlinuxcn]
+Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 中国科学技术大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
@@ -36,6 +43,12 @@ Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
 ## Added: 2016-04-07
 [archlinuxcn]
 Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
+```
+
+```ini
+## 重庆大学 (ipv4, https)
+[archlinuxcn]
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
