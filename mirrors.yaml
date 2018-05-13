@@ -21,6 +21,7 @@
   location: 北京
   protocols:
   - ipv4
+  - ipv6
   added_date: 2017-02-09
 - provider: 电子科技大学凝聚网络安全工作室
   url: http://mirrors.cnssuestc.org/archlinuxcn/
@@ -37,15 +38,17 @@
   - https
   added_date: 2016-04-07
 - provider: 网易
-  url: http://mirrors.163.com/archlinux-cn/
+  url: https://mirrors.163.com/archlinux-cn/
   frequency: 1d
   protocols:
   - ipv4
   - http
+  - https
 - provider: 重庆大学
   url: https://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
   - ipv4
+  - http
   - https
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
@@ -74,6 +77,14 @@
   location: Hong Kong
   frequency: 7h
   added_date: 2017-09-18
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+- provider: 上海大学开源镜像站
+  url: https://mirrors.shuosc.org/archlinuxcn/
+  added_date: 2018-05-13
   protocols:
   - ipv4
   - ipv6
