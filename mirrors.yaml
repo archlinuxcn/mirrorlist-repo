@@ -88,6 +88,11 @@
   protocols:
   - ipv4
   - ipv6
-  - http
+  - https
+- provider: SJTUG 软件源镜像服务
+  url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
+  added_date: 2018-05-21
+  protocols:
+  - ipv4
   - https
 

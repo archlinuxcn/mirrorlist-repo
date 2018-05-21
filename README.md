@@ -39,7 +39,7 @@ Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
 ```
 
 ```ini
-## 上海大学开源镜像站 (ipv4, ipv6, http, https)
+## 上海大学开源镜像站 (ipv4, ipv6, https)
 ## Added: 2018-05-13
 [archlinuxcn]
 Server = https://mirrors.shuosc.org/archlinuxcn/$arch
@@ -62,5 +62,12 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ## 重庆大学 (ipv4, http, https)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## SJTUG 软件源镜像服务 (ipv4, https)
+## Added: 2018-05-21
+[archlinuxcn]
+Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
