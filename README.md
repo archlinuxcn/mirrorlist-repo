@@ -5,6 +5,13 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
+## CDN (ipv4, ipv6, http, https)
+## Global CDN (no nodes in mainland China)
+[archlinuxcn]
+Server = https://cdn.repo.archlinuxcn.org/$arch
+```
+
+```ini
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 ## Added: 2017-06-05
 [archlinuxcn]

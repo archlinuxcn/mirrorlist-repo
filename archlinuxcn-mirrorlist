@@ -3,6 +3,9 @@
 ## Generated on 2018-05-31
 ##
 
+## CDN (ipv4, ipv6, http, https)
+#Server = https://cdn.repo.archlinuxcn.org/$arch
+
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 #Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 

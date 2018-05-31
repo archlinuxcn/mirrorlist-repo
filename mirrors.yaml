@@ -68,6 +68,9 @@
   comment: Global CDN (no nodes in mainland China)
   protocols:
   - ipv4
+  - ipv6
+  - http
+  - https
 - provider: xTom
   url: https://mirror.xtom.com.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
