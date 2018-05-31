@@ -38,12 +38,11 @@
   - https
   added_date: 2016-04-07
 - provider: 网易
-  url: https://mirrors.163.com/archlinux-cn/
+  url: http://mirrors.163.com/archlinux-cn/
   frequency: 1d
   protocols:
   - ipv4
   - http
-  - https
 - provider: 重庆大学
   url: https://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
@@ -69,8 +68,6 @@
   comment: Global CDN (no nodes in mainland China)
   protocols:
   - ipv4
-  - http
-  - https
 - provider: xTom
   url: https://mirror.xtom.com.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
