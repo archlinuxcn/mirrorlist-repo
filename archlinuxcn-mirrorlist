@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2018-06-17
+## Generated on 2018-08-13
 ##
 
 ## CDN (ipv4, ipv6, http, https)
@@ -18,8 +18,11 @@
 ## xTom (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
 
-## 上海大学开源镜像站 (ipv4, ipv6, https)
+## 上海大学开源镜像站 (ipv4, ipv6, http, https)
 #Server = https://mirrors.shuosc.org/archlinuxcn/$arch
+
+## 上海科技大学 (上海) (ipv4, http, https)
+#Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
 
 ## 网易 (ipv4, http, https)
 #Server = https://mirrors.163.com/archlinux-cn/$arch
@@ -29,6 +32,3 @@
 
 ## SJTUG 软件源镜像服务 (ipv4, https)
 #Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
-
-## 上海科技大学 (上海) (ipv4, http)
-#Server = http://mirrors-wan.geekpie.org/archlinuxcn/$arch
