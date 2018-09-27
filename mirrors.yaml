@@ -23,19 +23,11 @@
   - ipv4
   - ipv6
   added_date: 2017-02-09
-- provider: 电子科技大学凝聚网络安全工作室
-  url: http://mirrors.cnssuestc.org/archlinuxcn/
-  protocols:
-  - ipv4
-  network: 中国电信
-  added_date: 2016-05-28
 - provider: 上海科技大学
   url: https://mirrors-wan.geekpie.org/archlinuxcn/
   location: 上海
   protocols:
   - ipv4
-  - http
-  - https
   added_date: 2016-04-07
 - provider: 网易
   url: https://mirrors.163.com/archlinux-cn/

@@ -46,13 +46,6 @@ Server = https://mirrors.shuosc.org/archlinuxcn/$arch
 ```
 
 ```ini
-## 上海科技大学 (上海) (ipv4, http, https)
-## Added: 2016-04-07
-[archlinuxcn]
-Server = https://mirrors-wan.geekpie.org/archlinuxcn/$arch
-```
-
-```ini
 ## 网易 (ipv4, http, https)
 [archlinuxcn]
 Server = https://mirrors.163.com/archlinux-cn/$arch
