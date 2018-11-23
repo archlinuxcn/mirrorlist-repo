@@ -52,6 +52,7 @@
   - https
 - provider: 清华大学
   url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
+  frequency: realtime
   protocols:
   - ipv4
   - ipv6
