@@ -40,6 +40,7 @@
   url: https://mirrors.cqu.edu.cn/archlinuxcn/
   protocols:
   - ipv4
+  - http
   - https
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
@@ -65,12 +66,23 @@
   - ipv6
   - http
   - https
-- provider: xTom
+- provider: xTom (Hong Kong server)
   url: https://mirror.xtom.com.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
   location: Hong Kong
   frequency: 7h
   added_date: 2017-09-18
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+- provider: xTom (US server)
+  url: https://mirror.xtom.com/archlinuxcn/
+  comment: xTom US Mirror
+  location: US
+  frequency: 7h
+  added_date: 2019-02-19
   protocols:
   - ipv4
   - ipv6

@@ -31,11 +31,19 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## xTom (Hong Kong) (ipv4, ipv6, http, https)
+## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 ## Added: 2017-09-18
 ## xTom Hong Kong Mirror
 [archlinuxcn]
 Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
+```
+
+```ini
+## xTom (US server) (US) (ipv4, ipv6, http, https)
+## Added: 2019-02-19
+## xTom US Mirror
+[archlinuxcn]
+Server = https://mirror.xtom.com/archlinuxcn/$arch
 ```
 
 ```ini
@@ -52,16 +60,16 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
+## 重庆大学 (ipv4, http, https)
+[archlinuxcn]
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
 ## Added: 2018-11-03
 [archlinuxcn]
 Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-## 重庆大学 (ipv4, https)
-[archlinuxcn]
-Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
