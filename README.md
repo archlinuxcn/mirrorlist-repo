@@ -54,6 +54,13 @@ Server = https://mirrors.shuosc.org/archlinuxcn/$arch
 ```
 
 ```ini
+## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
+## Added: 2019-02-19
+[archlinuxcn]
+Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
+```
+
+```ini
 ## 网易 (ipv4, http, https)
 [archlinuxcn]
 Server = https://mirrors.163.com/archlinux-cn/$arch

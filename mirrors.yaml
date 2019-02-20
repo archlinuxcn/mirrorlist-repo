@@ -116,4 +116,14 @@
   protocols:
   - ipv4
   - https
+- provider: Open Computing Facility, UC Berkeley
+  url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
+  added_date: 2019-02-19
+  location: Berkeley, CA, United States
+  frequency: 4h
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
 

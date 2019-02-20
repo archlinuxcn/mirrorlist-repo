@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2019-02-19
+## Generated on 2019-02-20
 ##
 
 ## CDN (ipv4, ipv6, http, https)
@@ -23,6 +23,9 @@
 
 ## 上海大学开源镜像站 (ipv4, ipv6, http, https)
 #Server = https://mirrors.shuosc.org/archlinuxcn/$arch
+
+## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
+#Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 
 ## 网易 (ipv4, http, https)
 #Server = https://mirrors.163.com/archlinux-cn/$arch
