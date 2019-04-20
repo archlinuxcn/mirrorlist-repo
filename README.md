@@ -19,12 +19,6 @@ Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 中国科学技术大学 (ipv4, ipv6, http, https)
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
-
-```ini
 ## 清华大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
@@ -47,17 +41,16 @@ Server = https://mirror.xtom.com/archlinuxcn/$arch
 ```
 
 ```ini
-## 上海大学开源镜像站 (ipv4, ipv6, http, https)
-## Added: 2018-05-13
-[archlinuxcn]
-Server = https://mirrors.shuosc.org/archlinuxcn/$arch
-```
-
-```ini
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
+```
+
+```ini
+## 中国科学技术大学 (ipv4, ipv6, https)
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -70,13 +63,6 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ## 重庆大学 (ipv4, http, https)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
-## Added: 2018-11-03
-[archlinuxcn]
-Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini

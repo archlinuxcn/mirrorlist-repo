@@ -48,7 +48,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
 - provider: 清华大学
   url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
@@ -91,11 +90,7 @@
 - provider: 上海大学开源镜像站
   url: https://mirrors.shuosc.org/archlinuxcn/
   added_date: 2018-05-13
-  protocols:
-  - ipv4
-  - ipv6
-  - http
-  - https
+  protocols: []
 - provider: SJTUG 软件源镜像服务
   url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
   added_date: 2018-05-21
@@ -106,10 +101,7 @@
   url: https://mirrors.dgut.edu.cn/archlinuxcn/
   added_date: 2018-11-03
   frequency: 6h
-  protocols:
-  - ipv4
-  - http
-  - https
+  protocols: []
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
   added_date: 2018-11-23
