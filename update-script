@@ -73,7 +73,7 @@ def mirror_score(m):
         score += 100
     if 'ipv6' in protocols:
         score += 100
-    if 'http' in protocols:
+    if 'http' in protocols and 'https' not in protocols:
         score += 10
     if 'ipv4' in protocols:
         score += 10
