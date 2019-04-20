@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 import sys
 import time
@@ -183,21 +183,25 @@ def try_protocols(mirror):
     print('Accessing "{provider}" at "{domain}": ... '.format(
         domain=domain, **mirror), end='', flush=True)
 
-    for (family, _, _, _, sockaddr) in socket.getaddrinfo(domain, 80):
-        ip = sockaddr[0]
-        ipa = ip_address(ip)
-        if ipa.is_global:
-            if type(ipa) is IPv4Address and 'ipv4' not in protocols:
-                protocols.append("ipv4")
-            if type(ipa) is IPv6Address and 'ipv6' not in protocols:
-                protocols.append("ipv6")
+    try:
+        for (family, _, _, _, sockaddr) in socket.getaddrinfo(domain, 80):
+            ip = sockaddr[0]
+            ipa = ip_address(ip)
+            if ipa.is_global:
+                if type(ipa) is IPv4Address and 'ipv4' not in protocols:
+                    protocols.append("ipv4")
+                if type(ipa) is IPv6Address and 'ipv6' not in protocols:
+                    protocols.append("ipv6")
+    except socket.gaierror:
+        pass
+    else:
+        if try_connect(domain, url, HTTPConnection):
+            protocols.append("http")
+            url = url._replace(scheme='http')
+        if try_connect(domain, url, HTTPSConnection):
+            protocols.append("https")
+            url = url._replace(scheme='https')
 
-    if try_connect(domain, url, HTTPConnection):
-        protocols.append("http")
-        url = url._replace(scheme='http')
-    if try_connect(domain, url, HTTPSConnection):
-        protocols.append("https")
-        url = url._replace(scheme='https')
     print(", ".join(protocols))
     mirror['protocols'] = protocols
     mirror['url'] = urlunparse(url)
