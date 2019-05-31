@@ -5,13 +5,6 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
-## CDN (ipv4, ipv6, http, https)
-## Global CDN (no nodes in mainland China)
-[archlinuxcn]
-Server = https://cdn.repo.archlinuxcn.org/$arch
-```
-
-```ini
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 ## Added: 2017-06-05
 [archlinuxcn]
@@ -19,9 +12,22 @@ Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 中国科学技术大学 (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 清华大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## Our main server (ipv4, ipv6, http, https)
+## Our main server located in Netherlands
+[archlinuxcn]
+Server = https://repo.archlinuxcn.org/$arch
 ```
 
 ```ini
@@ -45,12 +51,6 @@ Server = https://mirror.xtom.com/archlinuxcn/$arch
 ## Added: 2019-02-19
 [archlinuxcn]
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
-```
-
-```ini
-## 中国科学技术大学 (ipv4, ipv6, https)
-[archlinuxcn]
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini

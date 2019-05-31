@@ -48,6 +48,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
 - provider: 清华大学
   url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
@@ -57,9 +58,9 @@
   - ipv6
   - http
   - https
-- provider: CDN
-  url: https://cdn.repo.archlinuxcn.org/
-  comment: Global CDN (no nodes in mainland China)
+- provider: Our main server
+  url: https://repo.archlinuxcn.org/
+  comment: Our main server located in Netherlands
   protocols:
   - ipv4
   - ipv6
@@ -101,7 +102,8 @@
   url: https://mirrors.dgut.edu.cn/archlinuxcn/
   added_date: 2018-11-03
   frequency: 6h
-  protocols: []
+  protocols:
+  - ipv4
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
   added_date: 2018-11-23
