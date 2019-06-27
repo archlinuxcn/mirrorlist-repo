@@ -104,6 +104,8 @@
   frequency: 6h
   protocols:
   - ipv4
+  - http
+  - https
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
   added_date: 2018-11-23

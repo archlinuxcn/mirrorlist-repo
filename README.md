@@ -73,6 +73,13 @@ Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
+## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
+## Added: 2018-11-03
+[archlinuxcn]
+Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 腾讯云 (ipv4, https)
 ## Added: 2018-11-23
 [archlinuxcn]

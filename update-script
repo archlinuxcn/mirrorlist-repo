@@ -192,6 +192,7 @@ def try_protocols(mirror):
                     protocols.append("ipv4")
                 if type(ipa) is IPv6Address and 'ipv6' not in protocols:
                     protocols.append("ipv6")
+        protocols.sort()
     except socket.gaierror:
         pass
     else:
