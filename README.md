@@ -5,6 +5,13 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+## Added: 2017-06-05
+[archlinuxcn]
+Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 中国科学技术大学 (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
@@ -40,10 +47,25 @@ Server = https://mirror.xtom.com/archlinuxcn/$arch
 ```
 
 ```ini
+## xTom (Netherlands server) (Netherlands) (ipv4, ipv6, http, https)
+## Added: 2019-09-07
+## xTom Netherlands Mirror
+[archlinuxcn]
+Server = https://mirror.xtom.nl/archlinuxcn/$arch
+```
+
+```ini
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
+```
+
+```ini
+## 上海科技大学 (上海) (ipv4, http, https)
+## Added: 2016-04-07
+[archlinuxcn]
+Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
 ```
 
 ```ini
@@ -53,11 +75,9 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
-## xTom (Netherlands server) (Netherlands) (ipv4, http, https)
-## Added: 2019-09-07
-## xTom Netherlands Mirror
+## 重庆大学 (ipv4, http, https)
 [archlinuxcn]
-Server = https://mirror.xtom.nl/archlinuxcn/$arch
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -65,6 +85,13 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ## Added: 2018-05-21
 [archlinuxcn]
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
+```
+
+```ini
+## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
+## Added: 2018-11-03
+[archlinuxcn]
+Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini

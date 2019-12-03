@@ -1,16 +1,37 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2019-10-01
+## Generated on 2019-12-03
 ##
+
+## Our main server (ipv4, ipv6, http, https)
+#Server = https://repo.archlinuxcn.org/$arch
 
 ## 中国科学技术大学 (ipv4, ipv6, http, https)
 #Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
+## 上海科技大学 (上海) (ipv4, http, https)
+#Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
+
+## 网易 (ipv4, http, https)
+#Server = https://mirrors.163.com/archlinux-cn/$arch
+
+## 腾讯云 (ipv4, https)
+#Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
+
+## 重庆大学 (ipv4, http, https)
+#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+
+## SJTUG 软件源镜像服务 (ipv4, https)
+#Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
+
+## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
+#Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
+
 ## 清华大学 (ipv4, ipv6, http, https)
 #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
-## Our main server (ipv4, ipv6, http, https)
-#Server = https://repo.archlinuxcn.org/$arch
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+#Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
@@ -18,17 +39,9 @@
 ## xTom (US server) (US) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com/archlinuxcn/$arch
 
+## xTom (Netherlands server) (Netherlands) (ipv4, ipv6, http, https)
+#Server = https://mirror.xtom.nl/archlinuxcn/$arch
+
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 
-## 网易 (ipv4, http, https)
-#Server = https://mirrors.163.com/archlinux-cn/$arch
-
-## xTom (Netherlands server) (Netherlands) (ipv4, http, https)
-#Server = https://mirror.xtom.nl/archlinuxcn/$arch
-
-## SJTUG 软件源镜像服务 (ipv4, https)
-#Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
-
-## 腾讯云 (ipv4, https)
-#Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
