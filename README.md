@@ -62,6 +62,13 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 ```
 
 ```ini
+## 北京外国语大学 (北京) (ipv4, ipv6, http, https)
+## Added: 2020-05-18
+[archlinuxcn]
+Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 上海科技大学 (上海) (ipv4, http, https)
 ## Added: 2016-04-07
 [archlinuxcn]
@@ -88,7 +95,7 @@ Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
-## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
+## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, https)
 ## Added: 2018-11-03
 [archlinuxcn]
 Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch

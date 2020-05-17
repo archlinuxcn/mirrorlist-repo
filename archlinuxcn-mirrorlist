@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2019-12-03
+## Generated on 2020-05-18
 ##
 
 ## Our main server (ipv4, ipv6, http, https)
@@ -8,21 +8,6 @@
 
 ## 中国科学技术大学 (ipv4, ipv6, http, https)
 #Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-
-## 网易 (ipv4, http, https)
-#Server = https://mirrors.163.com/archlinux-cn/$arch
-
-## 腾讯云 (ipv4, https)
-#Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
-
-## 重庆大学 (ipv4, http, https)
-#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
-
-## SJTUG 软件源镜像服务 (ipv4, https)
-#Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
-
-## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, http, https)
-#Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 
 ## 清华大学 (ipv4, ipv6, http, https)
 #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
@@ -39,3 +24,20 @@
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 
+## 北京外国语大学 (北京) (ipv4, ipv6, http, https)
+#Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
+
+## 网易 (ipv4, http, https)
+#Server = https://mirrors.163.com/archlinux-cn/$arch
+
+## 重庆大学 (ipv4, http, https)
+#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+
+## SJTUG 软件源镜像服务 (ipv4, https)
+#Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
+
+## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, https)
+#Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
+
+## 腾讯云 (ipv4, https)
+#Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch

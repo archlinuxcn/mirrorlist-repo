@@ -115,7 +115,6 @@
   frequency: 6h
   protocols:
   - ipv4
-  - http
   - https
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
@@ -128,6 +127,15 @@
   added_date: 2019-02-19
   location: Berkeley, CA, United States
   frequency: 4h
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+- provider: 北京外国语大学
+  url: https://mirrors.bfsu.edu.cn/archlinuxcn/
+  added_date: 2020-05-18
+  location: 北京
   protocols:
   - ipv4
   - ipv6
