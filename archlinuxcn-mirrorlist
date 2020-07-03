@@ -1,27 +1,27 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2020-06-03
+## Generated on 2020-07-03
 ##
 
-## Our main server (ipv4, ipv6, http, https)
+## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 #Server = https://repo.archlinuxcn.org/$arch
-
-## 中国科学技术大学 (ipv4, ipv6, http, https)
-#Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 #Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 
-## 清华大学 (ipv4, ipv6, http, https)
+## 中国科学技术大学 (安徽合肥) (ipv4, ipv6, http, https)
+#Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+
+## 清华大学 (北京) (ipv4, ipv6, http, https)
 #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
 
-## xTom (US server) (US) (ipv4, ipv6, http, https)
+## xTom (US server) (Fremont, CA, United States) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com/archlinuxcn/$arch
 
-## xTom (Netherlands server) (Netherlands) (ipv4, ipv6, http, https)
+## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.nl/archlinuxcn/$arch
 
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
@@ -30,17 +30,20 @@
 ## 北京外国语大学 (北京) (ipv4, ipv6, http, https)
 #Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 
-## 网易 (ipv4, http, https)
+## 网易 (浙江杭州) (ipv4, http, https)
 #Server = https://mirrors.163.com/archlinux-cn/$arch
 
-## 重庆大学 (ipv4, http, https)
+## 重庆大学 (重庆) (ipv4, http, https)
 #Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
-## SJTUG 软件源镜像服务 (ipv4, https)
+## SJTUG 软件源镜像服务 (上海) (ipv4, https)
 #Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 
-## 莞工 GNU/Linux 协会 开源软件镜像站 (ipv4, https)
+## 莞工 GNU/Linux 协会 开源软件镜像站 (广东东莞) (ipv4, https)
 #Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 
-## 腾讯云 (ipv4, https)
+## 腾讯云 (上海) (ipv4, https)
 #Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
+
+## 阿里云 (Global CDN) (ipv4, http, https)
+#Server = https://mirrors.aliyun.com/archlinuxcn/$arch
