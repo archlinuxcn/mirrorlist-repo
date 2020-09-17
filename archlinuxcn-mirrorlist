@@ -1,19 +1,22 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2020-07-03
+## Generated on 2020-09-17
 ##
-
-## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
-#Server = https://repo.archlinuxcn.org/$arch
 
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 #Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+
+## 重庆大学 (重庆) (ipv4, ipv6, http, https)
+#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
 ## 中国科学技术大学 (安徽合肥) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+
+## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
+#Server = https://repo.archlinuxcn.org/$arch
 
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
@@ -30,11 +33,11 @@
 ## 北京外国语大学 (北京) (ipv4, ipv6, http, https)
 #Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 
+## 上海科技大学 (上海) (ipv4, http, https)
+#Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
+
 ## 网易 (浙江杭州) (ipv4, http, https)
 #Server = https://mirrors.163.com/archlinux-cn/$arch
-
-## 重庆大学 (重庆) (ipv4, http, https)
-#Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
 ## SJTUG 软件源镜像服务 (上海) (ipv4, https)
 #Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
@@ -47,3 +50,6 @@
 
 ## 阿里云 (Global CDN) (ipv4, http, https)
 #Server = https://mirrors.aliyun.com/archlinuxcn/$arch
+
+## OpenTUNA (China CDN) (ipv4, https)
+#Server = https://opentuna.cn/archlinuxcn/$arch

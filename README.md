@@ -5,16 +5,16 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
-## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
-[archlinuxcn]
-Server = https://repo.archlinuxcn.org/$arch
-```
-
-```ini
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 ## Added: 2017-06-05
 [archlinuxcn]
 Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 重庆大学 (重庆) (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -27,6 +27,12 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://repo.archlinuxcn.org/$arch
 ```
 
 ```ini
@@ -68,15 +74,16 @@ Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 网易 (浙江杭州) (ipv4, http, https)
+## 上海科技大学 (上海) (ipv4, http, https)
+## Added: 2016-04-07
 [archlinuxcn]
-Server = https://mirrors.163.com/archlinux-cn/$arch
+Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
 ```
 
 ```ini
-## 重庆大学 (重庆) (ipv4, http, https)
+## 网易 (浙江杭州) (ipv4, http, https)
 [archlinuxcn]
-Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
+Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
@@ -105,5 +112,11 @@ Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
 ## Added: 2020-07-03
 [archlinuxcn]
 Server = https://mirrors.aliyun.com/archlinuxcn/$arch
+```
+
+```ini
+## OpenTUNA (China CDN) (ipv4, https)
+[archlinuxcn]
+Server = https://opentuna.cn/archlinuxcn/$arch
 ```
 

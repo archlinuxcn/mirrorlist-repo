@@ -28,6 +28,8 @@
   location: 上海
   protocols:
   - ipv4
+  - http
+  - https
   added_date: 2016-04-07
 - provider: 网易
   url: https://mirrors.163.com/archlinux-cn/
@@ -42,6 +44,7 @@
   location: 重庆
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
 - provider: 中国科学技术大学
@@ -154,5 +157,11 @@
   protocols:
   - ipv4
   - http
+  - https
+- provider: OpenTUNA
+  url: https://opentuna.cn/archlinuxcn/
+  location: China CDN
+  protocols:
+  - ipv4
   - https
 
