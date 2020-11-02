@@ -167,7 +167,7 @@
 - provider: 华为云
   url: https://repo.huaweicloud.com/archlinuxcn/
   added_date: 2020-10-31
-  location: Global CDN
+  location: China CDN
   protocols:
   - ipv4
   - ipv6
