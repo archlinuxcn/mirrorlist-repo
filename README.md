@@ -60,7 +60,7 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ```
 
 ```ini
-## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
+## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, https)
 ## Added: 2019-02-19
 [archlinuxcn]
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
@@ -74,7 +74,7 @@ Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 上海科技大学 (上海) (ipv4, http, https)
+## 上海科技大学 (上海) (ipv4, https)
 ## Added: 2016-04-07
 [archlinuxcn]
 Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
@@ -118,5 +118,12 @@ Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 ## OpenTUNA (China CDN) (ipv4, https)
 [archlinuxcn]
 Server = https://opentuna.cn/archlinuxcn/$arch
+```
+
+```ini
+## 华为云 (China CDN) (ipv4, http, https)
+## Added: 2020-10-31
+[archlinuxcn]
+Server = https://repo.huaweicloud.com/archlinuxcn/$arch
 ```
 

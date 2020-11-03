@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2020-09-17
+## Generated on 2020-11-03
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -21,6 +21,9 @@
 ## 阿里云 (Global CDN) (ipv4, http, https)
 #Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 
+## 华为云 (China CDN) (ipv4, http, https)
+#Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 #Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
@@ -33,7 +36,7 @@
 ## 重庆大学 (重庆) (ipv4, ipv6, http, https)
 #Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
-## 上海科技大学 (上海) (ipv4, http, https)
+## 上海科技大学 (上海) (ipv4, https)
 #Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
 
 ## SJTUG 软件源镜像服务 (上海) (ipv4, https)
@@ -51,6 +54,6 @@
 ## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.nl/archlinuxcn/$arch
 
-## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
+## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, https)
 #Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 

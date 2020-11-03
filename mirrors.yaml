@@ -28,7 +28,6 @@
   location: 上海
   protocols:
   - ipv4
-  - http
   - https
   added_date: 2016-04-07
 - provider: 网易
@@ -139,7 +138,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
 - provider: 北京外国语大学
   url: https://mirrors.bfsu.edu.cn/archlinuxcn/
@@ -170,7 +168,6 @@
   location: China CDN
   protocols:
   - ipv4
-  - ipv6
   - http
   - https
 
