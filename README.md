@@ -12,7 +12,7 @@ Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 重庆大学 (重庆) (ipv4, ipv6, http, https)
+## 重庆大学 (重庆) (ipv4, ipv6, https)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```

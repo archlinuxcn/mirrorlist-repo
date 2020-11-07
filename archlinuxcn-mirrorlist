@@ -33,7 +33,7 @@
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 #Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 
-## 重庆大学 (重庆) (ipv4, ipv6, http, https)
+## 重庆大学 (重庆) (ipv4, ipv6, https)
 #Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
 ## 上海科技大学 (上海) (ipv4, https)
