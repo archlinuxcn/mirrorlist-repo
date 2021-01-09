@@ -5,13 +5,6 @@ Here is a list of public mirrors of our [community repository](https://github.co
 If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
 
 ```ini
-## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
-## Added: 2017-06-05
-[archlinuxcn]
-Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
-```
-
-```ini
 ## 重庆大学 (重庆) (ipv4, ipv6, https)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
@@ -60,7 +53,7 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ```
 
 ```ini
-## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, https)
+## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
@@ -71,6 +64,20 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 ## Added: 2020-05-18
 [archlinuxcn]
 Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
+## Added: 2021-01-09
+[archlinuxcn]
+Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 浙江大学 (浙江杭州) (ipv4, http, https)
+## Added: 2017-06-05
+[archlinuxcn]
+Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini

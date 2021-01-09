@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2020-11-03
+## Generated on 2021-01-09
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -29,8 +29,10 @@
 
 ## 中国科学技术大学 (安徽合肥) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
+## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
+#Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 
-## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
+## 浙江大学 (浙江杭州) (ipv4, http, https)
 #Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 
 ## 重庆大学 (重庆) (ipv4, ipv6, https)

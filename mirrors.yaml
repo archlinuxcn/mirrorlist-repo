@@ -10,7 +10,6 @@
   location: 浙江杭州
   protocols:
   - ipv4
-  - ipv6
   - http
   - https
   network: CERNET
@@ -137,6 +136,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
 - provider: 北京外国语大学
   url: https://mirrors.bfsu.edu.cn/archlinuxcn/
@@ -167,6 +167,14 @@
   location: China CDN
   protocols:
   - ipv4
+  - http
+- provider: 哈尔滨工业大学
+  url: https://mirrors.hit.edu.cn/archlinuxcn/
+  added_date: 2021-01-09
+  location: 黑龙江哈尔滨
+  protocols:
+  - ipv4
+  - ipv6
   - http
   - https
 
