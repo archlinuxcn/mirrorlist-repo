@@ -101,6 +101,16 @@
   - ipv6
   - http
   - https
+- provider: xTom (Germany server)
+  url: https://mirror.xtom.de/archlinuxcn/
+  comment: xTom Germany Mirror
+  location: Dueseeldorf, Germany
+  added_date: 2021-05-07
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
 - provider: 上海大学开源镜像站
   url: https://mirrors.shuosc.org/archlinuxcn/
   location: 上海
@@ -168,6 +178,7 @@
   protocols:
   - ipv4
   - http
+  - https
 - provider: 哈尔滨工业大学
   url: https://mirrors.hit.edu.cn/archlinuxcn/
   added_date: 2021-01-09

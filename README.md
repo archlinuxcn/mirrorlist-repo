@@ -53,6 +53,14 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ```
 
 ```ini
+## xTom (Germany server) (Dueseeldorf, Germany) (ipv4, ipv6, http, https)
+## Added: 2021-05-07
+## xTom Germany Mirror
+[archlinuxcn]
+Server = https://mirror.xtom.de/archlinuxcn/$arch
+```
+
+```ini
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
