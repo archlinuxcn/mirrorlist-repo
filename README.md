@@ -61,6 +61,14 @@ Server = https://mirror.xtom.de/archlinuxcn/$arch
 ```
 
 ```ini
+## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
+## Added: 2021-05-27
+## xTom Estonia Mirror
+[archlinuxcn]
+Server = https://mirror.xtom.ee/archlinuxcn/$arch
+```
+
+```ini
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
@@ -86,13 +94,6 @@ Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 ## Added: 2017-06-05
 [archlinuxcn]
 Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-## 上海科技大学 (上海) (ipv4, https)
-## Added: 2016-04-07
-[archlinuxcn]
-Server = https://mirrors-wan.geekpie.club/archlinuxcn/$arch
 ```
 
 ```ini

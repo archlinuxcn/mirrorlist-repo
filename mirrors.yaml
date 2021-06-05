@@ -27,7 +27,6 @@
   location: 上海
   protocols:
   - ipv4
-  - https
   added_date: 2016-04-07
 - provider: 网易
   url: https://mirrors.163.com/archlinux-cn/
@@ -43,6 +42,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
@@ -106,6 +106,16 @@
   comment: xTom Germany Mirror
   location: Dueseeldorf, Germany
   added_date: 2021-05-07
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+- provider: xTom (Estonia server)
+  url: https://mirror.xtom.ee/archlinuxcn/
+  comment: xTom Estonia Mirror
+  location: Tallinn, Estonia
+  added_date: 2021-05-27
   protocols:
   - ipv4
   - ipv6
