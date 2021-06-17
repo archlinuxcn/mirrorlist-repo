@@ -16,7 +16,7 @@
   added_date: 2016-04-07
 - provider: 网易
   url: https://mirrors.163.com/archlinux-cn/
-  location: 浙江杭州
+  location: China CDN
   frequency: 1d
   protocols:
   - ipv4
@@ -129,7 +129,7 @@
   - https
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
-  location: 上海
+  location: China CDN
   added_date: 2018-11-23
   protocols:
   - ipv4

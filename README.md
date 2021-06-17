@@ -97,7 +97,7 @@ Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 网易 (浙江杭州) (ipv4, http, https)
+## 网易 (China CDN) (ipv4, http, https)
 [archlinuxcn]
 Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
@@ -117,7 +117,7 @@ Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 腾讯云 (上海) (ipv4, https)
+## 腾讯云 (China CDN) (ipv4, https)
 ## Added: 2018-11-23
 [archlinuxcn]
 Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
