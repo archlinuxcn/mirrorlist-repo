@@ -139,7 +139,7 @@ def sub_readme(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
             mirrors = ordered_load_yaml(source)
-            mirrors.sort(key=lambda m: -mirror_score(m))
+            # mirrors.sort(key=lambda m: -mirror_score(m))
             gen_readme(mirrors)
         except yaml.YAMLError as e:
             sys.exit(repr(e))
@@ -149,7 +149,7 @@ def sub_mirrorlist(args):
     with open(SOURCE_YAML, 'r') as source:
         try:
             mirrors = ordered_load_yaml(source)
-            mirrors.sort(key=lambda m: -mirror_score(m))
+            # mirrors.sort(key=lambda m: -mirror_score(m))
             gen_mirrorlist(mirrors)
         except yaml.YAMLError as e:
             sys.exit(repr(e))
