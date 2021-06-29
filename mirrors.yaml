@@ -173,4 +173,14 @@
   - ipv6
   - http
   - https
+- provider: Campus Computer & Network Society, National Cheng Kung University
+  url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn
+  comment: Resources provided by Computer Science and Information Engineering, NCKU
+  location: Taiwan
+  frequency: 1h
+  added_date: 2021-06-30
+  protocols:
+  - ipv4
+  - http
+  - https
 
