@@ -2,7 +2,7 @@
 
 Here is a list of public mirrors of our [community repository](https://github.com/archlinuxcn/repo).
 
-If you interested in making a mirror of our repository, please contact us at repo@archlinuxcn.org.
+If you interested in making a mirror of our repository, please open an issue or pull request (or contact us at repo@archlinuxcn.org and hope the mail reaches).
 
 ```ini
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
