@@ -97,6 +97,14 @@ Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## Campus Computer & Network Society, National Cheng Kung University (Taiwan) (ipv4, http, https)
+## Added: 2021-06-30
+## Resources provided by Computer Science and Information Engineering, NCKU
+[archlinuxcn]
+Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
+```
+
+```ini
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 ## Added: 2017-09-18
 ## xTom Hong Kong Mirror

@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2021-06-24
+## Generated on 2021-06-30
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -44,6 +44,9 @@
 
 ## 莞工 GNU/Linux 协会 开源软件镜像站 (广东东莞) (ipv4, https)
 #Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
+
+## Campus Computer & Network Society, National Cheng Kung University (Taiwan) (ipv4, http, https)
+#Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
