@@ -112,9 +112,9 @@
   protocols:
   - ipv4
   - https
-- provider: Campus Computer & Network Society, National Cheng Kung University
+- provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
-  comment: Resources provided by Computer Science and Information Engineering, NCKU
+  comment: Resources provided by NCKU CSIE
   location: Taiwan
   frequency: 1h
   added_date: 2021-06-30
