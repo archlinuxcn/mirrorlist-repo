@@ -104,6 +104,14 @@
   protocols:
   - ipv4
   - https
+- provider: 南京大学
+  url: https://mirrors.nju.edu.cn/archlinuxcn/
+  location: 江苏南京
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
 - provider: 莞工 GNU/Linux 协会 开源软件镜像站
   url: https://mirrors.dgut.edu.cn/archlinuxcn/
   location: 广东东莞

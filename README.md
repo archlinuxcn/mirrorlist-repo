@@ -90,6 +90,12 @@ Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
+## 南京大学 (江苏南京) (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://mirrors.nju.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 莞工 GNU/Linux 协会 开源软件镜像站 (广东东莞) (ipv4, https)
 ## Added: 2018-11-03
 [archlinuxcn]

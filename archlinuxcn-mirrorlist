@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2021-07-01
+## Generated on 2021-07-17
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -41,6 +41,9 @@
 
 ## SJTUG 软件源镜像服务 (上海) (ipv4, https)
 #Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
+
+## 南京大学 (江苏南京) (ipv4, ipv6, http, https)
+#Server = https://mirrors.nju.edu.cn/archlinuxcn/$arch
 
 ## 莞工 GNU/Linux 协会 开源软件镜像站 (广东东莞) (ipv4, https)
 #Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
