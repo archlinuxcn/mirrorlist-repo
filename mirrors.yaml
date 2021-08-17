@@ -120,6 +120,16 @@
   protocols:
   - ipv4
   - https
+- provider: 南方科技大学
+  url: https://mirrors.sustech.edu.cn/archlinuxcn/
+  location: 广东深圳
+  added_date: 2021-08-17
+  frequency: 6h
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
