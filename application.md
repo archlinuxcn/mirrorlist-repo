@@ -10,7 +10,7 @@
 RSYNC_PASSWORD=<你的rsync密码> rsync -rtlivH --delete-after --delay-updates --safe-links --max-delete=1000 --contimeout=60 <你的rsync用户名>@sync.repo.archlinuxcn.org::repo .
 ```
 
-关于同步频率：我们的打包机器人 lilac 每天 CST 1、9、17 点多会开始打包，因此建议同步频率6、7小时一次，尽量避开 lilac 打包的时间段。
+关于同步频率：我们的打包机器人 lilac 每天 (Asia/Shanghai, UTC+8) 4、12、20 点多会开始打包，因此建议同步频率6、7小时一次，尽量避开 lilac 打包的时间段。
 
 你也可以发送邮件到 repo 位于 archlinuxcn.org 来申请。
 
