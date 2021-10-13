@@ -4,11 +4,13 @@ import sys
 import time
 import argparse
 import pprint
-from urllib.parse import urlparse, urlunparse
+from urllib.parse import urlparse, urlunparse, quote
 import socket
 from ipaddress import ip_address, IPv4Address, IPv6Address
 from http.client import HTTPConnection, HTTPSConnection
 from collections import OrderedDict
+import logging
+import json
 
 import yaml  # in python-yaml package
 
@@ -16,6 +18,7 @@ import yaml  # in python-yaml package
 SOURCE_YAML = "mirrors.yaml"
 OUTPUT_README = "README.md"
 OUTPUT_MIRRORLIST = "archlinuxcn-mirrorlist"
+OUTPUT_GEOJSON = "geolocs.json"
 
 README_ITEM_TEMPLATE = """```ini
 ## {title}{comments}
@@ -229,6 +232,91 @@ def sub_all(args):
     sub_mirrorlist(args)
 
 
+def geoencoding(session, loc):
+    res = session.get(
+        'https://nominatim.openstreetmap.org/search?q=%s&format=jsonv2' % quote(loc),
+        headers = {
+            'User-Agent': 'archlinuxcn/mirrorlist-repo updater/0.1',
+        },
+    )
+    geo = res.json()[0]
+    logging.info('%s is at (%s, %s)', loc, geo['lat'], geo['lon'])
+    return '%(lat)s, %(lon)s' % geo
+
+
+def sub_geo(args):
+    mirrors = []
+    import requests
+    session = requests.Session()
+    with open(SOURCE_YAML, 'r') as source:
+        try:
+            mirrors = ordered_load_yaml(source)
+        except yaml.YAMLError as e:
+            print(e)
+            sys.exit(1)
+    places = {}
+    for m in mirrors:
+        locs = m.get('geolocs')
+        coords = m.get('geocoords')
+        if locs and coords and len(locs) == len(coords):
+            places.update(zip(locs, coords))
+    for m in mirrors:
+        locs = m.get('geolocs')
+        coords = m.get('geocoords')
+        if not locs:
+            continue
+        if locs and coords and len(locs) == len(coords):
+            continue
+        coords = []
+        for loc in locs:
+            coord = places.get(loc)
+            if not coord:
+                coord = places[loc] = geoencoding(session, loc)
+            coords.append(coord)
+        m['geocoords'] = coords
+    with open(SOURCE_YAML, "w") as output:
+        print(ordered_dump_yaml(mirrors, encoding=None, allow_unicode=True,
+                        default_flow_style=False), file=output)
+
+
+def sub_geojson(args):
+    features = []
+    geojson = {
+        "type": "FeatureCollection",
+        "features": features,
+    }
+    with open(SOURCE_YAML, 'r') as source:
+        try:
+            mirrors = ordered_load_yaml(source)
+            # mirrors.sort(key=lambda m: -mirror_score(m))
+        except yaml.YAMLError as e:
+            sys.exit(repr(e))
+
+    for m in mirrors:
+        coords = m.get('geocoords')
+        if not coords:
+            continue
+        locs = m['geolocs']
+        for loc, coord in zip(locs, coords):
+            lat, lon = coord.split(', ')
+            feature = {
+                "type": "Feature",
+                "properties": {
+                    "mirror": m['provider'],
+                    "url": m['url'],
+                    "name": loc,
+                },
+                "geometry": {
+                    "type": "Point",
+                    "coordinates": [float(lon), float(lat)],
+                }
+            }
+            features.append(feature)
+
+    with open(OUTPUT_GEOJSON, 'w') as f:
+        json.dump(geojson, f, ensure_ascii=False)
+
+
 def main():
     parser = argparse.ArgumentParser(
         description='update mirrors protocols and generate mirrorlist and README.md')
@@ -246,6 +334,12 @@ def main():
     mirrorlistparser.set_defaults(func=sub_mirrorlist)
     allparser = sub.add_parser('all', help='do all 3 above')
     allparser.set_defaults(func=sub_all)
+    geoparser = sub.add_parser(
+        'geo', help=f'update geo coordinates for {SOURCE_YAML}')
+    geoparser.set_defaults(func=sub_geo)
+    geojsonparser = sub.add_parser(
+        'geojson', help=f'generate {OUTPUT_GEOJSON} for {SOURCE_YAML}')
+    geojsonparser.set_defaults(func=sub_geojson)
 
     args = parser.parse_args()
     if 'func' not in args:
@@ -255,4 +349,9 @@ def main():
 
 
 if __name__ == '__main__':
+    try:
+        import nicelogger
+        nicelogger.enable_pretty_logging('INFO')
+    except ImportError:
+        pass
     main()

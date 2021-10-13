@@ -1,88 +1,382 @@
 - provider: Our main server
   url: https://repo.archlinuxcn.org/
   location: Amsterdam, the Netherlands
+  geolocs:
+  - Amsterdam, North Holland, Netherlands
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 52.3727598, 4.8936041
 - provider: OpenTUNA
   url: https://opentuna.cn/archlinuxcn/
   location: China CDN
+  geolocs:
+  - Beijing, China
+  - Guangzhou, Guangdong, China
+  - Langfang, Hebei, China
+  - Shanghai, China
+  - Shenzhen, Guangdong, China
+  - Zhongwei, Ningxia, China
   protocols:
   - ipv4
   - https
+  geocoords:
+  - 39.906217, 116.3912757
+  - 23.1301964, 113.2592945
+  - 39.5128345, 116.6997446
+  - 31.2322758, 121.4692071
+  - 22.555454, 114.0543297
+  - 37.499723, 105.1928783
 - provider: 北京外国语大学
   url: https://mirrors.bfsu.edu.cn/archlinuxcn/
   added_date: 2020-05-18
   location: 北京
+  geolocs:
+  - Beijing, China
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 39.906217, 116.3912757
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
   location: Global CDN
+  geolocs:
+  - Amsterdam, North Holland, Netherlands
+  - Atlanta, Georgia, United States
+  - Bengbu, Anhui, China
+  - Changsha, Hunan, China
+  - Changzhou, Jiangsu, China
+  - Chennai, Tamil Nadu, India
+  - Foshan, Guangdong, China
+  - Frankfurt, Hesse, Germany
+  - Fujairah, Emirate of Fujairah, United Arab Emirates
+  - Fuzhou, Fujian, China
+  - Guangzhou, Guangdong, China
+  - Guiyang, Guizhou, China
+  - Hong Kong
+  - Huizhou, Guangdong, China
+  - Hunan, China
+  - Jinan, Shandong, China
+  - Jiujiang, Jiangxi, China
+  - Kunming, Yunnan, China
+  - London, United Kingdom
+  - Los Angeles, California, United States
+  - Manila, Metro Manila, Philippines
+  - Melbourne, Victoria, Australia
+  - Mumbai, Maharashtra, India
+  - Nanchang, Jiangxi, China
+  - Nanjing, Jiangsu, China
+  - Nantong, Jiangsu, China
+  - Ningbo, Zhejiang, China
+  - Osaka, Japan
+  - Pasig, Metro Manila, Philippines
+  - Shanghai, China
+  - Shenyang, Liaoning, China
+  - Shenzhen, Guangdong, China
+  - Shijiazhuang, Hebei, China
+  - Singapore
+  - Suzhou, Jiangsu, China
+  - Taiyuan, Shanxi, China
+  - Tangshan, Hebei, China
+  - Tianjin, China
+  - Wuhan, Hubei, China
+  - Wuhu, Anhui, China
+  - Wuxi, Jiangsu, China
+  - Xiamen, Fujian, China
+  - Xining, Qinghai, China
+  - Yantai, Shandong, China
+  - Zhengzhou, Henan, China
+  - Zibo, Shandong, China
   added_date: 2018-11-23
   protocols:
   - ipv4
   - http
   - https
+  geocoords:
+  - 52.3727598, 4.8936041
+  - 33.7489924, -84.3902644
+  - 32.9176422, 117.3825673
+  - 28.2302056, 112.9335861
+  - 31.8122623, 119.9691539
+  - 13.0836939, 80.270186
+  - 23.1102636, 112.99801241836545
+  - 50.1106444, 8.6820917
+  - 25.1212273, 56.33403414986288
+  - 25.937271600000003, 119.17376067528227
+  - 23.1301964, 113.2592945
+  - 26.6499922, 106.6246178
+  - 22.2793278, 114.1628131
+  - 23.1146515, 114.4107202
+  - 27.6662087, 111.7487063
+  - 36.6507007, 117.1140042
+  - 29.6653828, 115.9474861
+  - 24.8843019, 102.8324209
+  - 51.5073219, -0.1276474
+  - 34.0536909, -118.242766
+  - 14.5907332, 120.9809674
+  - -37.8142176, 144.9631608
+  - 19.0759899, 72.8773928
+  - 28.687547, 115.8540042
+  - 32.0437711, 118.7788734
+  - 31.9827896, 120.8904588
+  - 29.8622194, 121.6203873
+  - 34.6198813, 135.490357
+  - 14.5594821, 121.0812368
+  - 31.2322758, 121.4692071
+  - 41.6749893, 123.458674
+  - 22.555454, 114.0543297
+  - 38.0429742, 114.5088385
+  - 1.357107, 103.8194992
+  - 31.3016935, 120.5810725
+  - 37.870009, 112.5452739
+  - 39.6295591, 118.1738665
+  - 39.0856735, 117.1951073
+  - 30.5951051, 114.2999353
+  - 31.3536127, 118.4277477
+  - 31.4933074, 120.3074357
+  - 24.4801069, 118.0853479
+  - 36.617331, 101.7761976
+  - 37.461928, 121.4425255
+  - 34.7487244, 113.6191483
+  - 36.819626, 117.980675
 - provider: 网易
   url: https://mirrors.163.com/archlinux-cn/
   location: China CDN
+  geolocs:
+  - Changsha, Hunan, China
+  - Dezhou, Shandong, China
+  - Foshan, Guangdong, China
+  - Fuzhou, Fujian, China
+  - Hangzhou, Zhejiang, China
+  - Jinhua, Zhejiang, China
+  - Lianyungang, Jiangsu, China
+  - Maoming, Guangdong, China
+  - Nantong, Jiangsu, China
+  - Quzhou, Zhejiang, China
+  - Tianjin, China
+  - Zhongshan, Guangdong, China
   frequency: 1d
   protocols:
   - ipv4
   - http
   - https
+  geocoords:
+  - 28.2302056, 112.9335861
+  - 37.4486676, 116.305416
+  - 23.1102636, 112.99801241836545
+  - 25.937271600000003, 119.17376067528227
+  - 30.2489634, 120.2052342
+  - 29.1080344, 119.6486487
+  - 34.5978596, 119.215813
+  - 21.6656961, 110.9209511
+  - 31.9827896, 120.8904588
+  - 28.9268429, 118.8759775
+  - 39.0856735, 117.1951073
+  - 22.5213807, 113.3656141
 - provider: 阿里云
   url: https://mirrors.aliyun.com/archlinuxcn/
   added_date: 2020-07-03
   location: Global CDN
+  geolocs:
+  - Amsterdam, North Holland, Netherlands
+  - Beijing, China
+  - Changzhou, Jiangsu, China
+  - Chicago, Illinois, United States
+  - Dallas, Texas, United States
+  - Dongguan, Guangdong, China
+  - Foshan, Guangdong, China
+  - Frankfurt, Hesse, Germany
+  - Guangzhou, Guangdong, China
+  - Hohhot, Inner Mongolia, China
+  - Hong Kong
+  - Huizhou, Guangdong, China
+  - Kiev, Ukraine
+  - Langfang, Hebei, China
+  - London, United Kingdom
+  - Madrid, Comunidad de Madrid, Spain
+  - Melbourne, Victoria, Australia
+  - Metropolitan City of Milan, Lombardy, Italy
+  - Moscow, Russian Federation
+  - Mumbai, Maharashtra, India
+  - Nanjing, Jiangsu, China
+  - Paris, Ile-de-France, France
+  - Qingdao, Shandong, China
+  - San Jose, California, United States
+  - Seattle, Washington, United States
+  - Shanghai, China
+  - Shenzhen, Guangdong, China
+  - Shijiazhuang, Hebei, China
+  - Singapore
+  - Sterling, Virginia, United States
+  - Stockholm, Stockholm County, Sweden
+  - Suzhou, Jiangsu, China
+  - Sydney, New South Wales, Australia
+  - Tianjin, China
+  - Tokyo, Japan
+  - Wuhan, Hubei, China
+  - Wuxi, Jiangsu, China
+  - Yancheng, Jiangsu, China
+  - Yangzhou, Jiangsu, China
+  - Zhongshan, Guangdong, China
   protocols:
   - ipv4
   - http
   - https
+  geocoords:
+  - 52.3727598, 4.8936041
+  - 39.906217, 116.3912757
+  - 31.8122623, 119.9691539
+  - 41.8755616, -87.6244212
+  - 32.7762719, -96.7968559
+  - 23.0205969, 113.7457788
+  - 23.1102636, 112.99801241836545
+  - 50.1106444, 8.6820917
+  - 23.1301964, 113.2592945
+  - 40.8337963, 111.6730788
+  - 22.2793278, 114.1628131
+  - 23.1146515, 114.4107202
+  - 50.4500336, 30.5241361
+  - 39.5128345, 116.6997446
+  - 51.5073219, -0.1276474
+  - 40.4167047, -3.7035825
+  - -37.8142176, 144.9631608
+  - 45.5074301, 9.2446893
+  - 55.7504461, 37.6174943
+  - 19.0759899, 72.8773928
+  - 32.0437711, 118.7788734
+  - 48.8206809, 2.3635646
+  - 36.0638034, 120.3781372
+  - 37.3361905, -121.890583
+  - 47.6038321, -122.3300624
+  - 31.2322758, 121.4692071
+  - 22.555454, 114.0543297
+  - 38.0429742, 114.5088385
+  - 1.357107, 103.8194992
+  - 39.0017455, -77.4033349
+  - 59.3251172, 18.0710935
+  - 31.3016935, 120.5810725
+  - -33.8548157, 151.2164539
+  - 39.0856735, 117.1951073
+  - 35.6828387, 139.7594549
+  - 30.5951051, 114.2999353
+  - 31.4933074, 120.3074357
+  - 33.3495657, 120.1576778
+  - 32.3969935, 119.4077008
+  - 22.5213807, 113.3656141
 - provider: 华为云
   url: https://repo.huaweicloud.com/archlinuxcn/
   added_date: 2020-10-31
   location: Global CDN
+  geolocs:
+  - Beijing, China
+  - Changzhou, Jiangsu, China
+  - Chengdu, Sichuan, China
+  - Chicago, Illinois, United States
+  - Dallas, Texas, United States
+  - Denver, Colorado, United States
+  - Dongguan, Guangdong, China
+  - Frankfurt, Hesse, Germany
+  - Guangzhou, Guangdong, China
+  - Guiyang, Guizhou, China
+  - Hong Kong
+  - Huangshi, Hubei, China
+  - Jinan, Shandong, China
+  - Langfang, Hebei, China
+  - London, United Kingdom
+  - Los Angeles, California, United States
+  - Nantong, Jiangsu, China
+  - Paris, Ile-de-France, France
+  - Seattle, Washington, United States
+  - Shanghai, China
+  - Shenzhen, Guangdong, China
+  - Shijiazhuang, Hebei, China
+  - Singapore
+  - Suzhou, Jiangsu, China
+  - Tianjin, China
+  - Tokyo, Japan
+  - Yancheng, Jiangsu, China
   protocols:
   - ipv4
   - http
   - https
+  geocoords:
+  - 39.906217, 116.3912757
+  - 31.8122623, 119.9691539
+  - 30.6598628, 104.0633717
+  - 41.8755616, -87.6244212
+  - 32.7762719, -96.7968559
+  - 39.7392364, -104.9848623
+  - 23.0205969, 113.7457788
+  - 50.1106444, 8.6820917
+  - 23.1301964, 113.2592945
+  - 26.6499922, 106.6246178
+  - 22.2793278, 114.1628131
+  - 30.200255, 115.0333466
+  - 36.6507007, 117.1140042
+  - 39.5128345, 116.6997446
+  - 51.5073219, -0.1276474
+  - 34.0536909, -118.242766
+  - 31.9827896, 120.8904588
+  - 48.8206809, 2.3635646
+  - 47.6038321, -122.3300624
+  - 31.2322758, 121.4692071
+  - 22.555454, 114.0543297
+  - 38.0429742, 114.5088385
+  - 1.357107, 103.8194992
+  - 31.3016935, 120.5810725
+  - 39.0856735, 117.1951073
+  - 35.6828387, 139.7594549
+  - 33.3495657, 120.1576778
 - provider: 清华大学
   url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
   frequency: realtime
   location: 北京
+  geolocs:
+  - Beijing, China
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 39.906217, 116.3912757
 - provider: 中国科学技术大学
   url: https://mirrors.ustc.edu.cn/archlinuxcn/
   frequency: realtime
   location: 安徽合肥
+  geolocs:
+  - Hefei, Anhui, China
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 31.747699500000003, 117.33251672423167
 - provider: 哈尔滨工业大学
   url: https://mirrors.hit.edu.cn/archlinuxcn/
   added_date: 2021-01-09
   location: 黑龙江哈尔滨
+  geolocs:
+  - Harbin, Heilongjiang, China
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 45.7988273, 126.5303997
 - provider: 浙江大学
   url: https://mirrors.zju.edu.cn/archlinuxcn/
   location: 浙江杭州
+  geolocs:
+  - Hangzhou, Zhejiang, China
   protocols:
   - ipv4
   - http
@@ -90,16 +384,24 @@
   network: CERNET
   frequency: 6h
   added_date: 2017-06-05
+  geocoords:
+  - 30.2489634, 120.2052342
 - provider: 重庆大学
   url: https://mirrors.cqu.edu.cn/archlinuxcn/
   location: 重庆
+  geolocs:
+  - Chongqing, China
   protocols:
   - ipv4
   - ipv6
   - https
+  geocoords:
+  - 29.5647398, 106.5478767
 - provider: SJTUG 软件源镜像服务
   url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
   location: 上海
+  gelocs:
+  - Shanghai, China
   added_date: 2018-05-21
   protocols:
   - ipv4
@@ -107,22 +409,32 @@
 - provider: 南京大学
   url: https://mirrors.nju.edu.cn/archlinuxcn/
   location: 江苏南京
+  geolocs:
+  - Nanjing, Jiangsu, China
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 32.0437711, 118.7788734
 - provider: 莞工 GNU/Linux 协会 开源软件镜像站
   url: https://mirrors.dgut.edu.cn/archlinuxcn/
   location: 广东东莞
+  geolocs:
+  - Dongguan, Guangdong, China
   added_date: 2018-11-03
   frequency: 6h
   protocols:
   - ipv4
   - https
+  geocoords:
+  - 23.0205969, 113.7457788
 - provider: 南方科技大学
   url: https://mirrors.sustech.edu.cn/archlinuxcn/
   location: 广东深圳
+  geolocs:
+  - Shenzhen, Guangdong, China
   added_date: 2021-08-17
   frequency: 6h
   protocols:
@@ -130,20 +442,28 @@
   - ipv6
   - http
   - https
+  geocoords:
+  - 22.555454, 114.0543297
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
   location: Taiwan
+  geolocs:
+  - Tainan, Taiwan
   frequency: 1h
   added_date: 2021-06-30
   protocols:
   - ipv4
   - http
   - https
+  geocoords:
+  - 22.9912348, 120.184982
 - provider: xTom (Hong Kong server)
   url: https://mirror.xtom.com.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
   location: Hong Kong
+  geolocs:
+  - Hong Kong
   frequency: 7h
   added_date: 2017-09-18
   protocols:
@@ -151,54 +471,76 @@
   - ipv6
   - http
   - https
+  geocoords:
+  - 22.2793278, 114.1628131
 - provider: xTom (US server)
   url: https://mirror.xtom.com/archlinuxcn/
   comment: xTom US Mirror
   location: Fremont, CA, United States
+  geolocs:
+  - Fremont, California, United States
   added_date: 2019-02-19
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 37.5482697, -121.988571
 - provider: xTom (Netherlands server)
   url: https://mirror.xtom.nl/archlinuxcn/
   comment: xTom Netherlands Mirror
   location: Amsterdam, the Netherlands
+  geolocs:
+  - Amsterdam, North Holland, Netherlands
   added_date: 2019-09-07
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 52.3727598, 4.8936041
 - provider: xTom (Germany server)
   url: https://mirror.xtom.de/archlinuxcn/
   comment: xTom Germany Mirror
   location: Dueseeldorf, Germany
+  geolocs:
+  - Dusseldorf, North Rhine-Westphalia, Germany
   added_date: 2021-05-07
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 51.2254018, 6.7763137
 - provider: xTom (Estonia server)
   url: https://mirror.xtom.ee/archlinuxcn/
   comment: xTom Estonia Mirror
   location: Tallinn, Estonia
+  geolocs:
+  - Tallinn, Harju County, Estonia
   added_date: 2021-05-27
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 59.4372155, 24.7453688
 - provider: Open Computing Facility, UC Berkeley
   url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
   added_date: 2019-02-19
   location: Berkeley, CA, United States
+  geolocs:
+  - Berkeley, California, United States
   frequency: 4h
   protocols:
   - ipv4
   - ipv6
   - http
   - https
+  geocoords:
+  - 37.8753497, -122.23963364918777
 
