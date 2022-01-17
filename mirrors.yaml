@@ -226,6 +226,7 @@
   - Zhongshan, Guangdong, China
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
   geocoords:
@@ -405,6 +406,7 @@
   added_date: 2018-05-21
   protocols:
   - ipv4
+  - ipv6
   - https
 - provider: 南京大学
   url: https://mirrors.nju.edu.cn/archlinuxcn/

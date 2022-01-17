@@ -37,7 +37,7 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
-## 阿里云 (Global CDN) (ipv4, http, https)
+## 阿里云 (Global CDN) (ipv4, ipv6, http, https)
 ## Added: 2020-07-03
 [archlinuxcn]
 Server = https://mirrors.aliyun.com/archlinuxcn/$arch
@@ -83,7 +83,7 @@ Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## SJTUG 软件源镜像服务 (上海) (ipv4, https)
+## SJTUG 软件源镜像服务 (上海) (ipv4, ipv6, https)
 ## Added: 2018-05-21
 [archlinuxcn]
 Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
