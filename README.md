@@ -142,7 +142,7 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ```
 
 ```ini
-## xTom (Germany server) (Dueseeldorf, Germany) (ipv4, ipv6, http, https)
+## xTom (Germany server) (Duesseldorf, Germany) (ipv4, ipv6, http, https)
 ## Added: 2021-05-07
 ## xTom Germany Mirror
 [archlinuxcn]

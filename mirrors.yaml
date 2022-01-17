@@ -506,7 +506,7 @@
 - provider: xTom (Germany server)
   url: https://mirror.xtom.de/archlinuxcn/
   comment: xTom Germany Mirror
-  location: Dueseeldorf, Germany
+  location: Duesseldorf, Germany
   geolocs:
   - Dusseldorf, North Rhine-Westphalia, Germany
   added_date: 2021-05-07

@@ -63,7 +63,7 @@
 ## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.nl/archlinuxcn/$arch
 
-## xTom (Germany server) (Dueseeldorf, Germany) (ipv4, ipv6, http, https)
+## xTom (Germany server) (Duesseldorf, Germany) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.de/archlinuxcn/$arch
 
 ## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
