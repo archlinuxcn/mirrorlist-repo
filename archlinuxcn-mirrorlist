@@ -69,5 +69,8 @@
 ## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.ee/archlinuxcn/$arch
 
+## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
+#Server = https://mirror.xtom.jp/archlinuxcn/$arch
+
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch

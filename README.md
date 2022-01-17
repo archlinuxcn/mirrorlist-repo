@@ -158,6 +158,13 @@ Server = https://mirror.xtom.ee/archlinuxcn/$arch
 ```
 
 ```ini
+## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
+## Added: 2022-01-17
+[archlinuxcn]
+Server = https://mirror.xtom.jp/archlinuxcn/$arch
+```
+
+```ini
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 [archlinuxcn]
