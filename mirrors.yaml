@@ -226,6 +226,7 @@
   - Zhongshan, Guangdong, China
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
   geocoords:
@@ -405,6 +406,7 @@
   added_date: 2018-05-21
   protocols:
   - ipv4
+  - ipv6
   - https
 - provider: 南京大学
   url: https://mirrors.nju.edu.cn/archlinuxcn/
@@ -504,7 +506,7 @@
 - provider: xTom (Germany server)
   url: https://mirror.xtom.de/archlinuxcn/
   comment: xTom Germany Mirror
-  location: Dueseeldorf, Germany
+  location: Duesseldorf, Germany
   geolocs:
   - Dusseldorf, North Rhine-Westphalia, Germany
   added_date: 2021-05-07
@@ -529,6 +531,19 @@
   - https
   geocoords:
   - 59.4372155, 24.7453688
+- provider: xTom (Japan server)
+  url: https://mirror.xtom.jp/archlinuxcn/
+  location: Osaka, Japan
+  geolocs:
+  - Osaka, Japan
+  added_date: 2022-01-17
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 34.6198813, 135.490357
 - provider: Open Computing Facility, UC Berkeley
   url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
   added_date: 2019-02-19

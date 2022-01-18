@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2021-08-17
+## Generated on 2022-01-17
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -18,7 +18,7 @@
 ## 网易 (China CDN) (ipv4, http, https)
 #Server = https://mirrors.163.com/archlinux-cn/$arch
 
-## 阿里云 (Global CDN) (ipv4, http, https)
+## 阿里云 (Global CDN) (ipv4, ipv6, http, https)
 #Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 
 ## 华为云 (Global CDN) (ipv4, http, https)
@@ -39,7 +39,7 @@
 ## 重庆大学 (重庆) (ipv4, ipv6, https)
 #Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
-## SJTUG 软件源镜像服务 (上海) (ipv4, https)
+## SJTUG 软件源镜像服务 (上海) (ipv4, ipv6, https)
 #Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
 
 ## 南京大学 (江苏南京) (ipv4, ipv6, http, https)
@@ -63,11 +63,14 @@
 ## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.nl/archlinuxcn/$arch
 
-## xTom (Germany server) (Dueseeldorf, Germany) (ipv4, ipv6, http, https)
+## xTom (Germany server) (Duesseldorf, Germany) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.de/archlinuxcn/$arch
 
 ## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
 #Server = https://mirror.xtom.ee/archlinuxcn/$arch
+
+## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
+#Server = https://mirror.xtom.jp/archlinuxcn/$arch
 
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 #Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
