@@ -398,6 +398,16 @@
   - https
   geocoords:
   - 29.5647398, 106.5478767
+- provider: 重庆邮电大学
+  url: https://mirrors.cqupt.edu.cn/archlinuxcn/
+  location: 重庆
+  geolocs:
+  - Chongqing, China
+  protocols:
+  - ipv4
+  - https
+  geocoords:
+  - 29.431586,106.912251
 - provider: SJTUG 软件源镜像服务
   url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
   location: 上海
