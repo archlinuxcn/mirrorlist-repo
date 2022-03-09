@@ -405,9 +405,10 @@
   - Chongqing, China
   protocols:
   - ipv4
+  - http
   - https
   geocoords:
-  - 29.431586,106.912251
+  - 29.431586, 106.912251
 - provider: SJTUG 软件源镜像服务
   url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
   location: 上海
