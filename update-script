@@ -29,7 +29,7 @@ Server = {url}$arch
 
 MIRRORLIST_ITEM_TEMPLATE = """\
 ## {title}
-#Server = {url}$arch
+# Server = {url}$arch
 """
 
 README_TEMPLATE = """### Arch Linux CN Community repo mirrors list
