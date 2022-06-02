@@ -21,6 +21,9 @@
 ## 阿里云 (Global CDN) (ipv4, ipv6, http, https)
 # Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 
+## 华为云 (Global CDN) (ipv4, http, https)
+# Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 # Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 
