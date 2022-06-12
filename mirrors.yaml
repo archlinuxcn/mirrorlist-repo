@@ -555,6 +555,19 @@
   - https
   geocoords:
   - 34.6198813, 135.490357
+- provider: xTom (Australia server)
+  url: https://mirror.xtom.au/archlinuxcn/
+  location: Sydney, Australia
+  geolocs:
+  - Sydney, Australia
+  added_date: 2022-06-12
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - -33.8698439, 151.2082848
 - provider: Open Computing Facility, UC Berkeley
   url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
   added_date: 2019-02-19

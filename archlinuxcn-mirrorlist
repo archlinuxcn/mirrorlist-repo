@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2022-04-11
+## Generated on 2022-06-12
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -74,6 +74,9 @@
 
 ## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
 # Server = https://mirror.xtom.jp/archlinuxcn/$arch
+
+## xTom (Australia server) (Sydney, Australia) (ipv4, ipv6, http, https)
+# Server = https://mirror.xtom.au/archlinuxcn/$arch
 
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 # Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
