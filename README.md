@@ -70,7 +70,7 @@ Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 浙江大学 (浙江杭州) (ipv4, http, https)
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 ## Added: 2017-06-05
 [archlinuxcn]
 Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
@@ -128,15 +128,15 @@ Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 ## Added: 2017-09-18
 ## xTom Hong Kong Mirror
 [archlinuxcn]
-Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
+Server = https://mirrors.xtom.hk/archlinuxcn/$arch
 ```
 
 ```ini
-## xTom (US server) (Fremont, CA, United States) (ipv4, ipv6, http, https)
+## xTom (US server) (San Jose, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 ## xTom US Mirror
 [archlinuxcn]
-Server = https://mirror.xtom.com/archlinuxcn/$arch
+Server = https://mirrors.xtom.us/archlinuxcn/$arch
 ```
 
 ```ini
@@ -144,7 +144,7 @@ Server = https://mirror.xtom.com/archlinuxcn/$arch
 ## Added: 2019-09-07
 ## xTom Netherlands Mirror
 [archlinuxcn]
-Server = https://mirror.xtom.nl/archlinuxcn/$arch
+Server = https://mirrors.xtom.nl/archlinuxcn/$arch
 ```
 
 ```ini
@@ -152,7 +152,7 @@ Server = https://mirror.xtom.nl/archlinuxcn/$arch
 ## Added: 2021-05-07
 ## xTom Germany Mirror
 [archlinuxcn]
-Server = https://mirror.xtom.de/archlinuxcn/$arch
+Server = https://mirrors.xtom.de/archlinuxcn/$arch
 ```
 
 ```ini
@@ -160,14 +160,21 @@ Server = https://mirror.xtom.de/archlinuxcn/$arch
 ## Added: 2021-05-27
 ## xTom Estonia Mirror
 [archlinuxcn]
-Server = https://mirror.xtom.ee/archlinuxcn/$arch
+Server = https://mirrors.xtom.ee/archlinuxcn/$arch
 ```
 
 ```ini
 ## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
 ## Added: 2022-01-17
 [archlinuxcn]
-Server = https://mirror.xtom.jp/archlinuxcn/$arch
+Server = https://mirrors.xtom.jp/archlinuxcn/$arch
+```
+
+```ini
+## xTom (Australia server) (Sydney, Australia) (ipv4, ipv6, http, https)
+## Added: 2022-07-03
+[archlinuxcn]
+Server = https://mirrors.xtom.au/archlinuxcn/$arch
 ```
 
 ```ini

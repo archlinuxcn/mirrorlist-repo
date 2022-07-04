@@ -380,6 +380,7 @@
   - Hangzhou, Zhejiang, China
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
   network: CERNET
@@ -472,7 +473,7 @@
   geocoords:
   - 22.9912348, 120.184982
 - provider: xTom (Hong Kong server)
-  url: https://mirror.xtom.com.hk/archlinuxcn/
+  url: https://mirrors.xtom.hk/archlinuxcn/
   comment: xTom Hong Kong Mirror
   location: Hong Kong
   geolocs:
@@ -487,11 +488,11 @@
   geocoords:
   - 22.2793278, 114.1628131
 - provider: xTom (US server)
-  url: https://mirror.xtom.com/archlinuxcn/
+  url: https://mirrors.xtom.us/archlinuxcn/
   comment: xTom US Mirror
-  location: Fremont, CA, United States
+  location: San Jose, CA, United States
   geolocs:
-  - Fremont, California, United States
+  - San Jose, California, United States
   added_date: 2019-02-19
   protocols:
   - ipv4
@@ -499,9 +500,9 @@
   - http
   - https
   geocoords:
-  - 37.5482697, -121.988571
+  - 37.3361905, -121.890583
 - provider: xTom (Netherlands server)
-  url: https://mirror.xtom.nl/archlinuxcn/
+  url: https://mirrors.xtom.nl/archlinuxcn/
   comment: xTom Netherlands Mirror
   location: Amsterdam, the Netherlands
   geolocs:
@@ -515,7 +516,7 @@
   geocoords:
   - 52.3727598, 4.8936041
 - provider: xTom (Germany server)
-  url: https://mirror.xtom.de/archlinuxcn/
+  url: https://mirrors.xtom.de/archlinuxcn/
   comment: xTom Germany Mirror
   location: Duesseldorf, Germany
   geolocs:
@@ -529,7 +530,7 @@
   geocoords:
   - 51.2254018, 6.7763137
 - provider: xTom (Estonia server)
-  url: https://mirror.xtom.ee/archlinuxcn/
+  url: https://mirrors.xtom.ee/archlinuxcn/
   comment: xTom Estonia Mirror
   location: Tallinn, Estonia
   geolocs:
@@ -543,7 +544,7 @@
   geocoords:
   - 59.4372155, 24.7453688
 - provider: xTom (Japan server)
-  url: https://mirror.xtom.jp/archlinuxcn/
+  url: https://mirrors.xtom.jp/archlinuxcn/
   location: Osaka, Japan
   geolocs:
   - Osaka, Japan
@@ -555,6 +556,19 @@
   - https
   geocoords:
   - 34.6198813, 135.490357
+- provider: xTom (Australia server)
+  url: https://mirrors.xtom.au/archlinuxcn/
+  location: Sydney, Australia
+  geolocs:
+  - Sydney, Australia
+  added_date: 2022-07-03
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - -33.8698439, 151.2082848
 - provider: Open Computing Facility, UC Berkeley
   url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
   added_date: 2019-02-19

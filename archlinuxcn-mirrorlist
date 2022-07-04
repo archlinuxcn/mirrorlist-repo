@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2022-04-11
+## Generated on 2022-07-04
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -33,7 +33,7 @@
 ## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
 # Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 
-## 浙江大学 (浙江杭州) (ipv4, http, https)
+## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 # Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 
 ## 重庆大学 (重庆) (ipv4, ipv6, https)
@@ -58,22 +58,25 @@
 # Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.com.hk/archlinuxcn/$arch
+# Server = https://mirrors.xtom.hk/archlinuxcn/$arch
 
-## xTom (US server) (Fremont, CA, United States) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.com/archlinuxcn/$arch
+## xTom (US server) (San Jose, CA, United States) (ipv4, ipv6, http, https)
+# Server = https://mirrors.xtom.us/archlinuxcn/$arch
 
 ## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.nl/archlinuxcn/$arch
+# Server = https://mirrors.xtom.nl/archlinuxcn/$arch
 
 ## xTom (Germany server) (Duesseldorf, Germany) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.de/archlinuxcn/$arch
+# Server = https://mirrors.xtom.de/archlinuxcn/$arch
 
 ## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.ee/archlinuxcn/$arch
+# Server = https://mirrors.xtom.ee/archlinuxcn/$arch
 
 ## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
-# Server = https://mirror.xtom.jp/archlinuxcn/$arch
+# Server = https://mirrors.xtom.jp/archlinuxcn/$arch
+
+## xTom (Australia server) (Sydney, Australia) (ipv4, ipv6, http, https)
+# Server = https://mirrors.xtom.au/archlinuxcn/$arch
 
 ## Open Computing Facility, UC Berkeley (Berkeley, CA, United States) (ipv4, ipv6, http, https)
 # Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
