@@ -369,7 +369,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 45.7988273, 126.5303997
@@ -396,6 +395,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
   geocoords:
   - 29.5647398, 106.5478767
@@ -411,7 +411,7 @@
   geocoords:
   - 29.431586, 106.912251
 - provider: SJTUG 软件源镜像服务
-  url: https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/
+  url: https://mirror.sjtu.edu.cn/archlinux-cn/
   location: 上海
   gelocs:
   - Shanghai, China
@@ -441,7 +441,7 @@
   frequency: 6h
   protocols:
   - ipv4
-  - https
+  - ipv6
   geocoords:
   - 23.0205969, 113.7457788
 - provider: 南方科技大学

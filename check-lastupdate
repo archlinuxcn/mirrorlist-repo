@@ -48,12 +48,11 @@ async def main():
       futures.append(fu)
     fu = get_lastupdate(session, 'tier0', 'https://repo.archlinuxcn.org/lastupdate')
     futures.append(fu)
-    results, _ = await asyncio.wait(futures)
+    results = await asyncio.gather(*futures)
 
   done = {}
   error = {}
-  for fu in results:
-    name, dt = fu.result()
+  for name, dt in results:
     if isinstance(dt, int):
       done[name] = dt
     else:

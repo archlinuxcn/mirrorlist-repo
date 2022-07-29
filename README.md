@@ -63,7 +63,7 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
+## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, https)
 ## Added: 2021-01-09
 [archlinuxcn]
 Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
@@ -77,7 +77,7 @@ Server = https://mirrors.zju.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 重庆大学 (重庆) (ipv4, ipv6, https)
+## 重庆大学 (重庆) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
@@ -92,20 +92,13 @@ Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
 ## SJTUG 软件源镜像服务 (上海) (ipv4, ipv6, https)
 ## Added: 2018-05-21
 [archlinuxcn]
-Server = https://mirrors.sjtug.sjtu.edu.cn/archlinux-cn/$arch
+Server = https://mirror.sjtu.edu.cn/archlinux-cn/$arch
 ```
 
 ```ini
 ## 南京大学 (江苏南京) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.nju.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-## 莞工 GNU/Linux 协会 开源软件镜像站 (广东东莞) (ipv4, https)
-## Added: 2018-11-03
-[archlinuxcn]
-Server = https://mirrors.dgut.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
