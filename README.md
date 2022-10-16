@@ -119,7 +119,7 @@ Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 ```ini
 ## xTom (Hong Kong server) (Hong Kong) (ipv4, ipv6, http, https)
 ## Added: 2017-09-18
-## xTom Hong Kong Mirror
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.hk/archlinuxcn/$arch
 ```
@@ -127,7 +127,7 @@ Server = https://mirrors.xtom.hk/archlinuxcn/$arch
 ```ini
 ## xTom (US server) (San Jose, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
-## xTom US Mirror
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.us/archlinuxcn/$arch
 ```
@@ -135,7 +135,7 @@ Server = https://mirrors.xtom.us/archlinuxcn/$arch
 ```ini
 ## xTom (Netherlands server) (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
 ## Added: 2019-09-07
-## xTom Netherlands Mirror
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.nl/archlinuxcn/$arch
 ```
@@ -143,7 +143,7 @@ Server = https://mirrors.xtom.nl/archlinuxcn/$arch
 ```ini
 ## xTom (Germany server) (Duesseldorf, Germany) (ipv4, ipv6, http, https)
 ## Added: 2021-05-07
-## xTom Germany Mirror
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.de/archlinuxcn/$arch
 ```
@@ -151,7 +151,7 @@ Server = https://mirrors.xtom.de/archlinuxcn/$arch
 ```ini
 ## xTom (Estonia server) (Tallinn, Estonia) (ipv4, ipv6, http, https)
 ## Added: 2021-05-27
-## xTom Estonia Mirror
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.ee/archlinuxcn/$arch
 ```
@@ -159,6 +159,7 @@ Server = https://mirrors.xtom.ee/archlinuxcn/$arch
 ```ini
 ## xTom (Japan server) (Osaka, Japan) (ipv4, ipv6, http, https)
 ## Added: 2022-01-17
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.jp/archlinuxcn/$arch
 ```
@@ -166,6 +167,7 @@ Server = https://mirrors.xtom.jp/archlinuxcn/$arch
 ```ini
 ## xTom (Australia server) (Sydney, Australia) (ipv4, ipv6, http, https)
 ## Added: 2022-07-03
+## Blocking users in China
 [archlinuxcn]
 Server = https://mirrors.xtom.au/archlinuxcn/$arch
 ```
