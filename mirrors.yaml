@@ -474,7 +474,7 @@
   - 22.9912348, 120.184982
 - provider: xTom (Hong Kong server)
   url: https://mirrors.xtom.hk/archlinuxcn/
-  comment: xTom Hong Kong Mirror
+  comment: Blocking users in mainland China
   location: Hong Kong
   geolocs:
   - Hong Kong
@@ -489,7 +489,7 @@
   - 22.2793278, 114.1628131
 - provider: xTom (US server)
   url: https://mirrors.xtom.us/archlinuxcn/
-  comment: xTom US Mirror
+  comment: Blocking users in mainland China
   location: San Jose, CA, United States
   geolocs:
   - San Jose, California, United States
@@ -503,7 +503,7 @@
   - 37.3361905, -121.890583
 - provider: xTom (Netherlands server)
   url: https://mirrors.xtom.nl/archlinuxcn/
-  comment: xTom Netherlands Mirror
+  comment: Blocking users in mainland China
   location: Amsterdam, the Netherlands
   geolocs:
   - Amsterdam, North Holland, Netherlands
@@ -517,7 +517,7 @@
   - 52.3727598, 4.8936041
 - provider: xTom (Germany server)
   url: https://mirrors.xtom.de/archlinuxcn/
-  comment: xTom Germany Mirror
+  comment: Blocking users in mainland China
   location: Duesseldorf, Germany
   geolocs:
   - Dusseldorf, North Rhine-Westphalia, Germany
@@ -531,7 +531,7 @@
   - 51.2254018, 6.7763137
 - provider: xTom (Estonia server)
   url: https://mirrors.xtom.ee/archlinuxcn/
-  comment: xTom Estonia Mirror
+  comment: Blocking users in mainland China
   location: Tallinn, Estonia
   geolocs:
   - Tallinn, Harju County, Estonia
@@ -545,6 +545,7 @@
   - 59.4372155, 24.7453688
 - provider: xTom (Japan server)
   url: https://mirrors.xtom.jp/archlinuxcn/
+  comment: Blocking users in mainland China
   location: Osaka, Japan
   geolocs:
   - Osaka, Japan
@@ -558,6 +559,7 @@
   - 34.6198813, 135.490357
 - provider: xTom (Australia server)
   url: https://mirrors.xtom.au/archlinuxcn/
+  comment: Blocking users in mainland China
   location: Sydney, Australia
   geolocs:
   - Sydney, Australia
