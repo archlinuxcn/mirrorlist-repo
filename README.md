@@ -184,5 +184,5 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 Dependency: `debuginfod`
 
 ```bash
-cp -rv archlinuxcn.urls /etc/debuginfod/archlinux.urls
+cp -rv archlinuxcn.urls /etc/debuginfod/archlinuxcn.urls
 ```
