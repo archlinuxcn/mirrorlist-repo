@@ -179,10 +179,8 @@ Server = https://mirrors.xtom.au/archlinuxcn/$arch
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 ```
 
-## Arch Linux CN Community repo debuginfod URLS configuration
-
-Dependency: `debuginfod`
+## Arch Linux CN Community repo debuginfod configuration
 
 ```bash
-cp -rv archlinuxcn.urls /etc/debuginfod/archlinuxcn.urls
+cp -v archlinuxcn.urls /etc/debuginfod/
 ```
