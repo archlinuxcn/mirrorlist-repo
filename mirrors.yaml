@@ -43,6 +43,19 @@
   - https
   geocoords:
   - 39.906217, 116.3912757
+- provider: 北京大学
+  url: https://mirrors.pku.edu.cn/archlinuxcn/
+  added_date: 2023-02-26
+  location: 北京
+  geolocs:
+  - Beijing, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 39.906217, 116.3912757
 - provider: 腾讯云
   url: https://mirrors.cloud.tencent.com/archlinuxcn/
   location: Global CDN
@@ -369,6 +382,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
   geocoords:
   - 45.7988273, 126.5303997

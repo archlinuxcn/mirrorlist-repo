@@ -24,6 +24,13 @@ Server = https://mirrors.bfsu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 北京大学 (北京) (ipv4, ipv6, http, https)
+## Added: 2023-02-26
+[archlinuxcn]
+Server = https://mirrors.pku.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 腾讯云 (Global CDN) (ipv4, http, https)
 ## Added: 2018-11-23
 [archlinuxcn]
@@ -63,7 +70,7 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, https)
+## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
 ## Added: 2021-01-09
 [archlinuxcn]
 Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
