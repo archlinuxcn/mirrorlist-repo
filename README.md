@@ -188,6 +188,8 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 
 ## Arch Linux CN Community repo debuginfod configuration
 
+(This is included in our `archlinuxcn-mirrorlist-git` package.)
+
 ```bash
 cp -v archlinuxcn.urls /etc/debuginfod/
 ```
