@@ -472,6 +472,20 @@
   - https
   geocoords:
   - 22.555454, 114.0543297
+- provider: 武昌首义学院
+  url: https://mirrors.wsyu.edu.cn/archlinuxcn/
+  location: 湖北武汉
+  geolocs:
+  - Wuhan, Hubei, China
+  added_date: 2023-04-07
+  frequency: 3m
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 30.48894, 114.30330
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
