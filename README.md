@@ -1,4 +1,4 @@
-### Arch Linux CN Community repo mirrors list
+## Arch Linux CN Community repo mirrors list
 
 Here is a list of public mirrors of our [community repository](https://github.com/archlinuxcn/repo).
 
@@ -116,6 +116,13 @@ Server = https://mirrors.sustech.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 武昌首义学院 (湖北武汉) (ipv4, ipv6, http, https)
+## Added: 2023-04-07
+[archlinuxcn]
+Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE
@@ -186,6 +193,7 @@ Server = https://mirrors.xtom.au/archlinuxcn/$arch
 Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 ```
 
+
 ## Arch Linux CN Community repo debuginfod configuration
 
 (This is included in our `archlinuxcn-mirrorlist-git` package.)
@@ -193,3 +201,4 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 ```bash
 cp -v archlinuxcn.urls /etc/debuginfod/
 ```
+
