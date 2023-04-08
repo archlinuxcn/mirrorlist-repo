@@ -32,12 +32,21 @@ MIRRORLIST_ITEM_TEMPLATE = """\
 # Server = {url}$arch
 """
 
-README_TEMPLATE = """### Arch Linux CN Community repo mirrors list
+README_TEMPLATE = """## Arch Linux CN Community repo mirrors list
 
 Here is a list of public mirrors of our [community repository](https://github.com/archlinuxcn/repo).
 
 If you interested in making a mirror of our repository, please open an issue or pull request (or contact us at repo@archlinuxcn.org and hope the mail reaches).
 
+{}
+
+## Arch Linux CN Community repo debuginfod configuration
+
+(This is included in our `archlinuxcn-mirrorlist-git` package.)
+
+```bash
+cp -v archlinuxcn.urls /etc/debuginfod/
+```
 """
 
 ## ordered_load/dump_yaml from https://stackoverflow.com/a/21912744
@@ -115,7 +124,7 @@ def gen_readme(mirrors):
             readme_item(item) for item in mirrors
             if {'http', 'https'} & set(item['protocols'])
         ]
-        print(README_TEMPLATE + '\n'.join(readme_items), file=output)
+        print(README_TEMPLATE.format('\n'.join(readme_items)), file=output)
 
 
 def mirrorlist_item(item):
@@ -171,7 +180,9 @@ def sub_list(args):
 def try_connect(domain, url, connection):
     try:
         http = connection(domain, timeout=5)
-        http.request('GET', url.path)
+        http.request('GET', url.path, headers={
+            'User-Agent': 'curl/8.0.1',
+        })
         res = http.getresponse()
         if res.status == 200:
             return True
