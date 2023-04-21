@@ -386,6 +386,19 @@
   - https
   geocoords:
   - 45.7988273, 126.5303997
+- provider: 吉林大学
+  url: https://mirrors.jlu.edu.cn/archlinuxcn/
+  added_date: 2023-04-21
+  location: 吉林长春
+  geolocs:
+  - Changchun, Jilin, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 43.831, 125.285
 - provider: 浙江大学
   url: https://mirrors.zju.edu.cn/archlinuxcn/
   location: 浙江杭州
