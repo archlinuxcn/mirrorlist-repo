@@ -77,6 +77,13 @@ Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 吉林大学 (吉林长春) (ipv4, ipv6, http, https)
+## Added: 2023-04-21
+[archlinuxcn]
+Server = https://mirrors.jlu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 浙江大学 (浙江杭州) (ipv4, ipv6, http, https)
 ## Added: 2017-06-05
 [archlinuxcn]
