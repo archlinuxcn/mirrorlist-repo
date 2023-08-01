@@ -117,6 +117,13 @@ Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+##  北京交通大学(北京) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE

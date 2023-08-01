@@ -54,6 +54,9 @@
 ## 武昌首义学院 (湖北武汉) (ipv4, ipv6, http, https)
 # Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 
+## 北京交通大学 (北京) (ipv4, ipv6, http, https)
+# Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
+
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 # Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 
