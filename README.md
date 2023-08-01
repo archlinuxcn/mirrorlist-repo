@@ -124,6 +124,13 @@ Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+##  兰州大学(甘肃兰州) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.lzu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE
