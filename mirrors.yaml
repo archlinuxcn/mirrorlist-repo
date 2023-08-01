@@ -550,6 +550,18 @@
   - https
   geocoords:
   - 121.601394, 31.182971
+- provider: 中国科学院软件研究所
+  url: https://mirror.iscas.ac.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 北京
+  geolocs:
+  - Beijing, China
+  protocols:
+  - ipv4
+  - http
+  - https
+  geocoords:
+  - 116.343599, 39.985537
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE

@@ -66,6 +66,9 @@
 ## 上海科技大学 (上海) (ipv4, http, https)
 # Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
 
+##  中国科学院软件研究所(北京) (ipv4, http, https)
+# Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
+
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 # Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 
