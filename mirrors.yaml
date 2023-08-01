@@ -525,6 +525,19 @@
   - https
   geocoords:
   - 103.867812, 36.050882
+- provider: 西安交通大学
+  url: https://mirrors.xjtu.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 陕西西安
+  geolocs:
+  - Xian, Shanxi, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 103.993214, 30.770399
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
