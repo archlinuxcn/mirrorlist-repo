@@ -138,6 +138,13 @@ Server = https://mirrors.xjtu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+##  上海科技大学(上海) (ipv4, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE

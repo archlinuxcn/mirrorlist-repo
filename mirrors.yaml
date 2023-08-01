@@ -538,6 +538,18 @@
   - https
   geocoords:
   - 103.993214, 30.770399
+- provider: 上海科技大学
+  url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 上海
+  geolocs:
+  - Shanghai, China
+  protocols:
+  - ipv4
+  - http
+  - https
+  geocoords:
+  - 121.601394, 31.182971
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
