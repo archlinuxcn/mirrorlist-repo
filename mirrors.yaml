@@ -538,6 +538,19 @@
   - https
   geocoords:
   - 103.993214, 30.770399
+- provider: 南阳理工学院
+  url: https://mirror.nyist.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 河南南阳
+  geolocs:
+  - Nanyang, Henan, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 23.586677, 113.621743
 - provider: 上海科技大学
   url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
   added_date: 2023-08-19

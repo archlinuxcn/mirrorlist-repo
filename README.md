@@ -138,6 +138,13 @@ Server = https://mirrors.xjtu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+##  南阳理工学院(河南南阳) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.nyist.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ##  上海科技大学(上海) (ipv4, http, https)
 ## Added: 2023-08-19
 [archlinuxcn]
