@@ -524,7 +524,7 @@
   - http
   - https
   geocoords:
-  - 103.867812, 36.050882
+  - 36.050882, 103.867812 
 - provider: 西安交通大学
   url: https://mirrors.xjtu.edu.cn/archlinuxcn/
   added_date: 2023-08-19
@@ -537,7 +537,7 @@
   - http
   - https
   geocoords:
-  - 103.993214, 30.770399
+  - 30.770399, 103.993214
 - provider: 南阳理工学院
   url: https://mirror.nyist.edu.cn/archlinuxcn/
   added_date: 2023-08-19
@@ -563,7 +563,7 @@
   - http
   - https
   geocoords:
-  - 118.647258, 32.088423
+  - 32.088423, 118.647258
 - provider: 上海科技大学
   url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
   added_date: 2023-08-19
@@ -575,7 +575,7 @@
   - http
   - https
   geocoords:
-  - 121.601394, 31.182971
+  - 31.182971, 121.601394
 - provider: 中国科学院软件研究所
   url: https://mirror.iscas.ac.cn/archlinuxcn/
   added_date: 2023-08-19
@@ -587,7 +587,7 @@
   - http
   - https
   geocoords:
-  - 116.343599, 39.985537
+  - 39.985537, 116.343599
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
