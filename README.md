@@ -11,6 +11,14 @@ Server = https://repo.archlinuxcn.org/$arch
 ```
 
 ```ini
+## CERNET (中国) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+## This will redirect you to the closest China educational mirror site. However, be aware that some sites may not be compatible with IPv6.
+[archlinuxcn]
+Server = https://mirrors.cernet.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## OpenTUNA (China CDN) (ipv4, https)
 [archlinuxcn]
 Server = https://opentuna.cn/archlinuxcn/$arch
