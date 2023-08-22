@@ -11,6 +11,14 @@ Server = https://repo.archlinuxcn.org/$arch
 ```
 
 ```ini
+## CERNET (中国) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+## This will redirect you to the nearest China educational mirror site. However, please note that some sites may not support IPv6.
+[archlinuxcn]
+Server = https://mirrors.cernet.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## OpenTUNA (China CDN) (ipv4, https)
 [archlinuxcn]
 Server = https://opentuna.cn/archlinuxcn/$arch
@@ -114,6 +122,55 @@ Server = https://mirrors.sustech.edu.cn/archlinuxcn/$arch
 ## Added: 2023-04-07
 [archlinuxcn]
 Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 北京交通大学 (北京) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 兰州大学 (甘肃兰州) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.lzu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 西安交通大学 (陕西西安) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirrors.xjtu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 南阳理工学院 (河南南阳) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.nyist.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 南京工业大学 (江苏南京) (ipv4, ipv6, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirrors.njtech.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 上海科技大学 (上海) (ipv4, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 中国科学院软件研究所 (北京) (ipv4, http, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 ```
 
 ```ini

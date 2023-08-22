@@ -499,6 +499,95 @@
   - https
   geocoords:
   - 30.48894, 114.30330
+- provider: 北京交通大学
+  url: https://mirror.bjtu.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 北京
+  geolocs:
+  - Beijing, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 39.957902, 116.34974
+- provider: 兰州大学
+  url: https://mirror.lzu.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 甘肃兰州
+  geolocs:
+  - Lanzhou, Gansu, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 36.050882, 103.867812 
+- provider: 西安交通大学
+  url: https://mirrors.xjtu.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 陕西西安
+  geolocs:
+  - Xian, Shanxi, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 30.770399, 103.993214
+- provider: 南阳理工学院
+  url: https://mirror.nyist.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 河南南阳
+  geolocs:
+  - Nanyang, Henan, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 23.586677, 113.621743
+- provider: 南京工业大学
+  url: https://mirrors.njtech.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 江苏南京
+  geolocs:
+  - Nanjing, Jiangsu, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 32.088423, 118.647258
+- provider: 上海科技大学
+  url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 上海
+  geolocs:
+  - Shanghai, China
+  protocols:
+  - ipv4
+  - http
+  - https
+  geocoords:
+  - 31.182971, 121.601394
+- provider: 中国科学院软件研究所
+  url: https://mirror.iscas.ac.cn/archlinuxcn/
+  added_date: 2023-08-19
+  location: 北京
+  geolocs:
+  - Beijing, China
+  protocols:
+  - ipv4
+  - http
+  - https
+  geocoords:
+  - 39.985537, 116.343599
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
@@ -626,4 +715,3 @@
   - https
   geocoords:
   - 37.8753497, -122.23963364918777
-
