@@ -59,6 +59,13 @@ Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 ```
 
 ```ini
+## 华为云 (Global CDN) (ipv4, http, https)
+## Added: 2020-10-31
+[archlinuxcn]
+Server = https://repo.huaweicloud.com/archlinuxcn/$arch
+```
+
+```ini
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
@@ -125,7 +132,7 @@ Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 北京交通大学 (北京) (ipv4, ipv6, http, https)
+## 北京交通大学 (北京) (ipv4, ipv6, https)
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
@@ -160,14 +167,14 @@ Server = https://mirrors.njtech.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 上海科技大学 (上海) (ipv4, http, https)
+## 上海科技大学 (上海) (ipv4, https)
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 中国科学院软件研究所 (北京) (ipv4, http, https)
+## 中国科学院软件研究所 (北京) (ipv4, https)
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch

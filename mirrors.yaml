@@ -433,8 +433,6 @@
   - Chongqing, China
   protocols:
   - ipv4
-  - http
-  - https
   geocoords:
   - 29.431586, 106.912251
 - provider: SJTUG 软件源镜像服务
@@ -468,7 +466,6 @@
   frequency: 6h
   protocols:
   - ipv4
-  - ipv6
   geocoords:
   - 23.0205969, 113.7457788
 - provider: 南方科技大学
@@ -508,7 +505,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 39.957902, 116.34974
@@ -524,7 +520,7 @@
   - http
   - https
   geocoords:
-  - 36.050882, 103.867812 
+  - 36.050882, 103.867812
 - provider: 西安交通大学
   url: https://mirrors.xjtu.edu.cn/archlinuxcn/
   added_date: 2023-08-19
@@ -572,7 +568,6 @@
   - Shanghai, China
   protocols:
   - ipv4
-  - http
   - https
   geocoords:
   - 31.182971, 121.601394
@@ -584,7 +579,6 @@
   - Beijing, China
   protocols:
   - ipv4
-  - http
   - https
   geocoords:
   - 39.985537, 116.343599
@@ -715,3 +709,4 @@
   - https
   geocoords:
   - 37.8753497, -122.23963364918777
+

@@ -1,6 +1,6 @@
 ##
 ## Arch Linux CN community repository mirrorlist
-## Generated on 2023-08-24
+## Generated on 2023-08-25
 ##
 
 ## Our main server (Amsterdam, the Netherlands) (ipv4, ipv6, http, https)
@@ -26,6 +26,9 @@
 
 ## 阿里云 (Global CDN) (ipv4, ipv6, http, https)
 # Server = https://mirrors.aliyun.com/archlinuxcn/$arch
+
+## 华为云 (Global CDN) (ipv4, http, https)
+# Server = https://repo.huaweicloud.com/archlinuxcn/$arch
 
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 # Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
@@ -57,7 +60,7 @@
 ## 武昌首义学院 (湖北武汉) (ipv4, ipv6, http, https)
 # Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 
-## 北京交通大学 (北京) (ipv4, ipv6, http, https)
+## 北京交通大学 (北京) (ipv4, ipv6, https)
 # Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
 
 ## 兰州大学 (甘肃兰州) (ipv4, ipv6, http, https)
@@ -72,10 +75,10 @@
 ## 南京工业大学 (江苏南京) (ipv4, ipv6, http, https)
 # Server = https://mirrors.njtech.edu.cn/archlinuxcn/$arch
 
-## 上海科技大学 (上海) (ipv4, http, https)
+## 上海科技大学 (上海) (ipv4, https)
 # Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
 
-## 中国科学院软件研究所 (北京) (ipv4, http, https)
+## 中国科学院软件研究所 (北京) (ipv4, https)
 # Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
