@@ -181,6 +181,13 @@ Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 北京邮电大学 (北京) (ipv4, ipv6, http, https)
+## Added: 2023-09-15
+[archlinuxcn]
+Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE

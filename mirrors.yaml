@@ -582,6 +582,19 @@
   - https
   geocoords:
   - 39.985537, 116.343599
+- provider: 北京邮电大学
+  url: https://mirrors.bupt.edu.cn/archlinuxcn/
+  added_date: 2023-09-15
+  location: 北京
+  geolocs:
+  - Beijing, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 39.96725, 116.364594
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE
