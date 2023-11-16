@@ -595,6 +595,20 @@
   - https
   geocoords:
   - 39.96725, 116.364594
+- provider: CICKU
+  url: https://mirrors.cicku.me/archlinuxcn/$arch
+  comment: Rate limiting mainland China traffic
+  added_date: 2023-11-15
+  location: Global CDN
+  geolocs:
+  - Guam, USA
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 13.436762, 144.753973
 - provider: NCKU CCNS
   url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
   comment: Resources provided by NCKU CSIE

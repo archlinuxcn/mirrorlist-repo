@@ -188,6 +188,14 @@ Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## CICKU (Global CDN w/o China) (ipv4, ipv6, http, https)
+## Added: 2023-11-15
+## Rate limiting mainland China traffic
+[archlinuxcn]
+Server = https://mirrors.cicku.me/archlinuxcn/$arch
+```
+
+```ini
 ## NCKU CCNS (Taiwan) (ipv4, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE
