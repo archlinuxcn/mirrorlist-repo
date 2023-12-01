@@ -53,13 +53,6 @@ Server = https://mirrors.aliyun.com/archlinuxcn/$arch
 ```
 
 ```ini
-## 华为云 (Global CDN) (ipv4, http, https)
-## Added: 2020-10-31
-[archlinuxcn]
-Server = https://repo.huaweicloud.com/archlinuxcn/$arch
-```
-
-```ini
 ## 清华大学 (北京) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
