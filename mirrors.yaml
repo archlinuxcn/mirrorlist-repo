@@ -10,26 +10,6 @@
   - https
   geocoords:
   - 52.3727598, 4.8936041
-- provider: OpenTUNA
-  url: https://opentuna.cn/archlinuxcn/
-  location: China CDN
-  geolocs:
-  - Beijing, China
-  - Guangzhou, Guangdong, China
-  - Langfang, Hebei, China
-  - Shanghai, China
-  - Shenzhen, Guangdong, China
-  - Zhongwei, Ningxia, China
-  protocols:
-  - ipv4
-  - https
-  geocoords:
-  - 39.906217, 116.3912757
-  - 23.1301964, 113.2592945
-  - 39.5128345, 116.6997446
-  - 31.2322758, 121.4692071
-  - 22.555454, 114.0543297
-  - 37.499723, 105.1928783
 - provider: 北京外国语大学
   url: https://mirrors.bfsu.edu.cn/archlinuxcn/
   added_date: 2020-05-18

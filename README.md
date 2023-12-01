@@ -19,12 +19,6 @@ Server = https://mirrors.cernet.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## OpenTUNA (China CDN) (ipv4, https)
-[archlinuxcn]
-Server = https://opentuna.cn/archlinuxcn/$arch
-```
-
-```ini
 ## 北京外国语大学 (北京) (ipv4, ipv6, http, https)
 ## Added: 2020-05-18
 [archlinuxcn]
