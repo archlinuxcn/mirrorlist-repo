@@ -1,16 +1,26 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>[archlinuxcn] mirror locations</title>
     <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+    />
     <script src="https://unpkg.com/leaflet.markercluster@1.4.1/dist/leaflet.markercluster.js"></script>
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css" />
-    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css" />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/leaflet.markercluster@1.4.1/dist/MarkerCluster.Default.css"
+    />
     <style>
-      html, body {
+      html,
+      body {
         height: 100%;
         padding: 0;
         margin: 0;
@@ -36,65 +46,72 @@
     <div id="map"></div>
     <script>
       // initialize Leaflet
-      const map = L.map('map').setView({lon: 0, lat: 0}, 2)
+      const map = L.map("map").setView({ lon: 0, lat: 0 }, 2);
 
       // add the OpenStreetMap tiles
-      L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+      L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
         maxZoom: 19,
-        attribution: '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
-      }).addTo(map)
+        attribution:
+          '&copy; <a href="https://openstreetmap.org/copyright">OpenStreetMap contributors</a>',
+      }).addTo(map);
 
       // show the scale bar on the lower left corner
-      L.control.scale({imperial: true, metric: true}).addTo(map)
+      L.control.scale({ imperial: true, metric: true }).addTo(map);
 
-      const load_data = async function() {
-        const res = await fetch('https://raw.githubusercontent.com/archlinuxcn/mirrorlist-repo/master/geolocs.json')
-        const data = await res.json()
+      const load_data = async function () {
+        const res = await fetch(
+          "https://raw.githubusercontent.com/archlinuxcn/mirrorlist-repo/master/geolocs.json"
+        );
+        const data = await res.json();
         // sort by mirror
         data.features.sort((a, b) => {
-          const ma = a.properties.mirror
-          const mb = b.properties.mirror
-          if(ma < mb) {
-            return -1
-          }else if(ma === mb) {
-            return 0
-          }else{
-            return 1
+          const ma = a.properties.mirror;
+          const mb = b.properties.mirror;
+          if (ma < mb) {
+            return -1;
+          } else if (ma === mb) {
+            return 0;
+          } else {
+            return 1;
           }
-        })
-        const state = [0, data.features[0].properties.mirror]
-        const colors = new Map()
-        for(const d of data.features) {
-          if(state[1] !== d.properties.mirror) {
-            state[0] += 1
-            state[1] = d.properties.mirror
+        });
+        const state = [0, data.features[0].properties.mirror];
+        const colors = new Map();
+        for (const d of data.features) {
+          if (state[1] !== d.properties.mirror) {
+            state[0] += 1;
+            state[1] = d.properties.mirror;
           }
-          const color = `hsl(${137.508 * state[0]}, 90%, 50%)`
-          d.properties.color = color
-          colors.set(color, d.properties.mirror)
+          const color = `hsl(${137.508 * state[0]}, 90%, 50%)`;
+          d.properties.color = color;
+          colors.set(color, d.properties.mirror);
         }
 
-        const legend = L.control({position: 'topright'})
+        const legend = L.control({ position: "topright" });
         legend.onAdd = function (map) {
-          const div = L.DomUtil.create('div', 'info legend');
-          const labels = []
-          for(const [color, mirror] of colors) {
-            labels.push(`<i class="circle" style="background: ${color}"></i> ${mirror}`)
+          const div = L.DomUtil.create("div", "info legend");
+          const labels = [];
+          for (const [color, mirror] of colors) {
+            labels.push(
+              `<i class="circle" style="background: ${color}"></i> ${mirror}`
+            );
           }
-          div.innerHTML = labels.join('<br>')
-          return div
-        }
-        legend.addTo(map)
+          div.innerHTML = labels.join("<br>");
+          return div;
+        };
+        legend.addTo(map);
 
         const markers = L.markerClusterGroup({
           zoomToBoundsOnClick: false,
           maxClusterRadius: 30,
-        })
+        });
         L.geoJSON(data, {
-          onEachFeature: function(feature, layer) {
-            const p = feature.properties
+          onEachFeature: function (feature, layer) {
+            const p = feature.properties;
             // console.log(feature.geometry.coordinates, feature.properties.name)
-            layer.bindPopup(`<p>${p.name}<br/><small><a href="${p.url}">${p.mirror}</a></small></p>`)
+            layer.bindPopup(
+              `<p>${p.name}<br/><small><a href="${p.url}">${p.mirror}</a></small></p>`
+            );
           },
           pointToLayer: function (feature, latlng) {
             return L.circleMarker(latlng, {
@@ -104,12 +121,12 @@
               weight: 1,
               opacity: 0.9,
               fillOpacity: 0.5,
-            })
+            });
           },
-        }).addTo(markers)
-        map.addLayer(markers)
-      }
-      load_data()
+        }).addTo(markers);
+        map.addLayer(markers);
+      };
+      load_data();
     </script>
   </body>
 </html>
