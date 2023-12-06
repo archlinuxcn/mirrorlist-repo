@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      href="https://build.archlinuxcn.org/favicon.ico"
+      type="image/ico"
+    />
+    <title>Arch Linux CN Community Repository Mirrors</title>
+    <meta
+      name="description"
+      content="Here is a list of public mirrors of Arch Linux CN Community Repository"
+    />
+    <style>
+      .table-container {
+        box-sizing: border-box;
+        width: 100%;
+        margin: auto;
+        overflow: auto;
+      }
+
+      table {
+        border-collapse: collapse;
+      }
+
+      th {
+        padding: 15px 30px;
+        color: hsl(200deg 92% 41%);
+        text-align: left;
+        border-bottom: 2px solid hsl(0deg 0% 87%);
+      }
+
+      td {
+        padding: 15px 30px;
+        color: hsl(212deg 19% 27%);
+        text-align: left;
+        white-space: nowrap;
+      }
+
+      a {
+        color: hsl(200deg 92% 41%);
+        text-decoration: none;
+      }
+
+      tr:hover td {
+        background-color: hsl(199deg 82% 93%);
+      }
+
+      #search {
+        box-sizing: border-box;
+        width: 100%;
+        padding: 10px;
+        margin: 100px auto 20px;
+        border: 1px solid hsl(0deg 0% 89%);
+      }
+    </style>
+  </head>
+
+  <body>
+    <input
+      id="search"
+      type="text"
+      oninput="filterTable()"
+      placeholder="Search"
+    />
+    <div class="table-container">
+      <table id="table">
+        <thead>
+          <tr>
+            <th>Provider</th>
+            <th>Region</th>
+            <th>Protocols</th>
+            <th>lastupdate</th>
+            <th>x86_64</th>
+            <th>any</th>
+          </tr>
+        </thead>
+        <tbody id="tbody"></tbody>
+      </table>
+    </div>
+    <script>
+      const table = document.getElementById("table");
+      const tbody = document.getElementById("tbody");
+
+      const loadData = async function () {
+        const res = await fetch("https://archlinuxcn.org/mirrors/stats.json");
+        const data = await res.json();
+
+        const archlinuxcn = data.archlinuxcn;
+        archlinuxcn.sort((a, b) => {
+          const toSeconds = (time) => {
+            let days = 0;
+            if (time.includes("day")) {
+              const parts = time.split(", ");
+              days = parseInt(parts[0], 10);
+              time = parts[1];
+            }
+            const parts = time.split(":").map((part) => parseInt(part, 10));
+            const seconds =
+              days * 86400 + parts[0] * 3600 + parts[1] * 60 + parts[2];
+            return seconds;
+          };
+          if (a.tag === "success" && b.tag === "success") {
+            const lastupdateA = toSeconds(a.information.lastupdate);
+            const lastupdateB = toSeconds(b.information.lastupdate);
+            return Math.sign(lastupdateA - lastupdateB);
+          }
+        });
+
+        const createRow = (item) => `
+          <tr>
+            <td>
+              <a href="${item.url}">${item.provider}</a>
+              ${item.comment ? `<br><div>${item.comment}</div>` : ""}
+            </td>
+            <td>${item.region}</td>
+            <td>${item.protocols.join(", ")}</td>
+            <td>${item.information.lastupdate}</td>
+            <td>${item.information["x86_64/archlinuxcn.db"]}</td>
+            <td>${item.information["any/archlinuxcn.db"]}</td>
+          </tr>
+        `;
+        const rows = archlinuxcn.map(createRow).join("");
+        tbody.innerHTML = rows;
+      };
+      loadData();
+
+      function filterTable() {
+        const filter = document.getElementById("search").value;
+        const trs = Array.from(document.querySelectorAll("tr"));
+        trs.forEach((tr) => {
+          const tds = Array.from(tr.querySelectorAll("td"));
+          const found = tds.some((td) => td.textContent.includes(`${filter}`));
+          tr.style.display = found ? "" : "none";
+        });
+      }
+    </script>
+  </body>
+</html>
