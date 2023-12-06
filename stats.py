@@ -1,74 +1,115 @@
 #!/usr/bin/python3
 
 import asyncio
-from urllib.parse import urljoin
+import sys
+from email.utils import parsedate_to_datetime
 
-import aiohttp
-import yaml
+import httpx  # in python-httpx and python-h2 packages
+import orjson  # in python-orjson package
+import ruamel.yaml  # in python-ruamel-yaml package
 
-
-def humantime(t: int) -> str:
-    """seconds -> XhYmZs"""
-    m, s = divmod(t, 60)
-    h, m = divmod(m, 60)
-    d, h = divmod(h, 24)
-    ret = ""
-    if d:
-        ret += "%dd" % d
-    if h:
-        ret += "%dh" % h
-    if m:
-        ret += "%dm" % m
-    if s:
-        ret += "%ds" % s
-    if not ret:
-        ret = "0s"
-    return ret
+SOURCE_YAML = "mirrors.yaml"
+OUTPUT_JSON = "stats.json"
 
 
-async def get_lastupdate(session, name, url):
+FILES = (
+    "lastupdate",
+    "x86_64/archlinuxcn.db",
+    "any/archlinuxcn.db",
+)
+
+
+async def fetch(client, mirror, file):
+    provider = mirror["provider"]
+    url = mirror["url"]
     try:
-        res = await session.get(url)
-        content = await res.text()
-        dt = int(content)
-        print(f"{name} done.")
-        return name, dt
-    except Exception as e:
-        return name, e
+        response = await client.head(url + file)
+        if response.status_code == httpx.codes.OK:
+            timestamp = parsedate_to_datetime(response.headers.get("Last-Modified"))
+            return provider, file, timestamp, None
+        response.raise_for_status()
+    except (httpx.HTTPError, httpx.InvalidURL) as error:
+        return provider, file, None, error
+
+
+async def gather(mirrors):
+    mirrors.append(
+        {
+            "provider": "tier0",
+            "url": "https://repo.archlinuxcn.org/",
+        }
+    )
+    client = httpx.AsyncClient(
+        headers={"User-Agent": "curl/8.5.0"},
+        http2=True,
+        timeout=10,
+        follow_redirects=True,
+    )
+    tasks = []
+    for m in mirrors:
+        for file in FILES:
+            tasks.append(fetch(client, m, file))
+    return await asyncio.gather(*tasks)
+
+
+def process(data, mirrors):
+    success = {}
+    failed = {}
+    for provider, file, timestamp, error in data:
+        if timestamp is not None:
+            success[(provider, file)] = timestamp
+        elif error is not None:
+            failed[(provider, file)] = error
+    stats = []
+    for m in mirrors:
+        provider = m["provider"]
+        if provider == "tier0":
+            continue
+        tag = {}
+        information = {}
+        for file in FILES:
+            if (provider, file) in success:
+                information[file] = str(
+                    success[("tier0", file)] - success[(provider, file)]
+                )
+                tag = "success"
+            elif (provider, file) in failed:
+                information[file] = str(failed[(provider, file)])
+                tag = "failed"
+        stats.append(
+            {
+                key: key_comment
+                for key, key_comment in {
+                    "provider": provider,
+                    "comment": m["comment"] if "comment" in m else "",
+                    "url": m["url"],
+                    "region": m["region"],
+                    "protocols": m["protocols"],
+                    "tag": tag,
+                    "information": information,
+                }.items()
+                if key != "comment" or key_comment
+            }
+        )
+    return stats
 
 
 async def main():
-    with open("mirrors.yaml") as f:
-        data = yaml.load(f, Loader=yaml.FullLoader)
-
-    async with aiohttp.ClientSession(
-        timeout=aiohttp.ClientTimeout(total=10),
-    ) as session:
-        futures = []
-        for mirror in data:
-            url = urljoin(mirror["url"], "lastupdate")
-            fu = get_lastupdate(session, mirror["provider"], url)
-            futures.append(fu)
-        fu = get_lastupdate(session, "tier0", "https://repo.archlinuxcn.org/lastupdate")
-        futures.append(fu)
-        results = await asyncio.gather(*futures)
-
-    done = {}
-    error = {}
-    for name, dt in results:
-        if isinstance(dt, int):
-            done[name] = dt
-        else:
-            error[name] = dt
-
-    print("\nLags:")
-    tier0 = done.pop("tier0")
-    for name, dt in sorted(done.items(), reverse=True, key=lambda x: x[1]):
-        print(f"{name} {humantime(tier0-dt)}")
-
-    print("\nErrors:")
-    for name, e in error.items():
-        print(f"{name} {e!r}")
+    with open(SOURCE_YAML, encoding="utf-8") as source:
+        try:
+            mirrors = ruamel.yaml.YAML(typ="safe").load(source)["archlinuxcn"]
+        except ruamel.yaml.YAMLError as error:
+            sys.exit(repr(error))
+        data = await gather(mirrors)
+        stats = process(data, mirrors)
+    with open(OUTPUT_JSON, "w", encoding="utf-8") as output:
+        print(
+            orjson.dumps(
+                {"archlinuxcn": stats},
+                option=orjson.OPT_INDENT_2,
+            ).decode("utf8"),
+            file=output,
+        )
 
 
 if __name__ == "__main__":
