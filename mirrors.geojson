@@ -4,213 +4,333 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "Our main server",
+        "provider": "Our main server",
         "url": "https://repo.archlinuxcn.org/",
-        "name": "Amsterdam, North Holland, Netherlands"
+        "location": "Amsterdam, North Holland, Netherlands"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8936041, 52.3727598]
+        "coordinates": [4.8924534, 52.3730796]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "北京外国语大学",
+        "provider": "北京外国语大学",
         "url": "https://mirrors.bfsu.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3912757, 39.906217]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "北京大学",
+        "provider": "北京大学",
         "url": "https://mirrors.pku.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3912757, 39.906217]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Amsterdam, North Holland, Netherlands"
+        "location": "Argentina"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8936041, 52.3727598]
+        "coordinates": [-64.9672817, -34.9964963]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Atlanta, Georgia, United States"
+        "location": "Australia"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-84.3902644, 33.7489924]
+        "coordinates": [134.755, -24.7761086]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Bengbu, Anhui, China"
+        "location": "Austria"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [117.3825673, 32.9176422]
+        "coordinates": [14.12456, 47.59397]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Changsha, Hunan, China"
+        "location": "Bahrain"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [112.9335861, 28.2302056]
+        "coordinates": [50.5344606, 26.1551249]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Changzhou, Jiangsu, China"
+        "location": "Bangladesh"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.9691539, 31.8122623]
+        "coordinates": [90.2934413, 24.4769288]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Chennai, Tamil Nadu, India"
+        "location": "Belgium"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [80.270186, 13.0836939]
+        "coordinates": [4.6667145, 50.6402809]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Foshan, Guangdong, China"
+        "location": "Brazil"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [112.99801241836545, 23.1102636]
+        "coordinates": [-53.2, -10.3333333]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Frankfurt, Hesse, Germany"
+        "location": "Cambodia"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [8.6820917, 50.1106444]
+        "coordinates": [104.8144914, 12.5433216]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Fujairah, Emirate of Fujairah, United Arab Emirates"
+        "location": "Canada"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [56.33403414986288, 25.1212273]
+        "coordinates": [-107.991707, 61.0666922]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Fuzhou, Fujian, China"
+        "location": "Chile"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.17376067528227, 25.937271600000003]
+        "coordinates": [-71.3187697, -31.7613365]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Guangzhou, Guangdong, China"
+        "location": "Anhui, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [113.2592945, 23.1301964]
+        "coordinates": [117.0, 32.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Guiyang, Guizhou, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.6246178, 26.6499922]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Hong Kong"
+        "location": "Chongqing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.1628131, 22.2793278]
+        "coordinates": [107.8748712, 30.05518]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Huizhou, Guangdong, China"
+        "location": "Fujian, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.4107202, 23.1146515]
+        "coordinates": [118.2208721, 26.193218]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Hunan, China"
+        "location": "Gansu, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [101.9999999, 38.0000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Guangdong, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.1982688, 23.1357694]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Guangxi, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.0, 24.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Guizhou, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [107.0, 27.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Hainan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [109.5999999, 19.2000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Hebei, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [116.0, 39.0000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Heilongjiang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [127.999992, 48.0000047]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Henan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [113.9999999, 34.0000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Hong Kong, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [114.1849161, 22.350627]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Hubei, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.88064226239663, 31.15305035]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Hunan, China"
       },
       "geometry": {
         "type": "Point",
@@ -220,225 +340,645 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Jinan, Shandong, China"
+        "location": "Inner Mongolia, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [117.1140042, 36.6507007]
+        "coordinates": [114.3251664, 43.2443242]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Jiujiang, Jiangxi, China"
+        "location": "Jiangsu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [115.9474861, 29.6653828]
+        "coordinates": [119.9999999, 33.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Kunming, Yunnan, China"
+        "location": "Jiangxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [102.8324209, 24.8843019]
+        "coordinates": [116.0, 28.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "London, United Kingdom"
+        "location": "Jilin, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.1276474, 51.5073219]
+        "coordinates": [126.1997366, 43.7289674]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Los Angeles, California, United States"
+        "location": "Liaoning, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-118.242766, 34.0536909]
+        "coordinates": [122.9955469, 41.2374106]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Manila, Metro Manila, Philippines"
+        "location": "Macau, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.9809674, 14.5907332]
+        "coordinates": [113.5514142, 22.1757605]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Melbourne, Victoria, Australia"
+        "location": "Ningxia, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.9631608, -37.8142176]
+        "coordinates": [105.9999999, 37.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Mumbai, Maharashtra, India"
+        "location": "Qinghai, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [72.8773928, 19.0759899]
+        "coordinates": [95.95211573241954, 35.40709525]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Nanchang, Jiangxi, China"
+        "location": "Shaanxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [115.8540042, 28.687547]
+        "coordinates": [109.3013107, 35.5895959]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Nanjing, Jiangsu, China"
+        "location": "Shandong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.7788734, 32.0437711]
+        "coordinates": [118.5055691, 36.398987]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Nantong, Jiangsu, China"
+        "location": "Shanghai, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.8904588, 31.9827896]
+        "coordinates": [121.4700152, 31.2312707]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Ningbo, Zhejiang, China"
+        "location": "Shanxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.6203873, 29.8622194]
+        "coordinates": [112.0, 37.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Osaka, Japan"
+        "location": "Sichuan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [135.490357, 34.6198813]
+        "coordinates": [102.4999999, 30.5000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Pasig, Metro Manila, Philippines"
+        "location": "Tianjin, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.0812368, 14.5594821]
+        "coordinates": [117.4163641, 39.3032619]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Shanghai, China"
+        "location": "Tibet, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.4692071, 31.2322758]
+        "coordinates": [90.8749807, 29.8556443]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Shenyang, Liaoning, China"
+        "location": "Xinjiang, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [123.458674, 41.6749893]
+        "coordinates": [85.4633464, 42.4804953]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Shenzhen, Guangdong, China"
+        "location": "Yunnan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.0543297, 22.555454]
+        "coordinates": [102.0, 25.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Shijiazhuang, Hebei, China"
+        "location": "Zhejiang, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.5088385, 38.0429742]
+        "coordinates": [119.9999999, 29.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Singapore"
+        "location": "Colombia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.9088133, 4.099917]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Denmark"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.3333283, 55.670249]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Djibouti"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.8453061, 11.8145966]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Ecuador"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.3666965, -1.3397668]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Egypt"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [29.2675469, 26.2540493]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Finland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [25.9209164, 63.2467777]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "France"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8883335, 46.603354]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Germany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.4478313, 51.1638175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.6677428, 22.3511148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.8902853, -2.4833826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Iraq"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [44.1749775, 33.0955793]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Israel"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [34.8594762, 30.8124247]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.674297, 42.6384261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.2394179, 36.5748441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Kenya"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [38.4313975, 1.4419683]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Kuwait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.4979476, 29.2733964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Kyrgyzstan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [74.724091, 41.5089324]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Laos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.378253, 20.0171109]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Lebanon"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [35.843409, 33.8750629]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Madagascar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [46.4416422, -18.9249604]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Malaysia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.2656823, 4.5693754]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Mauritius"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.5703566, -20.2759451]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Mexico"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-102.0077097, 23.6585116]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Mongolia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [103.8499736, 46.8250388]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Myanmar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [95.9999652, 17.1750495]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Nepal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [84.0917139, 28.1083929]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Netherlands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.541246849406163, 52.24764975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "New Zealand"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [172.8344077, -41.5000831]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Oman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.0036901, 21.0000287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Pakistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.247499, 30.3308401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Peru"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.0458515, -6.8699697]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.7312101, 12.7503486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Poland"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [19.134422, 52.215933]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Qatar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2295295, 25.3336984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Saudi Arabia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [42.3528328, 25.6242618]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "腾讯云",
+        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
+        "location": "Singapore"
       },
       "geometry": {
         "type": "Point",
@@ -448,201 +988,141 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Suzhou, Jiangsu, China"
+        "location": "South Africa"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.5810725, 31.3016935]
+        "coordinates": [24.991639, -28.8166236]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Taiyuan, Shanxi, China"
+        "location": "South Korea"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [112.5452739, 37.870009]
+        "coordinates": [127.6961188, 36.638392]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Tangshan, Hebei, China"
+        "location": "Spain"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.1738665, 39.6295591]
+        "coordinates": [-4.8379791, 39.3260685]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Tianjin, China"
+        "location": "Sweden"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [117.1951073, 39.0856735]
+        "coordinates": [14.5208584, 59.6749712]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Wuhan, Hubei, China"
+        "location": "Taiwan"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.2999353, 30.5951051]
+        "coordinates": [120.9820179, 23.9739374]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Wuhu, Anhui, China"
+        "location": "Thailand"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.4277477, 31.3536127]
+        "coordinates": [100.83273, 14.8971921]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Wuxi, Jiangsu, China"
+        "location": "Turkey"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3074357, 31.4933074]
+        "coordinates": [34.9249653, 38.9597594]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Xiamen, Fujian, China"
+        "location": "United Arab Emirates"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.0853479, 24.4801069]
+        "coordinates": [53.9994829, 24.0002488]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Xining, Qinghai, China"
+        "location": "United Kingdom"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [101.7761976, 36.617331]
+        "coordinates": [-3.2765753, 54.7023545]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Yantai, Shandong, China"
+        "location": "United States"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.4425255, 37.461928]
+        "coordinates": [-100.445882, 39.7837304]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
+        "provider": "腾讯云",
         "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Zhengzhou, Henan, China"
+        "location": "Vietnam"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [113.6191483, 34.7487244]
+        "coordinates": [107.9650855, 15.9266657]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "腾讯云",
-        "url": "https://mirrors.cloud.tencent.com/archlinuxcn/",
-        "name": "Zibo, Shandong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.980675, 36.819626]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
+        "provider": "网易",
         "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Changsha, Hunan, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [112.9335861, 28.2302056]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Dezhou, Shandong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [116.305416, 37.4486676]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Foshan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [112.99801241836545, 23.1102636]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Fuzhou, Fujian, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [119.17376067528227, 25.937271600000003]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Hangzhou, Zhejiang, China"
+        "location": "Hangzhou, Zhejiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -652,429 +1132,585 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Jinhua, Zhejiang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [119.6486487, 29.1080344]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Lianyungang, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [119.215813, 34.5978596]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Maoming, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [110.9209511, 21.6656961]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Nantong, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.8904588, 31.9827896]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Quzhou, Zhejiang, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [118.8759775, 28.9268429]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Tianjin, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.1951073, 39.0856735]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "网易",
-        "url": "https://mirrors.163.com/archlinux-cn/",
-        "name": "Zhongshan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.3656141, 22.5213807]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Amsterdam, North Holland, Netherlands"
+        "location": "Australia"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8936041, 52.3727598]
+        "coordinates": [134.755, -24.7761086]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Brazil"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3912757, 39.906217]
+        "coordinates": [-53.2, -10.3333333]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Changzhou, Jiangsu, China"
+        "location": "Anhui, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.9691539, 31.8122623]
+        "coordinates": [117.0, 32.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Chicago, Illinois, United States"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-87.6244212, 41.8755616]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Dallas, Texas, United States"
+        "location": "Chongqing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-96.7968559, 32.7762719]
+        "coordinates": [107.8748712, 30.05518]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Dongguan, Guangdong, China"
+        "location": "Fujian, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [113.7457788, 23.0205969]
+        "coordinates": [118.2208721, 26.193218]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Foshan, Guangdong, China"
+        "location": "Gansu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [112.99801241836545, 23.1102636]
+        "coordinates": [101.9999999, 38.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Frankfurt, Hesse, Germany"
+        "location": "Guangdong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [8.6820917, 50.1106444]
+        "coordinates": [113.1982688, 23.1357694]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Guangzhou, Guangdong, China"
+        "location": "Guangxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [113.2592945, 23.1301964]
+        "coordinates": [109.0, 24.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Hohhot, Inner Mongolia, China"
+        "location": "Guizhou, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [111.6730788, 40.8337963]
+        "coordinates": [107.0, 27.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Hong Kong"
+        "location": "Hainan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.1628131, 22.2793278]
+        "coordinates": [109.5999999, 19.2000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Huizhou, Guangdong, China"
+        "location": "Hebei, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.4107202, 23.1146515]
+        "coordinates": [116.0, 39.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Kiev, Ukraine"
+        "location": "Heilongjiang, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [30.5241361, 50.4500336]
+        "coordinates": [127.999992, 48.0000047]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Langfang, Hebei, China"
+        "location": "Henan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.6997446, 39.5128345]
+        "coordinates": [113.9999999, 34.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "London, United Kingdom"
+        "location": "Hong Kong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-0.1276474, 51.5073219]
+        "coordinates": [114.1849161, 22.350627]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Madrid, Comunidad de Madrid, Spain"
+        "location": "Hubei, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-3.7035825, 40.4167047]
+        "coordinates": [112.88064226239663, 31.15305035]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Melbourne, Victoria, Australia"
+        "location": "Hunan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [144.9631608, -37.8142176]
+        "coordinates": [111.7487063, 27.6662087]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Metropolitan City of Milan, Lombardy, Italy"
+        "location": "Inner Mongolia, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [9.2446893, 45.5074301]
+        "coordinates": [114.3251664, 43.2443242]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Moscow, Russian Federation"
+        "location": "Jiangsu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [37.6174943, 55.7504461]
+        "coordinates": [119.9999999, 33.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Mumbai, Maharashtra, India"
+        "location": "Jiangxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [72.8773928, 19.0759899]
+        "coordinates": [116.0, 28.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Nanjing, Jiangsu, China"
+        "location": "Jilin, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.7788734, 32.0437711]
+        "coordinates": [126.1997366, 43.7289674]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Paris, Ile-de-France, France"
+        "location": "Liaoning, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [2.3635646, 48.8206809]
+        "coordinates": [122.9955469, 41.2374106]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Qingdao, Shandong, China"
+        "location": "Ningxia, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3781372, 36.0638034]
+        "coordinates": [105.9999999, 37.0000001]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "San Jose, California, United States"
+        "location": "Qinghai, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.890583, 37.3361905]
+        "coordinates": [95.95211573241954, 35.40709525]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Seattle, Washington, United States"
+        "location": "Shaanxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.3300624, 47.6038321]
+        "coordinates": [109.3013107, 35.5895959]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Shanghai, China"
+        "location": "Shandong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.4692071, 31.2322758]
+        "coordinates": [118.5055691, 36.398987]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Shenzhen, Guangdong, China"
+        "location": "Shanghai, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.0543297, 22.555454]
+        "coordinates": [121.4700152, 31.2312707]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Shijiazhuang, Hebei, China"
+        "location": "Shanxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.5088385, 38.0429742]
+        "coordinates": [112.0, 37.0]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Singapore"
+        "location": "Sichuan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.4999999, 30.5000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Tianjin, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.4163641, 39.3032619]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Tibet, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [90.8749807, 29.8556443]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Xinjiang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [85.4633464, 42.4804953]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Yunnan, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.0, 25.0]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Zhejiang, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [119.9999999, 29.0000001]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "France"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [1.8883335, 46.603354]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Germany"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [10.4478313, 51.1638175]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "India"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [78.6677428, 22.3511148]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Indonesia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [117.8902853, -2.4833826]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Italy"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [12.674297, 42.6384261]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Japan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [139.2394179, 36.5748441]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Kuwait"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [47.4979476, 29.2733964]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Malaysia"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [102.2656823, 4.5693754]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Netherlands"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [5.541246849406163, 52.24764975]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Nigeria"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [7.9999721, 9.6000359]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Oman"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [57.0036901, 21.0000287]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Pakistan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [71.247499, 30.3308401]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Philippines"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [122.7312101, 12.7503486]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Qatar"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [51.2295295, 25.3336984]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "阿里云",
+        "url": "https://mirrors.aliyun.com/archlinuxcn/",
+        "location": "Singapore"
       },
       "geometry": {
         "type": "Point",
@@ -1084,513 +1720,177 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Sterling, Virginia, United States"
+        "location": "South Africa"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-77.4033349, 39.0017455]
+        "coordinates": [24.991639, -28.8166236]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Stockholm, Stockholm County, Sweden"
+        "location": "South Korea"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [18.0710935, 59.3251172]
+        "coordinates": [127.6961188, 36.638392]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Suzhou, Jiangsu, China"
+        "location": "Spain"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.5810725, 31.3016935]
+        "coordinates": [-4.8379791, 39.3260685]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Sydney, New South Wales, Australia"
+        "location": "Sweden"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [151.2164539, -33.8548157]
+        "coordinates": [14.5208584, 59.6749712]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Tianjin, China"
+        "location": "Thailand"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [117.1951073, 39.0856735]
+        "coordinates": [100.83273, 14.8971921]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Tokyo, Japan"
+        "location": "Turkey"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [139.7594549, 35.6828387]
+        "coordinates": [34.9249653, 38.9597594]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Wuhan, Hubei, China"
+        "location": "Ukraine"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.2999353, 30.5951051]
+        "coordinates": [31.2718321, 49.4871968]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Wuxi, Jiangsu, China"
+        "location": "United Arab Emirates"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.3074357, 31.4933074]
+        "coordinates": [53.9994829, 24.0002488]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Yancheng, Jiangsu, China"
+        "location": "United Kingdom"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [120.1576778, 33.3495657]
+        "coordinates": [-3.2765753, 54.7023545]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
+        "provider": "阿里云",
         "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Yangzhou, Jiangsu, China"
+        "location": "United States"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [119.4077008, 32.3969935]
+        "coordinates": [-100.445882, 39.7837304]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "阿里云",
-        "url": "https://mirrors.aliyun.com/archlinuxcn/",
-        "name": "Zhongshan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.3656141, 22.5213807]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Beijing, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [116.3912757, 39.906217]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Changzhou, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [119.9691539, 31.8122623]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Chengdu, Sichuan, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [104.0633717, 30.6598628]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Chicago, Illinois, United States"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-87.6244212, 41.8755616]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Dallas, Texas, United States"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-96.7968559, 32.7762719]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Denver, Colorado, United States"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-104.9848623, 39.7392364]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Dongguan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.7457788, 23.0205969]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Frankfurt, Hesse, Germany"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [8.6820917, 50.1106444]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Guangzhou, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.2592945, 23.1301964]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Guiyang, Guizhou, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [106.6246178, 26.6499922]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Hong Kong"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [114.1628131, 22.2793278]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Huangshi, Hubei, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [115.0333466, 30.200255]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Jinan, Shandong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.1140042, 36.6507007]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Langfang, Hebei, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [116.6997446, 39.5128345]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "London, United Kingdom"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-0.1276474, 51.5073219]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Los Angeles, California, United States"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-118.242766, 34.0536909]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Nantong, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.8904588, 31.9827896]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Paris, Ile-de-France, France"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [2.3635646, 48.8206809]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Seattle, Washington, United States"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [-122.3300624, 47.6038321]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Shanghai, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [121.4692071, 31.2322758]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Shenzhen, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [114.0543297, 22.555454]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Shijiazhuang, Hebei, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [114.5088385, 38.0429742]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Singapore"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [103.8194992, 1.357107]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Suzhou, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.5810725, 31.3016935]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Tianjin, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [117.1951073, 39.0856735]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Tokyo, Japan"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [139.7594549, 35.6828387]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "华为云",
-        "url": "https://repo.huaweicloud.com/archlinuxcn/",
-        "name": "Yancheng, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [120.1576778, 33.3495657]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "清华大学",
+        "provider": "清华大学",
         "url": "https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.3912757, 39.906217]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "中国科学技术大学",
+        "provider": "中国科学技术大学",
         "url": "https://mirrors.ustc.edu.cn/archlinuxcn/",
-        "name": "Hefei, Anhui, China"
+        "location": "Hefei, Anhui, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [117.33251672423167, 31.747699500000003]
+        "coordinates": [117.2218033, 31.8228094]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "哈尔滨工业大学",
+        "provider": "哈尔滨工业大学",
         "url": "https://mirrors.hit.edu.cn/archlinuxcn/",
-        "name": "Harbin, Heilongjiang, China"
+        "location": "Harbin, Heilongjiang, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [126.5303997, 45.7988273]
+        "coordinates": [126.6276177, 45.7593633]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "吉林大学",
+        "provider": "吉林大学",
         "url": "https://mirrors.jlu.edu.cn/archlinuxcn/",
-        "name": "Changchun, Jilin, China"
+        "location": "Changchun, Jilin, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [125.285, 43.831]
+        "coordinates": [125.3180998, 43.8844201]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "浙江大学",
+        "provider": "浙江大学",
         "url": "https://mirrors.zju.edu.cn/archlinuxcn/",
-        "name": "Hangzhou, Zhejiang, China"
+        "location": "Hangzhou, Zhejiang, China"
       },
       "geometry": {
         "type": "Point",
@@ -1600,177 +1900,177 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "重庆大学",
+        "provider": "重庆大学",
         "url": "https://mirrors.cqu.edu.cn/archlinuxcn/",
-        "name": "Chongqing, China"
+        "location": "Chongqing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.5478767, 29.5647398]
+        "coordinates": [107.8748712, 30.05518]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "重庆邮电大学",
+        "provider": "重庆邮电大学",
         "url": "https://mirrors.cqupt.edu.cn/archlinuxcn/",
-        "name": "Chongqing, China"
+        "location": "Chongqing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [106.912251, 29.431586]
+        "coordinates": [107.8748712, 30.05518]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "南京大学",
+        "provider": "上海交通大学",
+        "url": "https://mirror.sjtu.edu.cn/archlinux-cn/",
+        "location": "Shanghai, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [121.4700152, 31.2312707]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "南京大学",
         "url": "https://mirrors.nju.edu.cn/archlinuxcn/",
-        "name": "Nanjing, Jiangsu, China"
+        "location": "Nanjing, Jiangsu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.7788734, 32.0437711]
+        "coordinates": [118.7788631, 32.0438284]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "莞工 GNU/Linux 协会 开源软件镜像站",
-        "url": "https://mirrors.dgut.edu.cn/archlinuxcn/",
-        "name": "Dongguan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [113.7457788, 23.0205969]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "南方科技大学",
+        "provider": "南方科技大学",
         "url": "https://mirrors.sustech.edu.cn/archlinuxcn/",
-        "name": "Shenzhen, Guangdong, China"
+        "location": "Shenzhen, Guangdong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.0543297, 22.555454]
+        "coordinates": [114.0545429, 22.5445741]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "武昌首义学院",
+        "provider": "武昌首义学院",
         "url": "https://mirrors.wsyu.edu.cn/archlinuxcn/",
-        "name": "Wuhan, Hubei, China"
+        "location": "Wuhan, Hubei, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.3033, 30.48894]
+        "coordinates": [114.2999353, 30.5951051]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "北京交通大学",
+        "provider": "北京交通大学",
         "url": "https://mirror.bjtu.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.34974, 39.957902]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "兰州大学",
-        "url": "https://mirror.lzu.edu.cn/archlinuxcn/",
-        "name": "Lanzhou, Gansu, China"
+        "provider": "兰州大学",
+        "url": "https://mirrors.lzu.edu.cn/archlinuxcn/",
+        "location": "Lanzhou, Gansu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [103.867812, 36.050882]
+        "coordinates": [103.8318566, 36.0620781]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "西安交通大学",
+        "provider": "西安交通大学",
         "url": "https://mirrors.xjtu.edu.cn/archlinuxcn/",
-        "name": "Xian, Shanxi, China"
+        "location": "Xi'an, Shaanxi, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [103.993214, 30.770399]
+        "coordinates": [108.9423443, 34.2607713]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "南阳理工学院",
+        "provider": "南阳理工学院",
         "url": "https://mirror.nyist.edu.cn/archlinuxcn/",
-        "name": "Nanyang, Henan, China"
+        "location": "Nanyang, Henan, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [113.621743, 23.586677]
+        "coordinates": [112.5292693, 33.0010496]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "南京工业大学",
+        "provider": "南京工业大学",
         "url": "https://mirrors.njtech.edu.cn/archlinuxcn/",
-        "name": "Nanjing, Jiangsu, China"
+        "location": "Nanjing, Jiangsu, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [118.647258, 32.088423]
+        "coordinates": [118.7788631, 32.0438284]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "上海科技大学",
+        "provider": "上海科技大学",
         "url": "https://mirrors.shanghaitech.edu.cn/archlinuxcn/",
-        "n·ame": "Shanghai, China"
+        "location": "Shanghai, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [121.601394, 31.182971]
+        "coordinates": [121.4700152, 31.2312707]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "中国科学院软件研究所",
+        "provider": "中国科学院软件研究所",
         "url": "https://mirror.iscas.ac.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.343599, 39.985537]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "北京邮电大学",
+        "provider": "北京邮电大学",
         "url": "https://mirrors.bupt.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
+        "location": "Beijing, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [116.364594, 39.96725]
+        "coordinates": [116.412144, 40.190632]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "NCKU CCNS",
+        "provider": "國立成功大學",
         "url": "https://archlinux.ccns.ncku.edu.tw/archlinuxcn/",
-        "name": "Tainan, Taiwan"
+        "location": "Tainan, Taiwan"
       },
       "geometry": {
         "type": "Point",
@@ -1780,45 +2080,45 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Hong Kong server)",
+        "provider": "xTom (香港伺服器)",
         "url": "https://mirrors.xtom.hk/archlinuxcn/",
-        "name": "Hong Kong"
+        "location": "Hong Kong, China"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [114.1628131, 22.2793278]
+        "coordinates": [114.1849161, 22.350627]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (US server)",
+        "provider": "xTom (United States server)",
         "url": "https://mirrors.xtom.us/archlinuxcn/",
-        "name": "San Jose, California, United States"
+        "location": "San Jose, California, United States"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-121.890583, 37.3361905]
+        "coordinates": [-121.890591, 37.3361663]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Netherlands server)",
+        "provider": "xTom (Netherlands server)",
         "url": "https://mirrors.xtom.nl/archlinuxcn/",
-        "name": "Amsterdam, North Holland, Netherlands"
+        "location": "Amsterdam, North Holland, Netherlands"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [4.8936041, 52.3727598]
+        "coordinates": [4.8924534, 52.3730796]
       }
     },
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Germany server)",
+        "provider": "xTom (Germany server)",
         "url": "https://mirrors.xtom.de/archlinuxcn/",
-        "name": "Dusseldorf, North Rhine-Westphalia, Germany"
+        "location": "Düsseldorf, North Rhine-Westphalia, Germany"
       },
       "geometry": {
         "type": "Point",
@@ -1828,9 +2128,9 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Estonia server)",
+        "provider": "xTom (Estonia server)",
         "url": "https://mirrors.xtom.ee/archlinuxcn/",
-        "name": "Tallinn, Harju County, Estonia"
+        "location": "Tallinn, Harju, Estonia"
       },
       "geometry": {
         "type": "Point",
@@ -1840,9 +2140,9 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Japan server)",
+        "provider": "xTom (Japan server)",
         "url": "https://mirrors.xtom.jp/archlinuxcn/",
-        "name": "Osaka, Japan"
+        "location": "Osaka, Japan"
       },
       "geometry": {
         "type": "Point",
@@ -1852,9 +2152,9 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "xTom (Australia server)",
+        "provider": "xTom (Australia server)",
         "url": "https://mirrors.xtom.au/archlinuxcn/",
-        "name": "Sydney, Australia"
+        "location": "Sydney, New South Wales, Australia"
       },
       "geometry": {
         "type": "Point",
@@ -1864,13 +2164,13 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "Open Computing Facility, UC Berkeley",
+        "provider": "University of California, Berkeley",
         "url": "https://mirrors.ocf.berkeley.edu/archlinuxcn/",
-        "name": "Berkeley, California, United States"
+        "location": "Berkeley, California, United States"
       },
       "geometry": {
         "type": "Point",
-        "coordinates": [-122.23963364918777, 37.8753497]
+        "coordinates": [-122.272863, 37.8708393]
       }
     }
   ]
