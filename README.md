@@ -231,6 +231,22 @@ Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
 ```
 
+### 沈阳航空航天大学
+
+```ini
+## 沈阳航空航天大学 (辽宁沈阳) (https, ipv4, ipv6)
+[archlinuxcn]
+Server = https://mirrors.sau.edu.cn/archlinuxcn/$arch
+```
+
+### 荆楚理工学院
+
+```ini
+## 荆楚理工学院 (湖北荆门) (https, ipv4)
+[archlinuxcn]
+Server = https://mirrors.jcut.edu.cn/archlinuxcn/$arch
+```
+
 ### 國立成功大學
 
 ```ini

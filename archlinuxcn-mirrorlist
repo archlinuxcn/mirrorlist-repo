@@ -84,6 +84,12 @@
 ## 北京邮电大学 (北京) (http, https, ipv4, ipv6)
 # Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
 
+## 沈阳航空航天大学 (辽宁沈阳) (https, ipv4, ipv6)
+# Server = https://mirrors.sau.edu.cn/archlinuxcn/$arch
+
+## 荆楚理工学院 (湖北荆门) (https, ipv4)
+# Server = https://mirrors.jcut.edu.cn/archlinuxcn/$arch
+
 ## 國立成功大學 (臺灣臺南) (http, https, ipv4)
 # Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 

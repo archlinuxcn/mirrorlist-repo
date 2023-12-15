@@ -2068,6 +2068,30 @@
     {
       "type": "Feature",
       "properties": {
+        "provider": "沈阳航空航天大学",
+        "url": "https://mirrors.sau.edu.cn/archlinuxcn/",
+        "location": "Shenyang, Liaoning, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [123.4279105, 41.8026095]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "provider": "荆楚理工学院",
+        "url": "https://mirrors.jcut.edu.cn/archlinuxcn/",
+        "location": "Jingmen, Hubei, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [112.1937979, 31.0375248]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "provider": "國立成功大學",
         "url": "https://archlinux.ccns.ncku.edu.tw/archlinuxcn/",
         "location": "Tainan, Taiwan"
