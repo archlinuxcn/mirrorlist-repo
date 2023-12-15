@@ -3,13 +3,13 @@ archlinuxcn:
   - provider: Our main server
     url: https://repo.archlinuxcn.org/
     region: Amsterdam, North Holland, Netherlands
-    location:
-      - Amsterdam, North Holland, Netherlands
     protocols:
       - http
       - https
       - ipv4
       - ipv6
+    location:
+      - Amsterdam, North Holland, Netherlands
     coordinates:
       - 52.3730796, 4.8924534
   - provider: 校园网联合镜像站
@@ -19,33 +19,421 @@ archlinuxcn:
     protocols:
       - ipv4
       - ipv6
-  - provider: 北京外国语大学
-    url: https://mirrors.bfsu.edu.cn/archlinuxcn/
-    region: 北京
-    location:
-      - Beijing, China
+  - provider: 中国科学技术大学
+    url: https://mirrors.ustc.edu.cn/archlinuxcn/
+    comment: It is under high load and not recommended for use
+    region: 安徽合肥
     protocols:
       - http
       - https
       - ipv4
       - ipv6
+    location:
+      - Hefei, Anhui, China
+    coordinates:
+      - 31.8228094, 117.2218033
+  - provider: 北京外国语大学
+    url: https://mirrors.bfsu.edu.cn/archlinuxcn/
+    region: 北京
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Beijing, China
+    coordinates:
+      - 40.190632, 116.412144
+  - provider: 北京交通大学
+    url: https://mirror.bjtu.edu.cn/archlinuxcn/
+    region: 北京
+    protocols:
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Beijing, China
+    coordinates:
+      - 40.190632, 116.412144
+  - provider: 北京邮电大学
+    url: https://mirrors.bupt.edu.cn/archlinuxcn/
+    region: 北京
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Beijing, China
+    coordinates:
+      - 40.190632, 116.412144
+  - provider: 中国科学院软件研究所
+    url: https://mirror.iscas.ac.cn/archlinuxcn/
+    region: 北京
+    protocols:
+      - https
+      - ipv4
+    location:
+      - Beijing, China
     coordinates:
       - 40.190632, 116.412144
   - provider: 北京大学
     url: https://mirrors.pku.edu.cn/archlinuxcn/
     region: 北京
-    location:
-      - Beijing, China
     protocols:
       - http
       - https
       - ipv4
       - ipv6
+    location:
+      - Beijing, China
     coordinates:
       - 40.190632, 116.412144
+  - provider: 清华大学
+    url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
+    comment: It is under high load and not recommended for use
+    region: 北京
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Beijing, China
+    coordinates:
+      - 40.190632, 116.412144
+  - provider: 重庆大学
+    url: https://mirrors.cqu.edu.cn/archlinuxcn/
+    region: 重庆
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Chongqing, China
+    coordinates:
+      - 30.05518, 107.8748712
+  - provider: 重庆邮电大学
+    url: https://mirrors.cqupt.edu.cn/archlinuxcn/
+    region: 重庆
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Chongqing, China
+    coordinates:
+      - 30.05518, 107.8748712
+  - provider: 兰州大学
+    url: https://mirrors.lzu.edu.cn/archlinuxcn/
+    region: 甘肃兰州
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Lanzhou, Gansu, China
+    coordinates:
+      - 36.0620781, 103.8318566
+  - provider: 南方科技大学
+    url: https://mirrors.sustech.edu.cn/archlinuxcn/
+    region: 广东深圳
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Shenzhen, Guangdong, China
+    coordinates:
+      - 22.5445741, 114.0545429
+  - provider: 哈尔滨工业大学
+    url: https://mirrors.hit.edu.cn/archlinuxcn/
+    region: 黑龙江哈尔滨
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Harbin, Heilongjiang, China
+    coordinates:
+      - 45.7593633, 126.6276177
+  - provider: 南阳理工学院
+    url: https://mirror.nyist.edu.cn/archlinuxcn/
+    region: 河南南阳
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Nanyang, Henan, China
+    coordinates:
+      - 33.0010496, 112.5292693
+  - provider: 荆楚理工学院
+    url: https://mirrors.jcut.edu.cn/archlinuxcn/
+    region: 湖北荆门
+    protocols:
+      - https
+      - ipv4
+    location:
+      - Jingmen, Hubei, China
+    coordinates:
+      - 31.0375248, 112.1937979
+  - provider: 武昌首义学院
+    url: https://mirrors.wsyu.edu.cn/archlinuxcn/
+    region: 湖北武汉
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Wuhan, Hubei, China
+    coordinates:
+      - 30.5951051, 114.2999353
+  - provider: 南京工业大学
+    url: https://mirrors.njtech.edu.cn/archlinuxcn/
+    region: 江苏南京
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Nanjing, Jiangsu, China
+    coordinates:
+      - 32.0438284, 118.7788631
+  - provider: 南京大学
+    url: https://mirrors.nju.edu.cn/archlinuxcn/
+    region: 江苏南京
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Nanjing, Jiangsu, China
+    coordinates:
+      - 32.0438284, 118.7788631
+  - provider: 吉林大学
+    url: https://mirrors.jlu.edu.cn/archlinuxcn/
+    region: 吉林长春
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Changchun, Jilin, China
+    coordinates:
+      - 43.8844201, 125.3180998
+  - provider: 沈阳航空航天大学
+    url: https://mirrors.sau.edu.cn/archlinuxcn/
+    region: 辽宁沈阳
+    protocols:
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Shenyang, Liaoning, China
+    coordinates:
+      - 41.8026095, 123.4279105
+  - provider: 西安交通大学
+    url: https://mirrors.xjtu.edu.cn/archlinuxcn/
+    region: 陕西西安
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Xi'an, Shaanxi, China
+    coordinates:
+      - 34.2607713, 108.9423443
+  - provider: 上海交通大学
+    url: https://mirror.sjtu.edu.cn/archlinux-cn/
+    region: 上海
+    protocols:
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Shanghai, China
+    coordinates:
+      - 31.2312707, 121.4700152
+  - provider: 上海科技大学
+    url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
+    region: 上海
+    protocols:
+      - https
+      - ipv4
+    location:
+      - Shanghai, China
+    coordinates:
+      - 31.2312707, 121.4700152
+  - provider: 浙江大学
+    url: https://mirrors.zju.edu.cn/archlinuxcn/
+    region: 浙江杭州
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Hangzhou, Zhejiang, China
+    coordinates:
+      - 30.2489634, 120.2052342
+  - provider: 网易
+    url: https://mirrors.163.com/archlinux-cn/
+    region: 浙江杭州
+    protocols:
+      - http
+      - https
+      - ipv4
+    location:
+      - Hangzhou, Zhejiang, China
+    coordinates:
+      - 30.2489634, 120.2052342
+  - provider: 阿里云
+    url: https://mirrors.aliyun.com/archlinuxcn/
+    region: Global CDN
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Australia
+      - Brazil
+      - Anhui, China
+      - Beijing, China
+      - Chongqing, China
+      - Fujian, China
+      - Gansu, China
+      - Guangdong, China
+      - Guangxi, China
+      - Guizhou, China
+      - Hainan, China
+      - Hebei, China
+      - Heilongjiang, China
+      - Henan, China
+      - Hong Kong, China
+      - Hubei, China
+      - Hunan, China
+      - Inner Mongolia, China
+      - Jiangsu, China
+      - Jiangxi, China
+      - Jilin, China
+      - Liaoning, China
+      - Ningxia, China
+      - Qinghai, China
+      - Shaanxi, China
+      - Shandong, China
+      - Shanghai, China
+      - Shanxi, China
+      - Sichuan, China
+      - Tianjin, China
+      - Tibet, China
+      - Xinjiang, China
+      - Yunnan, China
+      - Zhejiang, China
+      - France
+      - Germany
+      - India
+      - Indonesia
+      - Italy
+      - Japan
+      - Kuwait
+      - Malaysia
+      - Netherlands
+      - Nigeria
+      - Oman
+      - Pakistan
+      - Philippines
+      - Qatar
+      - Singapore
+      - South Africa
+      - South Korea
+      - Spain
+      - Sweden
+      - Thailand
+      - Turkey
+      - Ukraine
+      - United Arab Emirates
+      - United Kingdom
+      - United States
+    coordinates:
+      - -24.7761086, 134.755
+      - -10.3333333, -53.2
+      - 32.0, 117.0
+      - 40.190632, 116.412144
+      - 30.05518, 107.8748712
+      - 26.193218, 118.2208721
+      - 38.0000001, 101.9999999
+      - 23.1357694, 113.1982688
+      - 24.0, 109.0
+      - 27.0, 107.0
+      - 19.2000001, 109.5999999
+      - 39.0000001, 116.0
+      - 48.0000047, 127.999992
+      - 34.0000001, 113.9999999
+      - 22.350627, 114.1849161
+      - 31.15305035, 112.88064226239663
+      - 27.6662087, 111.7487063
+      - 43.2443242, 114.3251664
+      - 33.0000001, 119.9999999
+      - 28.0, 116.0
+      - 43.7289674, 126.1997366
+      - 41.2374106, 122.9955469
+      - 37.0000001, 105.9999999
+      - 35.40709525, 95.95211573241954
+      - 35.5895959, 109.3013107
+      - 36.398987, 118.5055691
+      - 31.2312707, 121.4700152
+      - 37.0, 112.0
+      - 30.5000001, 102.4999999
+      - 39.3032619, 117.4163641
+      - 29.8556443, 90.8749807
+      - 42.4804953, 85.4633464
+      - 25.0, 102.0
+      - 29.0000001, 119.9999999
+      - 46.603354, 1.8883335
+      - 51.1638175, 10.4478313
+      - 22.3511148, 78.6677428
+      - -2.4833826, 117.8902853
+      - 42.6384261, 12.674297
+      - 36.5748441, 139.2394179
+      - 29.2733964, 47.4979476
+      - 4.5693754, 102.2656823
+      - 52.24764975, 5.541246849406163
+      - 9.6000359, 7.9999721
+      - 21.0000287, 57.0036901
+      - 30.3308401, 71.247499
+      - 12.7503486, 122.7312101
+      - 25.3336984, 51.2295295
+      - 1.357107, 103.8194992
+      - -28.8166236, 24.991639
+      - 36.638392, 127.6961188
+      - 39.3260685, -4.8379791
+      - 59.6749712, 14.5208584
+      - 14.8971921, 100.83273
+      - 38.9597594, 34.9249653
+      - 49.4871968, 31.2718321
+      - 24.0002488, 53.9994829
+      - 54.7023545, -3.2765753
+      - 39.7837304, -100.445882
   - provider: 腾讯云
     url: https://mirrors.cloud.tencent.com/archlinuxcn/
     region: Global CDN
+    protocols:
+      - http
+      - https
+      - ipv4
     location:
       - Argentina
       - Australia
@@ -137,10 +525,6 @@ archlinuxcn:
       - United Kingdom
       - United States
       - Vietnam
-    protocols:
-      - http
-      - https
-      - ipv4
     coordinates:
       - -34.9964963, -64.9672817
       - -24.7761086, 134.755
@@ -232,494 +616,110 @@ archlinuxcn:
       - 54.7023545, -3.2765753
       - 39.7837304, -100.445882
       - 15.9266657, 107.9650855
-  - provider: 网易
-    url: https://mirrors.163.com/archlinux-cn/
-    region: 浙江杭州
-    location:
-      - Hangzhou, Zhejiang, China
-    protocols:
-      - http
-      - https
-      - ipv4
-    coordinates:
-      - 30.2489634, 120.2052342
-  - provider: 阿里云
-    url: https://mirrors.aliyun.com/archlinuxcn/
-    region: Global CDN
-    location:
-      - Australia
-      - Brazil
-      - Anhui, China
-      - Beijing, China
-      - Chongqing, China
-      - Fujian, China
-      - Gansu, China
-      - Guangdong, China
-      - Guangxi, China
-      - Guizhou, China
-      - Hainan, China
-      - Hebei, China
-      - Heilongjiang, China
-      - Henan, China
-      - Hong Kong, China
-      - Hubei, China
-      - Hunan, China
-      - Inner Mongolia, China
-      - Jiangsu, China
-      - Jiangxi, China
-      - Jilin, China
-      - Liaoning, China
-      - Ningxia, China
-      - Qinghai, China
-      - Shaanxi, China
-      - Shandong, China
-      - Shanghai, China
-      - Shanxi, China
-      - Sichuan, China
-      - Tianjin, China
-      - Tibet, China
-      - Xinjiang, China
-      - Yunnan, China
-      - Zhejiang, China
-      - France
-      - Germany
-      - India
-      - Indonesia
-      - Italy
-      - Japan
-      - Kuwait
-      - Malaysia
-      - Netherlands
-      - Nigeria
-      - Oman
-      - Pakistan
-      - Philippines
-      - Qatar
-      - Singapore
-      - South Africa
-      - South Korea
-      - Spain
-      - Sweden
-      - Thailand
-      - Turkey
-      - Ukraine
-      - United Arab Emirates
-      - United Kingdom
-      - United States
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - -24.7761086, 134.755
-      - -10.3333333, -53.2
-      - 32.0, 117.0
-      - 40.190632, 116.412144
-      - 30.05518, 107.8748712
-      - 26.193218, 118.2208721
-      - 38.0000001, 101.9999999
-      - 23.1357694, 113.1982688
-      - 24.0, 109.0
-      - 27.0, 107.0
-      - 19.2000001, 109.5999999
-      - 39.0000001, 116.0
-      - 48.0000047, 127.999992
-      - 34.0000001, 113.9999999
-      - 22.350627, 114.1849161
-      - 31.15305035, 112.88064226239663
-      - 27.6662087, 111.7487063
-      - 43.2443242, 114.3251664
-      - 33.0000001, 119.9999999
-      - 28.0, 116.0
-      - 43.7289674, 126.1997366
-      - 41.2374106, 122.9955469
-      - 37.0000001, 105.9999999
-      - 35.40709525, 95.95211573241954
-      - 35.5895959, 109.3013107
-      - 36.398987, 118.5055691
-      - 31.2312707, 121.4700152
-      - 37.0, 112.0
-      - 30.5000001, 102.4999999
-      - 39.3032619, 117.4163641
-      - 29.8556443, 90.8749807
-      - 42.4804953, 85.4633464
-      - 25.0, 102.0
-      - 29.0000001, 119.9999999
-      - 46.603354, 1.8883335
-      - 51.1638175, 10.4478313
-      - 22.3511148, 78.6677428
-      - -2.4833826, 117.8902853
-      - 42.6384261, 12.674297
-      - 36.5748441, 139.2394179
-      - 29.2733964, 47.4979476
-      - 4.5693754, 102.2656823
-      - 52.24764975, 5.541246849406163
-      - 9.6000359, 7.9999721
-      - 21.0000287, 57.0036901
-      - 30.3308401, 71.247499
-      - 12.7503486, 122.7312101
-      - 25.3336984, 51.2295295
-      - 1.357107, 103.8194992
-      - -28.8166236, 24.991639
-      - 36.638392, 127.6961188
-      - 39.3260685, -4.8379791
-      - 59.6749712, 14.5208584
-      - 14.8971921, 100.83273
-      - 38.9597594, 34.9249653
-      - 49.4871968, 31.2718321
-      - 24.0002488, 53.9994829
-      - 54.7023545, -3.2765753
-      - 39.7837304, -100.445882
-  - provider: 清华大学
-    url: https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/
-    comment: It is under high load and not recommended for use
-    region: 北京
-    location:
-      - Beijing, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 40.190632, 116.412144
-  - provider: 中国科学技术大学
-    url: https://mirrors.ustc.edu.cn/archlinuxcn/
-    comment: It is under high load and not recommended for use
-    region: 安徽合肥
-    location:
-      - Hefei, Anhui, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 31.8228094, 117.2218033
-  - provider: 哈尔滨工业大学
-    url: https://mirrors.hit.edu.cn/archlinuxcn/
-    region: 黑龙江哈尔滨
-    location:
-      - Harbin, Heilongjiang, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 45.7593633, 126.6276177
-  - provider: 吉林大学
-    url: https://mirrors.jlu.edu.cn/archlinuxcn/
-    region: 吉林长春
-    location:
-      - Changchun, Jilin, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 43.8844201, 125.3180998
-  - provider: 浙江大学
-    url: https://mirrors.zju.edu.cn/archlinuxcn/
-    region: 浙江杭州
-    location:
-      - Hangzhou, Zhejiang, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 30.2489634, 120.2052342
-  - provider: 重庆大学
-    url: https://mirrors.cqu.edu.cn/archlinuxcn/
-    region: 重庆
-    location:
-      - Chongqing, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 30.05518, 107.8748712
-  - provider: 重庆邮电大学
-    url: https://mirrors.cqupt.edu.cn/archlinuxcn/
-    region: 重庆
-    location:
-      - Chongqing, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 30.05518, 107.8748712
-  - provider: 上海交通大学
-    url: https://mirror.sjtu.edu.cn/archlinux-cn/
-    region: 上海
-    location:
-      - Shanghai, China
-    protocols:
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 31.2312707, 121.4700152
-  - provider: 南京大学
-    url: https://mirrors.nju.edu.cn/archlinuxcn/
-    region: 江苏南京
-    location:
-      - Nanjing, Jiangsu, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 32.0438284, 118.7788631
-  - provider: 南方科技大学
-    url: https://mirrors.sustech.edu.cn/archlinuxcn/
-    region: 广东深圳
-    location:
-      - Shenzhen, Guangdong, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 22.5445741, 114.0545429
-  - provider: 武昌首义学院
-    url: https://mirrors.wsyu.edu.cn/archlinuxcn/
-    region: 湖北武汉
-    location:
-      - Wuhan, Hubei, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 30.5951051, 114.2999353
-  - provider: 北京交通大学
-    url: https://mirror.bjtu.edu.cn/archlinuxcn/
-    region: 北京
-    location:
-      - Beijing, China
-    protocols:
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 40.190632, 116.412144
-  - provider: 兰州大学
-    url: https://mirrors.lzu.edu.cn/archlinuxcn/
-    region: 甘肃兰州
-    location:
-      - Lanzhou, Gansu, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 36.0620781, 103.8318566
-  - provider: 西安交通大学
-    url: https://mirrors.xjtu.edu.cn/archlinuxcn/
-    region: 陕西西安
-    location:
-      - Xi'an, Shaanxi, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 34.2607713, 108.9423443
-  - provider: 南阳理工学院
-    url: https://mirror.nyist.edu.cn/archlinuxcn/
-    region: 河南南阳
-    location:
-      - Nanyang, Henan, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 33.0010496, 112.5292693
-  - provider: 南京工业大学
-    url: https://mirrors.njtech.edu.cn/archlinuxcn/
-    region: 江苏南京
-    location:
-      - Nanjing, Jiangsu, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 32.0438284, 118.7788631
-  - provider: 上海科技大学
-    url: https://mirrors.shanghaitech.edu.cn/archlinuxcn/
-    region: 上海
-    location:
-      - Shanghai, China
-    protocols:
-      - https
-      - ipv4
-    coordinates:
-      - 31.2312707, 121.4700152
-  - provider: 中国科学院软件研究所
-    url: https://mirror.iscas.ac.cn/archlinuxcn/
-    region: 北京
-    location:
-      - Beijing, China
-    protocols:
-      - https
-      - ipv4
-    coordinates:
-      - 40.190632, 116.412144
-  - provider: 北京邮电大学
-    url: https://mirrors.bupt.edu.cn/archlinuxcn/
-    region: 北京
-    location:
-      - Beijing, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 40.190632, 116.412144
-  - provider: 沈阳航空航天大学
-    url: https://mirrors.sau.edu.cn/archlinuxcn/
-    region: 辽宁沈阳
-    protocols:
-      - https
-      - ipv4
-      - ipv6
-    location:
-      - Shenyang, Liaoning, China
-    coordinates:
-      - 41.8026095, 123.4279105
-  - provider: 荆楚理工学院
-    url: https://mirrors.jcut.edu.cn/archlinuxcn/
-    region: 湖北荆门
-    protocols:
-      - https
-      - ipv4
-    location:
-      - Jingmen, Hubei, China
-    coordinates:
-      - 31.0375248, 112.1937979
-  - provider: 國立成功大學
-    url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
-    region: 臺灣臺南
-    location:
-      - Tainan, Taiwan
-    protocols:
-      - http
-      - https
-      - ipv4
-    coordinates:
-      - 22.9912348, 120.184982
   - provider: xTom (香港伺服器)
     url: https://mirrors.xtom.hk/archlinuxcn/
     region: 香港
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
     location:
       - Hong Kong, China
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
     coordinates:
       - 22.350627, 114.1849161
-  - provider: xTom (United States server)
-    url: https://mirrors.xtom.us/archlinuxcn/
-    region: San Jose, California, United States
-    location:
-      - San Jose, California, United States
+  - provider: 國立成功大學
+    url: https://archlinux.ccns.ncku.edu.tw/archlinuxcn/
+    region: 臺灣臺南
     protocols:
       - http
       - https
       - ipv4
-      - ipv6
-    coordinates:
-      - 37.3361663, -121.890591
-  - provider: xTom (Netherlands server)
-    url: https://mirrors.xtom.nl/archlinuxcn/
-    region: Amsterdam, North Holland, Netherlands
     location:
-      - Amsterdam, North Holland, Netherlands
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
+      - Tainan, Taiwan
     coordinates:
-      - 52.3730796, 4.8924534
-  - provider: xTom (Germany server)
-    url: https://mirrors.xtom.de/archlinuxcn/
-    region: Düsseldorf, North Rhine-Westphalia, Germany
-    location:
-      - Düsseldorf, North Rhine-Westphalia, Germany
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 51.2254018, 6.7763137
-  - provider: xTom (Estonia server)
-    url: https://mirrors.xtom.ee/archlinuxcn/
-    region: Tallinn, Harju, Estonia
-    location:
-      - Tallinn, Harju, Estonia
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 59.4372155, 24.7453688
-  - provider: xTom (Japan server)
-    url: https://mirrors.xtom.jp/archlinuxcn/
-    region: Osaka, Japan
-    location:
-      - Osaka, Japan
-    protocols:
-      - http
-      - https
-      - ipv4
-      - ipv6
-    coordinates:
-      - 34.6198813, 135.490357
+      - 22.9912348, 120.184982
   - provider: xTom (Australia server)
     url: https://mirrors.xtom.au/archlinuxcn/
     region: Sydney, New South Wales, Australia
-    location:
-      - Sydney, New South Wales, Australia
     protocols:
       - http
       - https
       - ipv4
       - ipv6
+    location:
+      - Sydney, New South Wales, Australia
     coordinates:
       - -33.8698439, 151.2082848
+  - provider: xTom (Estonia server)
+    url: https://mirrors.xtom.ee/archlinuxcn/
+    region: Tallinn, Harju, Estonia
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Tallinn, Harju, Estonia
+    coordinates:
+      - 59.4372155, 24.7453688
+  - provider: xTom (Germany server)
+    url: https://mirrors.xtom.de/archlinuxcn/
+    region: Düsseldorf, North Rhine-Westphalia, Germany
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Düsseldorf, North Rhine-Westphalia, Germany
+    coordinates:
+      - 51.2254018, 6.7763137
+  - provider: xTom (Japan server)
+    url: https://mirrors.xtom.jp/archlinuxcn/
+    region: Osaka, Japan
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Osaka, Japan
+    coordinates:
+      - 34.6198813, 135.490357
+  - provider: xTom (Netherlands server)
+    url: https://mirrors.xtom.nl/archlinuxcn/
+    region: Amsterdam, North Holland, Netherlands
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - Amsterdam, North Holland, Netherlands
+    coordinates:
+      - 52.3730796, 4.8924534
   - provider: University of California, Berkeley
     url: https://mirrors.ocf.berkeley.edu/archlinuxcn/
     region: Berkeley, California, United States
-    location:
-      - Berkeley, California, United States
     protocols:
       - http
       - https
       - ipv4
       - ipv6
+    location:
+      - Berkeley, California, United States
     coordinates:
       - 37.8708393, -122.272863
+  - provider: xTom (United States server)
+    url: https://mirrors.xtom.us/archlinuxcn/
+    region: San Jose, California, United States
+    protocols:
+      - http
+      - https
+      - ipv4
+      - ipv6
+    location:
+      - San Jose, California, United States
+    coordinates:
+      - 37.3361663, -121.890591
