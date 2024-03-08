@@ -251,6 +251,6 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 (This is included in our `archlinuxcn-mirrorlist-git` package.)
 
 ```bash
-cp -v archlinuxcn.urls /etc/debuginfod/
+cp -v b-archlinuxcn.urls /etc/debuginfod/
 ```
 
