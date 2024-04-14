@@ -33,7 +33,7 @@ Server = https://mirrors.pku.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 腾讯云 (Global CDN) (ipv4, http, https)
+## 腾讯云 (Global CDN) (ipv4, ipv6, http, https)
 ## Added: 2018-11-23
 [archlinuxcn]
 Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
@@ -62,13 +62,6 @@ Server = https://mirrors.tuna.tsinghua.edu.cn/archlinuxcn/$arch
 ## 中国科学技术大学 (安徽合肥) (ipv4, ipv6, http, https)
 [archlinuxcn]
 Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
-```
-
-```ini
-## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
-## Added: 2021-01-09
-[archlinuxcn]
-Server = https://mirrors.hit.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
@@ -199,6 +192,14 @@ Server = https://mirrors.xtom.hk/archlinuxcn/$arch
 ```
 
 ```ini
+## xTom (Singapore server) (Singapore) (ipv4, ipv6, http, https)
+## Added: 2024-04-14
+## Blocking users in mainland China
+[archlinuxcn]
+Server = https://mirrors.xtom.sg/archlinuxcn/$arch
+```
+
+```ini
 ## xTom (US server) (San Jose, CA, United States) (ipv4, ipv6, http, https)
 ## Added: 2019-02-19
 ## Blocking users in mainland China
@@ -259,6 +260,6 @@ Server = https://mirrors.ocf.berkeley.edu/archlinuxcn/$arch
 (This is included in our `archlinuxcn-mirrorlist-git` package.)
 
 ```bash
-cp -v b-archlinuxcn.urls /etc/debuginfod/
+cp -v archlinuxcn.urls /etc/debuginfod/
 ```
 

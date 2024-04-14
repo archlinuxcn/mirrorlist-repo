@@ -89,6 +89,7 @@
   added_date: 2018-11-23
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
   geocoords:
@@ -413,6 +414,9 @@
   - Chongqing, China
   protocols:
   - ipv4
+  - ipv6
+  - http
+  - https
   geocoords:
   - 29.431586, 106.912251
 - provider: SJTUG 软件源镜像服务
@@ -618,6 +622,20 @@
   - https
   geocoords:
   - 22.2793278, 114.1628131
+- provider: xTom (Singapore server)
+  url: https://mirrors.xtom.sg/archlinuxcn/
+  comment: Blocking users in mainland China
+  location: Singapore
+  geolocs:
+  - Singapore
+  added_date: 2024-04-14
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 1.283333, 103.833333
 - provider: xTom (US server)
   url: https://mirrors.xtom.us/archlinuxcn/
   comment: Blocking users in mainland China
