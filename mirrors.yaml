@@ -466,6 +466,19 @@
   - https
   geocoords:
   - 22.555454, 114.0543297
+- provider: 华中科技大学
+  url: https://mirrors.hust.edu.cn/archlinuxcn/
+  location: 湖北武汉
+  geolocs:
+  - Wuhan, Hubei, China
+  added_date: 2024-05-07
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 30.6756421, 114.1309366
 - provider: 武昌首义学院
   url: https://mirrors.wsyu.edu.cn/archlinuxcn/
   location: 湖北武汉
