@@ -112,6 +112,13 @@ Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 华中科技大学 (湖北武汉) (ipv4, ipv6, http, https)
+## Added: 2024-05-07
+[archlinuxcn]
+Server = https://mirrors.hust.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 北京交通大学 (北京) (ipv4, ipv6, https)
 ## Added: 2023-08-19
 [archlinuxcn]
