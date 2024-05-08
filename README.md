@@ -85,6 +85,12 @@ Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 重庆邮电大学 (重庆) (ipv4, ipv6, http, https)
+[archlinuxcn]
+Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## SJTUG 软件源镜像服务 (上海) (ipv4, ipv6, https)
 ## Added: 2018-05-21
 [archlinuxcn]
