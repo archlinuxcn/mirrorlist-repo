@@ -620,6 +620,20 @@
   - https
   geocoords:
   - 22.9912348, 120.184982
+- provider: Taiwan Digital Streaming Co.
+  url: https://mirror.twds.com.tw/archlinuxcn/
+  added_date: 2024-07-02
+  location: Taiwan
+  geolocs:
+  - Taipei, Taiwan
+  frequency: 1h
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 25.074212, 121.576783
 - provider: xTom (Hong Kong server)
   url: https://mirrors.xtom.hk/archlinuxcn/
   comment: Blocking users in mainland China
