@@ -46,7 +46,7 @@ Server = https://mirrors.163.com/archlinux-cn/$arch
 ```
 
 ```ini
-## 阿里云 (Global CDN) (ipv4, ipv6, http, https)
+## 阿里云 (Global CDN) (ipv4, http, https)
 ## Added: 2020-07-03
 [archlinuxcn]
 Server = https://mirrors.aliyun.com/archlinuxcn/$arch
@@ -194,6 +194,13 @@ Server = https://mirrors.cicku.me/archlinuxcn/$arch
 ## Resources provided by NCKU CSIE
 [archlinuxcn]
 Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
+```
+
+```ini
+## Taiwan Digital Streaming Co. (Taiwan) (ipv4, ipv6, http, https)
+## Added: 2024-07-02
+[archlinuxcn]
+Server = https://mirror.twds.com.tw/archlinuxcn/$arch
 ```
 
 ```ini

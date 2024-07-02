@@ -2074,6 +2074,21 @@
     {
       "type": "Feature",
       "properties": {
+        "mirror": "华中科技大学",
+        "url": "https://mirrors.hust.edu.cn/archlinuxcn/",
+        "name": "Wuhan, Hubei, China"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          114.1309366,
+          30.6756421
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mirror": "武昌首义学院",
         "url": "https://mirrors.wsyu.edu.cn/archlinuxcn/",
         "name": "Wuhan, Hubei, China"
@@ -2166,7 +2181,7 @@
       "properties": {
         "mirror": "上海科技大学",
         "url": "https://mirrors.shanghaitech.edu.cn/archlinuxcn/",
-        "n·ame": "Shanghai, China"
+        "name": "Shanghai, China"
       },
       "geometry": {
         "type": "Point",
@@ -2216,8 +2231,8 @@
       "geometry": {
         "type": "Point",
         "coordinates": [
-          13.436762,
-          144.753973
+          144.753973,
+          13.436762
         ]
       }
     },
@@ -2239,6 +2254,21 @@
     {
       "type": "Feature",
       "properties": {
+        "mirror": "Taiwan Digital Streaming Co.",
+        "url": "https://mirror.twds.com.tw/archlinuxcn/",
+        "name": "Taipei, Taiwan"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          121.576783,
+          25.074212
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
         "mirror": "xTom (Hong Kong server)",
         "url": "https://mirrors.xtom.hk/archlinuxcn/",
         "name": "Hong Kong"
@@ -2248,6 +2278,21 @@
         "coordinates": [
           114.1628131,
           22.2793278
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "mirror": "xTom (Singapore server)",
+        "url": "https://mirrors.xtom.sg/archlinuxcn/",
+        "name": "Singapore"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.833333,
+          1.283333
         ]
       }
     },
