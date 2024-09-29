@@ -167,13 +167,6 @@ Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 北京邮电大学 (北京) (ipv4, ipv6, http, https)
-## Added: 2023-09-15
-[archlinuxcn]
-Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
-```
-
-```ini
 ## CICKU (Global CDN w/o China) (ipv4, ipv6, http, https)
 ## Added: 2023-11-15
 ## Rate limiting mainland China traffic

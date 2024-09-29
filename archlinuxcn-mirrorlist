@@ -75,9 +75,6 @@
 ## 中国科学院软件研究所 (北京) (ipv4, https)
 # Server = https://mirror.iscas.ac.cn/archlinuxcn/$arch
 
-## 北京邮电大学 (北京) (ipv4, ipv6, http, https)
-# Server = https://mirrors.bupt.edu.cn/archlinuxcn/$arch
-
 ## CICKU (Global CDN w/o China) (ipv4, ipv6, http, https)
 # Server = https://mirrors.cicku.me/archlinuxcn/$arch
 
