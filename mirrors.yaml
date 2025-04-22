@@ -414,7 +414,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 29.431586, 106.912251
@@ -501,6 +500,7 @@
   protocols:
   - ipv4
   - ipv6
+  - http
   - https
   geocoords:
   - 39.957902, 116.34974
@@ -615,6 +615,7 @@
   added_date: 2021-06-30
   protocols:
   - ipv4
+  - ipv6
   - http
   - https
   geocoords:

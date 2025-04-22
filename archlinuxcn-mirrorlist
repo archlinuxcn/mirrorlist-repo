@@ -39,7 +39,7 @@
 ## 重庆大学 (重庆) (ipv4, ipv6, http, https)
 # Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 
-## 重庆邮电大学 (重庆) (ipv4, ipv6, http, https)
+## 重庆邮电大学 (重庆) (ipv4, ipv6, https)
 # Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
 
 ## SJTUG 软件源镜像服务 (上海) (ipv4, ipv6, https)
@@ -57,7 +57,7 @@
 ## 武昌首义学院 (湖北武汉) (ipv4, ipv6, http, https)
 # Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 
-## 北京交通大学 (北京) (ipv4, ipv6, https)
+## 北京交通大学 (北京) (ipv4, ipv6, http, https)
 # Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
 
 ## 兰州大学 (甘肃兰州) (ipv4, ipv6, http, https)
@@ -78,7 +78,7 @@
 ## CICKU (Global CDN w/o China) (ipv4, ipv6, http, https)
 # Server = https://mirrors.cicku.me/archlinuxcn/$arch
 
-## NCKU CCNS (Taiwan) (ipv4, http, https)
+## NCKU CCNS (Taiwan) (ipv4, ipv6, http, https)
 # Server = https://archlinux.ccns.ncku.edu.tw/archlinuxcn/$arch
 
 ## Taiwan Digital Streaming Co. (Taiwan) (ipv4, ipv6, http, https)

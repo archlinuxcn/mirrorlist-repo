@@ -85,7 +85,7 @@ Server = https://mirrors.cqu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 重庆邮电大学 (重庆) (ipv4, ipv6, http, https)
+## 重庆邮电大学 (重庆) (ipv4, ipv6, https)
 [archlinuxcn]
 Server = https://mirrors.cqupt.edu.cn/archlinuxcn/$arch
 ```
@@ -125,7 +125,7 @@ Server = https://mirrors.hust.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 北京交通大学 (北京) (ipv4, ipv6, https)
+## 北京交通大学 (北京) (ipv4, ipv6, http, https)
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirror.bjtu.edu.cn/archlinuxcn/$arch
@@ -175,7 +175,7 @@ Server = https://mirrors.cicku.me/archlinuxcn/$arch
 ```
 
 ```ini
-## NCKU CCNS (Taiwan) (ipv4, http, https)
+## NCKU CCNS (Taiwan) (ipv4, ipv6, http, https)
 ## Added: 2021-06-30
 ## Resources provided by NCKU CSIE
 [archlinuxcn]
