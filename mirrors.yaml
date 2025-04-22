@@ -592,10 +592,10 @@
   geocoords:
   - 39.96725, 116.364594
 - provider: CICKU
-  url: https://mirrors.cicku.me/archlinuxcn/$arch
+  url: https://mirrors.cicku.me/archlinuxcn/
   comment: Rate limiting mainland China traffic
   added_date: 2023-11-15
-  location: Global CDN
+  location: Global CDN w/o China
   geolocs:
   - Guam, USA
   protocols:
