@@ -36,7 +36,7 @@ Server = https://mirrors.pku.edu.cn/archlinuxcn/$arch
 ## 腾讯云 (Global CDN) (ipv4, ipv6, http, https)
 ## Added: 2018-11-23
 [archlinuxcn]
-Server = https://mirrors.cloud.tencent.com/archlinuxcn/$arch
+Server = https://mirrors.tencent.com/archlinuxcn/$arch
 ```
 
 ```ini
