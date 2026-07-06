@@ -304,6 +304,8 @@ def sub_geojson(args):
             sys.exit(repr(e))
 
     for m in mirrors:
+        if not any(p in m['protocols'] for p in ['http', 'https']):
+            continue
         coords = m.get('geocoords')
         if not coords:
             continue

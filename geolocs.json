@@ -1999,36 +1999,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "重庆大学",
-        "url": "https://mirrors.cqu.edu.cn/archlinuxcn/",
-        "name": "Chongqing, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.5478767,
-          29.5647398
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "重庆邮电大学",
-        "url": "https://mirrors.cqupt.edu.cn/archlinuxcn/",
-        "name": "Chongqing, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          106.912251,
-          29.431586
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mirror": "南京大学",
         "url": "https://mirrors.nju.edu.cn/archlinuxcn/",
         "name": "Nanjing, Jiangsu, China"
@@ -2038,21 +2008,6 @@
         "coordinates": [
           118.7788734,
           32.0437711
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "莞工 GNU/Linux 协会 开源软件镜像站",
-        "url": "https://mirrors.dgut.edu.cn/archlinuxcn/",
-        "name": "Dongguan, Guangdong, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          113.7457788,
-          23.0205969
         ]
       }
     },
@@ -2104,21 +2059,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "北京交通大学",
-        "url": "https://mirror.bjtu.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.34974,
-          39.957902
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mirror": "兰州大学",
         "url": "https://mirror.lzu.edu.cn/archlinuxcn/",
         "name": "Lanzhou, Gansu, China"
@@ -2164,36 +2104,6 @@
     {
       "type": "Feature",
       "properties": {
-        "mirror": "南京工业大学",
-        "url": "https://mirrors.njtech.edu.cn/archlinuxcn/",
-        "name": "Nanjing, Jiangsu, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          118.647258,
-          32.088423
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "上海科技大学",
-        "url": "https://mirrors.shanghaitech.edu.cn/archlinuxcn/",
-        "name": "Shanghai, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          121.601394,
-          31.182971
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
         "mirror": "中国科学院软件研究所",
         "url": "https://mirror.iscas.ac.cn/archlinuxcn/",
         "name": "Beijing, China"
@@ -2203,21 +2113,6 @@
         "coordinates": [
           116.343599,
           39.985537
-        ]
-      }
-    },
-    {
-      "type": "Feature",
-      "properties": {
-        "mirror": "北京邮电大学",
-        "url": "https://mirrors.bupt.edu.cn/archlinuxcn/",
-        "name": "Beijing, China"
-      },
-      "geometry": {
-        "type": "Point",
-        "coordinates": [
-          116.364594,
-          39.96725
         ]
       }
     },
