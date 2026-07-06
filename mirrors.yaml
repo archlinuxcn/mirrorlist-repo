@@ -90,7 +90,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 52.3727598, 4.8936041
@@ -402,8 +401,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
-  - https
   geocoords:
   - 29.5647398, 106.5478767
 - provider: 重庆邮电大学
@@ -414,7 +411,6 @@
   protocols:
   - ipv4
   - ipv6
-  - https
   geocoords:
   - 29.431586, 106.912251
 - provider: SJTUG 软件源镜像服务
@@ -425,7 +421,6 @@
   added_date: 2018-05-21
   protocols:
   - ipv4
-  - ipv6
   - https
 - provider: 南京大学
   url: https://mirrors.nju.edu.cn/archlinuxcn/
@@ -500,8 +495,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
-  - https
   geocoords:
   - 39.957902, 116.34974
 - provider: 兰州大学
@@ -525,7 +518,6 @@
   - Xian, Shanxi, China
   protocols:
   - ipv4
-  - ipv6
   - http
   - https
   geocoords:
@@ -551,7 +543,6 @@
   - Shanghai, China
   protocols:
   - ipv4
-  - https
   geocoords:
   - 31.182971, 121.601394
 - provider: 中国科学院软件研究所
@@ -562,6 +553,7 @@
   - Beijing, China
   protocols:
   - ipv4
+  - http
   - https
   geocoords:
   - 39.985537, 116.343599
@@ -571,11 +563,7 @@
   location: 北京
   geolocs:
   - Beijing, China
-  protocols:
-  - ipv4
-  - ipv6
-  - http
-  - https
+  protocols: []
   geocoords:
   - 39.96725, 116.364594
 - provider: CICKU
@@ -602,7 +590,6 @@
   added_date: 2021-06-30
   protocols:
   - ipv4
-  - ipv6
   - http
   - https
   geocoords:
@@ -632,7 +619,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 22.2793278, 114.1628131
