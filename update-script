@@ -271,6 +271,8 @@ def sub_geo(args):
         coords = m.get('geocoords')
         if locs and coords and len(locs) == len(coords):
             places.update(zip(locs, coords))
+        elif not locs and coords is not None:
+            del m['geocoords']
     for m in mirrors:
         locs = m.get('geolocs')
         coords = m.get('geocoords')
