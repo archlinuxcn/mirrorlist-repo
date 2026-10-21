@@ -95,6 +95,19 @@
   - https
   geocoords:
   - 31.747699500000003, 117.33251672423167
+- provider: 齐鲁工业大学
+  url: https://mirrors.qlu.edu.cn/archlinuxcn/
+  added_date: 2026-10-21
+  location: 山东济南
+  geolocs:
+  - Jinan, Shandong, China
+  protocols:
+  - ipv4
+  - ipv6
+  - http
+  - https
+  geocoords:
+  - 36.651216, 117.120095
 - provider: 哈尔滨工业大学
   url: https://mirrors.hit.edu.cn/archlinuxcn/
   added_date: 2021-01-09
