@@ -72,6 +72,13 @@ Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
+## 齐鲁工业大学 (山东济南) (ipv4, ipv6, http, https)
+## Added: 2026-10-21
+[archlinuxcn]
+Server = https://mirrors.qlu.edu.cn/archlinuxcn/$arch
+```
+
+```ini
 ## 哈尔滨工业大学 (黑龙江哈尔滨) (ipv4, ipv6, http, https)
 ## Added: 2021-01-09
 [archlinuxcn]
@@ -127,7 +134,7 @@ Server = https://mirrors.wsyu.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini
-## 兰州大学 (甘肃兰州) (ipv4, ipv6, http, https)
+## 兰州大学 (甘肃兰州) (ipv4, ipv6, https)
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirror.lzu.edu.cn/archlinuxcn/$arch
@@ -145,6 +152,13 @@ Server = https://mirrors.xjtu.edu.cn/archlinuxcn/$arch
 ## Added: 2023-08-19
 [archlinuxcn]
 Server = https://mirror.nyist.edu.cn/archlinuxcn/$arch
+```
+
+```ini
+## 上海科技大学 (上海) (ipv4, https)
+## Added: 2023-08-19
+[archlinuxcn]
+Server = https://mirrors.shanghaitech.edu.cn/archlinuxcn/$arch
 ```
 
 ```ini

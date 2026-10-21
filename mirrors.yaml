@@ -262,7 +262,6 @@
   protocols:
   - ipv4
   - ipv6
-  - http
   - https
   geocoords:
   - 36.050882, 103.867812
@@ -299,6 +298,7 @@
   - Shanghai, China
   protocols:
   - ipv4
+  - https
   geocoords:
   - 31.182971, 121.601394
 - provider: 中国科学院软件研究所
